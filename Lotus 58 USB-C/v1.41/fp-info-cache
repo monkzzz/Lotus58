@@ -1,4 +1,4 @@
-22517009096707170
+22617735244167241
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61166,6 +61166,13 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W len
 2
 2
 Keyboard Common
+SMT Battery holder CR123A
+BAT
+
+0
+2
+2
+Keyboard Common
 SOP127P600X175-9N
 
 
@@ -61242,6 +61249,13 @@ YTSA010
 0
 2
 2
+Keyboard Common
+inified USB
+
+
+0
+0
+0
 Keyboard Common
 nice!view
 Connecteur 6 pins
@@ -61412,6 +61426,13 @@ rotary encoder
 0
 Keyboard Encoders
 Encoder_Plate_Placeholder_nodrill
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+0
+0
+Keyboard Encoders
+Encoder_Plate_RGB_grill
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
 0
@@ -61677,6 +61698,13 @@ mounting hole 2.5mm
 2
 1
 Keyboard_Plate
+Spacer_Plate_Grounded_m3
+Mounting Hole 2.5mm
+mounting hole 2.5mm
+0
+2
+1
+Keyboard_Plate
 Special 4u center
 Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
 Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
@@ -61698,6 +61726,13 @@ Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
 0
 0
 Keyboard_Plate
+Stabilizer_Cherry_MX_1_3_2
+Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
+Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
+0
+0
+0
+Keyboard_Plate
 Stabilizer_Cherry_MX_2.00u_PLate
 Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
 Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
@@ -61706,6 +61741,20 @@ Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
 0
 Keyboard_Plate
 Stabilizer_Cherry_MX_2.00u_PLate_1_2
+Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
+Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
+0
+0
+0
+Keyboard_Plate
+Stabilizer_Cherry_MX_3.00u_PLate
+Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
+Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
+0
+0
+0
+Keyboard_Plate
+Stabilizer_Plate_2_to_1
 Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
 Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
 0
@@ -66737,34 +66786,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PCM_kikit
-Board
-Mark board for extraction
-
-0
-0
-0
-PCM_kikit
-Fiducial
-Circular Fiducial
-fiducial
-0
-1
-0
-PCM_kikit
-NPTH
-
-
-0
-0
-0
-PCM_kikit
-Tab
-A symbol representing annotation for tab placement
-
-0
-0
-0
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -93155,10 +93176,402 @@ USB_MiniB_XM7D-0512
 0
 18
 6
-nice_view
-nice_view
+keyboard_reversible
+Choc_Hotswap
 
 
 0
-5
-5
+6
+2
+keyboard_reversible
+Choc_Hotswap_w_diode
+
+
+0
+8
+2
+keyboard_reversible
+Choc_Mill-Max
+
+
+0
+7
+2
+keyboard_reversible
+Choc_Mill-Max_with_diode
+
+
+0
+9
+2
+keyboard_reversible
+ComboDiode
+Reversible diode footprint
+reversible diode
+0
+2
+2
+keyboard_reversible
+ComboDiode_compact
+Reversible diode footprint
+reversible diode
+0
+2
+2
+keyboard_reversible
+MX_Choc_Hotswap
+
+
+0
+12
+2
+keyboard_reversible
+MX_Choc_Hotswap_w_diode
+
+
+0
+14
+2
+keyboard_reversible
+MX_Choc_Mill-Max
+
+
+0
+11
+2
+keyboard_reversible
+MX_Choc_Mill-Max_with_diode
+
+
+0
+13
+2
+keyboard_reversible
+MX_Hotswap
+
+
+0
+6
+2
+keyboard_reversible
+MX_Hotswap_w_diode
+
+
+0
+8
+2
+keyboard_reversible
+MX_Mill-Max
+
+
+0
+4
+2
+keyboard_reversible
+MX_Mill-Max_with_diode
+
+
+0
+6
+2
+keyboard_reversible
+PJ-320A
+Solder-jumper reversible TRRS Socket
+
+0
+14
+4
+keyboard_reversible
+ProMicro
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+146
+24
+keyboard_reversible
+ProMicro_Mill-Max
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+146
+24
+keyboard_reversible
+ProMicro_Mill-Max_flipped
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+146
+24
+keyboard_reversible
+ProMicro_Mill-Max_unrouted
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+122
+24
+keyboard_reversible
+ProMicro_Mill-Max_unrouted_flipped
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+122
+24
+keyboard_reversible
+ProMicro_breakout
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+144
+24
+keyboard_reversible
+ProMicro_expanded
+Solder-jumper reversible Pro Micro footprint (exposed jumpers)
+promicro ProMicro reversible solder jumper
+0
+146
+24
+keyboard_reversible
+ProMicro_expanded_flipped
+Solder-jumper reversible Pro Micro footprint (exposed jumpers)
+promicro ProMicro reversible solder jumper
+0
+146
+24
+keyboard_reversible
+ProMicro_expanded_unrouted
+Solder-jumper reversible Pro Micro footprint (exposed jumpers, unrouted)
+promicro ProMicro reversible solder jumper
+0
+122
+24
+keyboard_reversible
+ProMicro_expanded_unrouted_flipped
+Solder-jumper reversible Pro Micro footprint (exposed jumpers, unrouted)
+promicro ProMicro reversible solder jumper
+0
+122
+24
+keyboard_reversible
+ProMicro_flipped
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+146
+24
+keyboard_reversible
+ProMicro_independent
+Solder-jumper reversible Pro Micro footprint (independent sides)
+promicro ProMicro reversible solder jumper
+0
+122
+48
+keyboard_reversible
+ProMicro_independent_flipped
+Solder-jumper reversible Pro Micro footprint (independent sides)
+promicro ProMicro reversible solder jumper
+0
+122
+48
+keyboard_reversible
+ProMicro_jumpable
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+122
+24
+keyboard_reversible
+ProMicro_unrouted
+Solder-jumper reversible Pro Micro footprint (unrouted)
+promicro ProMicro reversible solder jumper
+0
+122
+24
+keyboard_reversible
+ProMicro_unrouted_flipped
+Solder-jumper reversible Pro Micro footprint (unrouted)
+promicro ProMicro reversible solder jumper
+0
+122
+24
+keyboard_reversible
+Trackpoint_T460s
+
+
+0
+17
+8
+keyboard_reversible
+Trackpoint_T460s_Board_castellated
+
+
+0
+22
+10
+keyboard_reversible
+Trackpoint_T460s_Board_horizontal_flip
+
+
+0
+34
+12
+keyboard_reversible
+Trackpoint_T460s_Board_horizontal_flip_standoff
+For use with https://jlcpcb.com/partdetail/Sinhoo-SMTSO1630MTJ/C2915625
+
+0
+36
+12
+keyboard_reversible
+Trackpoint_T460s_Board_no_flip
+
+
+0
+12
+12
+keyboard_reversible
+Trackpoint_T460s_Board_vertical_flip
+
+
+0
+24
+12
+keyboard_reversible
+Trackpoint_T460s_Stick
+
+
+0
+9
+4
+keyswitches
+Kailh_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+keyswitches
+Kailh_socket_MX_optional
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_MX_optional_platemount
+MX-style keyswitch with support for optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_MX_optional_reversible
+MX-style keyswitch with support for reversible optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+8
+2
+keyswitches
+Kailh_socket_MX_optional_reversible_platemount
+MX-style keyswitch with support for reversible optional Kailh socket
+MX,cherry,gateron,kailh,pg1511,socket
+0
+8
+2
+keyswitches
+Kailh_socket_MX_platemount
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+keyswitches
+Kailh_socket_MX_reversible
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_MX_reversible_platemount
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+keyswitches
+Kailh_socket_PG1350
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+keyswitches
+Kailh_socket_PG1350_optional
+Kailh "Choc" PG1350 keyswitch with optional socket mount
+kailh,choc
+0
+4
+2
+keyswitches
+Kailh_socket_PG1350_optional_reversible
+Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
+kailh,choc
+0
+7
+2
+keyswitches
+Kailh_socket_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+4
+2
+keyswitches
+SW_MX
+MX-style keyswitch
+MX,cherry,gateron,kailh
+0
+2
+2
+keyswitches
+SW_MX_reversible
+MX-style keyswitch, reversible
+MX,cherry,gateron,kailh
+0
+4
+2
+keyswitches
+SW_MX_reversible_minimal
+MX-style keyswitch, reversible, without pcb-mount holes
+MX,cherry,gateron,kailh
+0
+4
+2
+keyswitches
+SW_PG1350
+Kailh "Choc" PG1350 keyswitch
+kailh,choc
+0
+2
+2
+keyswitches
+SW_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
+2
+keyswitches
+SW_PG1350_reversible_rotatable
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB and/or rotated 90 degrees (see README)
+kailh,choc
+0
+6
+2
+keyswitches
+Stabilizer_MX_2u
+MX-style stabilizer mount
+MX,cherry,gateron,kailh,pg1511,stabilizer,stab
+0
+0
+0
