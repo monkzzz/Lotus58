@@ -1685,290 +1685,6 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NMOS_GSD"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_GSD"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, gate/source/drain"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_GSD_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GSD_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -7482,7 +7198,7 @@
 		(uuid "00c6a529-9a5b-46b4-aeaf-c791e9876392")
 	)
 	(junction
-		(at 55.88 270.51)
+		(at 73.66 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0292b872-5543-471e-9359-d8800c764c18")
@@ -7494,31 +7210,37 @@
 		(uuid "05a33a53-3485-40ff-a402-f4e8d0f8d1f2")
 	)
 	(junction
-		(at 172.72 243.84)
+		(at 212.09 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b863d35-11b6-40ff-9d28-4b5422c7587b")
 	)
 	(junction
-		(at 55.88 217.17)
+		(at 73.66 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0efd1d50-7b5d-4474-bb4a-713a4d292d54")
 	)
 	(junction
-		(at 157.48 217.17)
+		(at 175.26 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "142bbd2c-564a-4ab9-bc83-f97f70d11e01")
 	)
 	(junction
-		(at 96.52 252.73)
+		(at 114.3 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "157e8f2a-8779-4a60-bad6-6879bbf4687a")
 	)
 	(junction
-		(at 76.2 217.17)
+		(at 43.18 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a0e339a-3a9a-4ce9-abe6-b73e73e5a945")
+	)
+	(junction
+		(at 93.98 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b233c8c-8e4a-4c26-975f-e67af83aac92")
@@ -7542,19 +7264,19 @@
 		(uuid "21944c48-f867-4f09-a2b8-e47a5a931359")
 	)
 	(junction
-		(at 76.2 171.45)
+		(at 93.98 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22a2d10d-e993-4837-b761-4280562277f0")
 	)
 	(junction
-		(at 96.52 199.39)
+		(at 114.3 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22bc4dd2-c2c4-4b5a-8a6a-2f85e97be967")
 	)
 	(junction
-		(at 204.47 218.44)
+		(at 243.84 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22d48212-b73d-4c0a-a6b9-440198e3d639")
@@ -7572,7 +7294,7 @@
 		(uuid "23dff39a-d658-4a1c-86c9-4d3c54d6a9a5")
 	)
 	(junction
-		(at 76.2 182.88)
+		(at 93.98 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "248b7555-57bf-41d8-9147-6b239bab1d91")
@@ -7590,13 +7312,13 @@
 		(uuid "2762364a-7f62-4fcb-a44b-9ec4a07010df")
 	)
 	(junction
-		(at 105.41 138.43)
+		(at 171.45 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ecfc8c1-958e-4e0d-b689-634a93cae48d")
 	)
 	(junction
-		(at 105.41 133.35)
+		(at 171.45 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fbf2a28-9643-4956-bf56-f26b2202f283")
@@ -7620,25 +7342,19 @@
 		(uuid "31e6c9f5-82ae-4301-bfa0-506b67b64648")
 	)
 	(junction
-		(at 35.56 182.88)
+		(at 53.34 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3278ec01-4ed0-4b9c-9711-d1c404b877cd")
 	)
 	(junction
-		(at 55.88 252.73)
+		(at 73.66 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "380a782e-d822-45e4-a94c-87ef04c96db5")
 	)
 	(junction
-		(at 139.7 270.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a12a540-9450-44e8-800d-292bb177103e")
-	)
-	(junction
-		(at 137.16 182.88)
+		(at 154.94 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b17a8ea-a340-466a-8024-d1327f2b9197")
@@ -7656,7 +7372,7 @@
 		(uuid "3c80d8ef-89d4-47a9-a117-802a7088103b")
 	)
 	(junction
-		(at 76.2 270.51)
+		(at 93.98 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f8719e7-fd27-4a24-95d2-a9aa24bd4a5f")
@@ -7674,7 +7390,7 @@
 		(uuid "42ff2c86-71a8-4179-993b-fec7e4947736")
 	)
 	(junction
-		(at 92.71 124.46)
+		(at 158.75 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43204734-1c0e-4ac5-bb89-023236f3dbc4")
@@ -7734,7 +7450,7 @@
 		(uuid "555c3c60-22bf-454e-b9e6-667405205694")
 	)
 	(junction
-		(at 137.16 234.95)
+		(at 154.94 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b498dae-eb35-4f19-b2e7-6d52f1efe6e6")
@@ -7746,13 +7462,13 @@
 		(uuid "5b5d3625-33b7-4269-a8b1-53a2a9a1668b")
 	)
 	(junction
-		(at 96.52 156.21)
+		(at 114.3 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c499a4c-cc9c-48c0-a021-fff620e6c218")
 	)
 	(junction
-		(at 55.88 171.45)
+		(at 73.66 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c643bb5-79f7-4e8b-bcd3-1bf81cd06d3f")
@@ -7762,12 +7478,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e93053f-e0f0-415c-b42e-85ff5e2feff5")
-	)
-	(junction
-		(at 34.29 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60287387-3dfd-47f4-b6e0-a0a5a26675cf")
 	)
 	(junction
 		(at 158.75 110.49)
@@ -7806,7 +7516,7 @@
 		(uuid "65012f6c-23ad-4194-b65b-a316bdf0c444")
 	)
 	(junction
-		(at 55.88 156.21)
+		(at 73.66 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65982ae4-0271-47ec-97a8-4505f9c0673b")
@@ -7836,7 +7546,7 @@
 		(uuid "69052df1-ae94-43dd-bfac-b893fc4d727e")
 	)
 	(junction
-		(at 55.88 182.88)
+		(at 73.66 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69363177-53f3-4972-92ed-ea2e25fcc788")
@@ -7848,7 +7558,7 @@
 		(uuid "6b443160-2c43-4fe2-abcd-21cff0d65f83")
 	)
 	(junction
-		(at 35.56 217.17)
+		(at 53.34 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b731fcb-2e70-40e7-aa5d-ac82a8037390")
@@ -7872,22 +7582,22 @@
 		(uuid "6f75bf68-9c69-4fe7-bfa4-d62904f7a81a")
 	)
 	(junction
-		(at 171.45 270.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70e1ccda-90bc-4283-9021-3778203b8a12")
-	)
-	(junction
 		(at 170.18 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72ddd1d3-9251-424a-8b39-e76969bac885")
 	)
 	(junction
-		(at 137.16 217.17)
+		(at 154.94 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "740b4856-0bd7-488a-ad46-1775858428b0")
+	)
+	(junction
+		(at 52.07 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7508880e-3309-497d-987c-2e045fa1dc93")
 	)
 	(junction
 		(at 287.02 86.36)
@@ -7896,7 +7606,7 @@
 		(uuid "75d0a539-c06f-4e32-860f-99cf264e588d")
 	)
 	(junction
-		(at 96.52 182.88)
+		(at 114.3 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77d78abb-40b7-4e52-b11b-8483b76d7ba5")
@@ -7914,7 +7624,7 @@
 		(uuid "7ceb640e-a095-4e77-9a44-15dd6332ef82")
 	)
 	(junction
-		(at 137.16 252.73)
+		(at 154.94 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dd08d0c-e920-4274-b86f-4776368936ba")
@@ -7938,19 +7648,19 @@
 		(uuid "7ff8642a-e020-44dc-8db3-e9f3e3027d9d")
 	)
 	(junction
-		(at 105.41 128.27)
+		(at 171.45 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83fb10d1-147c-4a16-9534-db2de7fa5277")
 	)
 	(junction
-		(at 35.56 234.95)
+		(at 53.34 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85e7d2c9-6ecc-4461-bc75-95ae7df335ac")
 	)
 	(junction
-		(at 35.56 270.51)
+		(at 53.34 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "884309f3-39e9-400b-b6f7-438c778eb3a0")
@@ -7968,7 +7678,7 @@
 		(uuid "8979ea70-3696-40c9-80c1-446d3eda73ed")
 	)
 	(junction
-		(at 204.47 213.36)
+		(at 243.84 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89be4183-5653-4013-ad7e-9a3c565c6ea7")
@@ -8004,13 +7714,13 @@
 		(uuid "92b4c6e4-d408-4663-9c41-f19c648a4d44")
 	)
 	(junction
-		(at 96.52 171.45)
+		(at 114.3 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92d98b04-198e-4d64-8500-90efd2fe2bb1")
 	)
 	(junction
-		(at 116.84 252.73)
+		(at 134.62 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93cf61f6-0eae-4b9b-b38e-acc536badde7")
@@ -8022,7 +7732,7 @@
 		(uuid "94c2c601-6fa5-4ffa-8915-098eef8f9ff2")
 	)
 	(junction
-		(at 116.84 217.17)
+		(at 134.62 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94d5cf93-1182-4470-86cd-c981a2884463")
@@ -8034,7 +7744,7 @@
 		(uuid "965162cd-4be1-404c-9f3a-da900fa2feed")
 	)
 	(junction
-		(at 35.56 252.73)
+		(at 53.34 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96cab6bc-d6be-4013-bf8e-f78d0086dc30")
@@ -8058,19 +7768,19 @@
 		(uuid "99a3d57e-f690-43c3-9d63-0d6a1a2448f2")
 	)
 	(junction
-		(at 116.84 171.45)
+		(at 134.62 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99ff6551-7600-4df8-ab08-539656cda86a")
 	)
 	(junction
-		(at 55.88 199.39)
+		(at 73.66 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a15d904-50c2-4171-92ae-9c1c19245d12")
 	)
 	(junction
-		(at 76.2 234.95)
+		(at 93.98 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9acd0284-010d-4802-96d0-fa90781334ba")
@@ -8082,7 +7792,7 @@
 		(uuid "9e5555be-5b8a-42b2-a8d1-7092a5265969")
 	)
 	(junction
-		(at 116.84 182.88)
+		(at 134.62 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0d6bc39-c6ae-484f-bd41-46c4a96711ac")
@@ -8112,19 +7822,13 @@
 		(uuid "a599d752-0615-429e-a3de-930b18e59ab3")
 	)
 	(junction
-		(at 180.34 243.84)
+		(at 219.71 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8854dc4-ff16-4fec-a1d0-cc29b5cde667")
 	)
 	(junction
-		(at 116.84 270.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aabc171f-0b23-411e-a836-b47d1f3207db")
-	)
-	(junction
-		(at 116.84 199.39)
+		(at 134.62 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac43196b-a040-40a2-b26c-1e083d9e0ef1")
@@ -8148,13 +7852,19 @@
 		(uuid "b02f6423-1a09-47dc-9704-077bacf2b269")
 	)
 	(junction
-		(at 25.4 234.95)
+		(at 52.07 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1910802-4eea-482d-98d7-697c7798b7fc")
+	)
+	(junction
+		(at 43.18 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b23244f8-5b64-4591-813d-795af1f888ea")
 	)
 	(junction
-		(at 116.84 234.95)
+		(at 134.62 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b32813c3-f033-489d-9cd8-42e1e40445a3")
@@ -8172,19 +7882,13 @@
 		(uuid "b9fc9058-b74a-4ec6-88f9-42f155ec21ad")
 	)
 	(junction
-		(at 137.16 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd2bd1fb-f7e1-466c-b41b-473e92cc213c")
-	)
-	(junction
-		(at 137.16 199.39)
+		(at 154.94 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be5f784a-be17-4300-97a7-e317142c7f33")
 	)
 	(junction
-		(at 35.56 199.39)
+		(at 53.34 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bec37828-bb48-4cad-8492-a8d0db952b2d")
@@ -8196,7 +7900,7 @@
 		(uuid "bfff80c3-42a4-4ea6-ace6-341890d37e1b")
 	)
 	(junction
-		(at 96.52 217.17)
+		(at 114.3 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c11a3fa7-4188-4ce4-a925-28b10717bcca")
@@ -8220,7 +7924,7 @@
 		(uuid "c70b0d08-b902-46c2-9976-096cee2b0a60")
 	)
 	(junction
-		(at 76.2 199.39)
+		(at 93.98 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc443870-95c4-4c31-882a-1c3fbcf7b0c2")
@@ -8250,7 +7954,7 @@
 		(uuid "d8cdc888-5a32-4bd3-9bc8-84a4022dfc78")
 	)
 	(junction
-		(at 76.2 252.73)
+		(at 93.98 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d930cde5-b6df-4d0d-a2e3-00517a3d7acf")
@@ -8274,7 +7978,7 @@
 		(uuid "e049db3b-c945-49da-a2f7-f1cfe4454b83")
 	)
 	(junction
-		(at 116.84 156.21)
+		(at 134.62 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e04aecbb-c3aa-4623-9671-64d62f6ccb48")
@@ -8298,13 +8002,13 @@
 		(uuid "e27b7cc7-0bc3-44d8-8d05-123af63628a7")
 	)
 	(junction
-		(at 96.52 234.95)
+		(at 114.3 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2e54c0d-b3a2-4ce8-b51d-bacac6f7939d")
 	)
 	(junction
-		(at 76.2 156.21)
+		(at 93.98 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecc6337b-2c46-4b4f-8d4a-2c6b5b528a7f")
@@ -8328,7 +8032,7 @@
 		(uuid "f0971e93-f013-441c-89c4-cd60a5022610")
 	)
 	(junction
-		(at 96.52 270.51)
+		(at 114.3 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2a4f062-18a2-4173-9742-24a874255527")
@@ -8376,7 +8080,7 @@
 		(uuid "fa4bc420-602e-4f0b-b64a-4d0cec8a43b6")
 	)
 	(junction
-		(at 55.88 234.95)
+		(at 73.66 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe867698-6ce5-41ad-a110-2ac1d5a3f589")
@@ -8386,12 +8090,16 @@
 		(uuid "090b2040-7429-4048-a062-fd91fe0252ba")
 	)
 	(no_connect
-		(at 144.78 163.83)
+		(at 162.56 168.91)
 		(uuid "1364471e-6d9a-4296-b76b-342ca1d6faae")
 	)
 	(no_connect
 		(at 377.19 71.12)
 		(uuid "2be3fe0e-59f3-4d1f-a55d-b656dbd1f546")
+	)
+	(no_connect
+		(at 377.19 111.76)
+		(uuid "2c8939b6-f524-40d8-9bed-f7f89a0a2759")
 	)
 	(no_connect
 		(at 300.99 199.39)
@@ -8402,31 +8110,27 @@
 		(uuid "425f02be-f153-4984-b4bb-9e26f68624f4")
 	)
 	(no_connect
-		(at 200.66 151.13)
+		(at 226.06 97.79)
 		(uuid "42f4499a-32ee-4b41-8034-79e9baae3e17")
 	)
 	(no_connect
-		(at 195.58 205.74)
+		(at 234.95 173.99)
 		(uuid "59a74a26-ddda-4168-b001-515ff75ce9df")
 	)
 	(no_connect
-		(at 195.58 208.28)
+		(at 234.95 176.53)
 		(uuid "5e07a4a6-41f2-4216-ae17-30b6078e6b47")
 	)
 	(no_connect
-		(at 252.73 227.33)
+		(at 226.06 54.61)
 		(uuid "62a7d7ec-6966-4602-a610-fec669398b6f")
 	)
 	(no_connect
-		(at 124.46 261.62)
-		(uuid "6915c3c3-9e9e-4ac4-a9d9-ecf460c11a3d")
-	)
-	(no_connect
-		(at 252.73 222.25)
+		(at 226.06 49.53)
 		(uuid "745c0fc7-ca10-4459-96a9-ff60e801a0b8")
 	)
 	(no_connect
-		(at 195.58 228.6)
+		(at 234.95 196.85)
 		(uuid "7ba3884b-2f5f-46bb-a748-a3edf1ab0841")
 	)
 	(no_connect
@@ -8434,7 +8138,7 @@
 		(uuid "7df7c237-03b5-4458-aec0-d2c1c6902566")
 	)
 	(no_connect
-		(at 195.58 231.14)
+		(at 234.95 199.39)
 		(uuid "93833434-10d3-4ced-a890-8ddef9872023")
 	)
 	(no_connect
@@ -8442,12 +8146,16 @@
 		(uuid "94d8a989-9e3d-4b2a-b8b1-8a212368c108")
 	)
 	(no_connect
-		(at 200.66 146.05)
+		(at 226.06 92.71)
 		(uuid "9be64928-34e5-4429-89f9-51a526b2f9a8")
 	)
 	(no_connect
 		(at 377.19 182.88)
 		(uuid "b90dba92-4914-446e-b4f6-002e1b2c4d69")
+	)
+	(no_connect
+		(at 377.19 109.22)
+		(uuid "c1e6ea0b-702e-4b63-a229-7ff4ccea030d")
 	)
 	(no_connect
 		(at 377.19 68.58)
@@ -8467,7 +8175,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 199.39) (xy 137.16 198.12)
+			(xy 154.94 204.47) (xy 154.94 203.2)
 		)
 		(stroke
 			(width 0)
@@ -8487,7 +8195,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 199.39) (xy 116.84 198.12)
+			(xy 134.62 204.47) (xy 134.62 203.2)
 		)
 		(stroke
 			(width 0)
@@ -8497,7 +8205,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 234.95) (xy 96.52 234.95)
+			(xy 93.98 240.03) (xy 114.3 240.03)
 		)
 		(stroke
 			(width 0)
@@ -8507,7 +8215,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 182.88) (xy 137.16 182.88)
+			(xy 134.62 187.96) (xy 154.94 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8567,7 +8275,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 218.44) (xy 116.84 217.17)
+			(xy 134.62 223.52) (xy 134.62 222.25)
 		)
 		(stroke
 			(width 0)
@@ -8597,7 +8305,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 171.45) (xy 116.84 171.45)
+			(xy 114.3 176.53) (xy 134.62 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8617,7 +8325,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 261.62) (xy 109.22 261.62)
+			(xy 121.92 266.7) (xy 127 266.7)
 		)
 		(stroke
 			(width 0)
@@ -8627,7 +8335,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 190.5) (xy 109.22 190.5)
+			(xy 121.92 195.58) (xy 127 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8637,7 +8345,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 226.06) (xy 129.54 226.06)
+			(xy 142.24 231.14) (xy 147.32 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8647,7 +8355,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 208.28) (xy 68.58 208.28)
+			(xy 81.28 213.36) (xy 86.36 213.36)
 		)
 		(stroke
 			(width 0)
@@ -8667,7 +8375,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 243.84) (xy 68.58 243.84)
+			(xy 81.28 248.92) (xy 86.36 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8677,7 +8385,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 217.17) (xy 76.2 218.44)
+			(xy 93.98 222.25) (xy 93.98 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8687,7 +8395,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 270.51) (xy 35.56 269.24)
+			(xy 53.34 275.59) (xy 53.34 274.32)
 		)
 		(stroke
 			(width 0)
@@ -8697,7 +8405,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 130.81) (xy 78.74 130.81)
+			(xy 149.86 134.62) (xy 144.78 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8717,6 +8425,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 161.29) (xy 52.07 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12798b99-4a07-4f46-a721-101b1725a57c")
+	)
+	(wire
+		(pts
 			(xy 275.59 36.83) (xy 290.83 36.83)
 		)
 		(stroke
@@ -8727,7 +8445,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 254) (xy 55.88 252.73)
+			(xy 73.66 259.08) (xy 73.66 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8747,7 +8465,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 243.84) (xy 173.99 243.84)
+			(xy 212.09 212.09) (xy 213.36 212.09)
 		)
 		(stroke
 			(width 0)
@@ -8757,7 +8475,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 217.17) (xy 137.16 218.44)
+			(xy 154.94 222.25) (xy 154.94 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8777,7 +8495,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 208.28) (xy 48.26 208.28)
+			(xy 60.96 213.36) (xy 66.04 213.36)
 		)
 		(stroke
 			(width 0)
@@ -8797,7 +8515,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 190.5) (xy 129.54 190.5)
+			(xy 142.24 195.58) (xy 147.32 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8807,7 +8525,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 220.98) (xy 204.47 218.44)
+			(xy 243.84 189.23) (xy 243.84 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8817,17 +8535,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 171.45) (xy 163.83 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1810060a-d78a-4118-8dd2-23af0ca1f8fe")
-	)
-	(wire
-		(pts
-			(xy 157.48 182.88) (xy 137.16 182.88)
+			(xy 175.26 187.96) (xy 154.94 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8837,7 +8545,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 251.46) (xy 116.84 252.73)
+			(xy 134.62 256.54) (xy 134.62 257.81)
 		)
 		(stroke
 			(width 0)
@@ -8857,7 +8565,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 243.84) (xy 27.94 261.62)
+			(xy 45.72 248.92) (xy 45.72 266.7)
 		)
 		(stroke
 			(width 0)
@@ -8897,7 +8605,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 208.28) (xy 88.9 208.28)
+			(xy 101.6 213.36) (xy 106.68 213.36)
 		)
 		(stroke
 			(width 0)
@@ -8947,7 +8655,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 226.06) (xy 88.9 226.06)
+			(xy 101.6 231.14) (xy 106.68 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8957,7 +8665,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 226.06) (xy 152.4 243.84)
+			(xy 170.18 231.14) (xy 170.18 248.92)
 		)
 		(stroke
 			(width 0)
@@ -8977,7 +8685,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 217.17) (xy 76.2 217.17)
+			(xy 73.66 222.25) (xy 93.98 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9017,7 +8725,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 182.88) (xy 96.52 182.88)
+			(xy 93.98 187.96) (xy 114.3 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9037,7 +8745,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 156.21) (xy 76.2 156.21)
+			(xy 73.66 161.29) (xy 93.98 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9117,7 +8825,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 245.11) (xy 180.34 243.84)
+			(xy 219.71 213.36) (xy 219.71 212.09)
 		)
 		(stroke
 			(width 0)
@@ -9127,7 +8835,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 190.5) (xy 88.9 190.5)
+			(xy 101.6 195.58) (xy 106.68 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9197,7 +8905,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 252.73) (xy 137.16 252.73)
+			(xy 134.62 257.81) (xy 154.94 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9217,7 +8925,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 156.21) (xy 55.88 156.21)
+			(xy 52.07 161.29) (xy 73.66 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9257,7 +8965,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 234.95) (xy 35.56 234.95)
+			(xy 43.18 240.03) (xy 53.34 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9267,7 +8975,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 217.17) (xy 55.88 218.44)
+			(xy 73.66 222.25) (xy 73.66 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9297,7 +9005,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 182.88) (xy 35.56 182.88)
+			(xy 41.91 187.96) (xy 53.34 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9317,17 +9025,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 190.5) (xy 27.94 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384f7937-c989-48ca-815c-ca9cd9549604")
-	)
-	(wire
-		(pts
-			(xy 43.18 190.5) (xy 48.26 190.5)
+			(xy 60.96 195.58) (xy 66.04 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9337,7 +9035,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 199.39) (xy 35.56 200.66)
+			(xy 53.34 204.47) (xy 53.34 205.74)
 		)
 		(stroke
 			(width 0)
@@ -9367,7 +9065,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 233.68) (xy 76.2 234.95)
+			(xy 93.98 238.76) (xy 93.98 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9467,7 +9165,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 251.46) (xy 55.88 252.73)
+			(xy 73.66 256.54) (xy 73.66 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9477,7 +9175,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 133.35) (xy 99.06 133.35)
+			(xy 171.45 137.16) (xy 165.1 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9507,7 +9205,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 156.21) (xy 116.84 156.21)
+			(xy 114.3 161.29) (xy 134.62 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9537,7 +9235,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 199.39) (xy 55.88 199.39)
+			(xy 93.98 204.47) (xy 73.66 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9547,7 +9245,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 171.45) (xy 96.52 171.45)
+			(xy 93.98 176.53) (xy 114.3 176.53)
 		)
 		(stroke
 			(width 0)
@@ -9567,7 +9265,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 163.83) (xy 109.22 163.83)
+			(xy 121.92 168.91) (xy 127 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9577,7 +9275,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 199.39) (xy 96.52 198.12)
+			(xy 114.3 204.47) (xy 114.3 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9607,7 +9305,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 236.22) (xy 35.56 234.95)
+			(xy 53.34 241.3) (xy 53.34 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9677,7 +9375,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 217.17) (xy 35.56 218.44)
+			(xy 53.34 222.25) (xy 53.34 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9747,7 +9445,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 199.39) (xy 96.52 199.39)
+			(xy 93.98 204.47) (xy 114.3 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9757,7 +9455,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 261.62) (xy 48.26 261.62)
+			(xy 60.96 266.7) (xy 66.04 266.7)
 		)
 		(stroke
 			(width 0)
@@ -9777,7 +9475,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 217.17) (xy 96.52 218.44)
+			(xy 114.3 222.25) (xy 114.3 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9787,7 +9485,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 198.12) (xy 35.56 199.39)
+			(xy 53.34 203.2) (xy 53.34 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9797,7 +9495,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 118.11) (xy 92.71 124.46)
+			(xy 158.75 121.92) (xy 158.75 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9847,7 +9545,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 220.98) (xy 204.47 220.98)
+			(xy 234.95 189.23) (xy 243.84 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9897,17 +9595,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 163.83) (xy 26.67 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c61bc9c-c574-48c1-a9c7-152639d5fe06")
-	)
-	(wire
-		(pts
-			(xy 83.82 135.89) (xy 78.74 135.89)
+			(xy 149.86 139.7) (xy 144.78 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9937,7 +9625,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 215.9) (xy 35.56 217.17)
+			(xy 53.34 220.98) (xy 53.34 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9947,7 +9635,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 128.27) (xy 105.41 128.27)
+			(xy 165.1 132.08) (xy 171.45 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9987,7 +9675,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 171.45) (xy 76.2 171.45)
+			(xy 73.66 176.53) (xy 93.98 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10017,7 +9705,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 252.73) (xy 157.48 252.73)
+			(xy 154.94 257.81) (xy 175.26 257.81)
 		)
 		(stroke
 			(width 0)
@@ -10047,7 +9735,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 238.76) (xy 180.34 243.84)
+			(xy 219.71 207.01) (xy 219.71 212.09)
 		)
 		(stroke
 			(width 0)
@@ -10057,7 +9745,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 138.43) (xy 105.41 138.43)
+			(xy 180.34 142.24) (xy 171.45 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10077,17 +9765,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 262.89) (xy 162.56 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fb9eca-e546-462f-a4af-1dc6f81007d5")
-	)
-	(wire
-		(pts
-			(xy 83.82 163.83) (xy 88.9 163.83)
+			(xy 101.6 168.91) (xy 106.68 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10117,7 +9795,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 270.51) (xy 35.56 270.51)
+			(xy 73.66 275.59) (xy 53.34 275.59)
 		)
 		(stroke
 			(width 0)
@@ -10147,7 +9825,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 199.39) (xy 116.84 199.39)
+			(xy 114.3 204.47) (xy 134.62 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10164,16 +9842,6 @@
 			(type default)
 		)
 		(uuid "6e2dea2c-f7ef-4164-b906-37aa1466f197")
-	)
-	(wire
-		(pts
-			(xy 139.7 270.51) (xy 146.05 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "701341ad-52c9-4239-a302-9b6186e06f82")
 	)
 	(wire
 		(pts
@@ -10207,7 +9875,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 163.83) (xy 68.58 163.83)
+			(xy 81.28 168.91) (xy 86.36 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10217,7 +9885,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 270.51) (xy 76.2 270.51)
+			(xy 114.3 275.59) (xy 93.98 275.59)
 		)
 		(stroke
 			(width 0)
@@ -10247,7 +9915,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 270.51) (xy 76.2 269.24)
+			(xy 93.98 275.59) (xy 93.98 274.32)
 		)
 		(stroke
 			(width 0)
@@ -10267,7 +9935,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 252.73) (xy 96.52 251.46)
+			(xy 114.3 257.81) (xy 114.3 256.54)
 		)
 		(stroke
 			(width 0)
@@ -10277,7 +9945,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 226.06) (xy 68.58 226.06)
+			(xy 81.28 231.14) (xy 86.36 231.14)
 		)
 		(stroke
 			(width 0)
@@ -10297,7 +9965,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 254) (xy 76.2 252.73)
+			(xy 93.98 259.08) (xy 93.98 257.81)
 		)
 		(stroke
 			(width 0)
@@ -10327,7 +9995,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 243.84) (xy 152.4 243.84)
+			(xy 162.56 248.92) (xy 170.18 248.92)
 		)
 		(stroke
 			(width 0)
@@ -10337,7 +10005,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 234.95) (xy 116.84 234.95)
+			(xy 114.3 240.03) (xy 134.62 240.03)
 		)
 		(stroke
 			(width 0)
@@ -10357,7 +10025,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 124.46) (xy 90.17 124.46)
+			(xy 158.75 128.27) (xy 156.21 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10397,7 +10065,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 163.83) (xy 48.26 163.83)
+			(xy 59.69 168.91) (xy 66.04 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10417,7 +10085,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 254) (xy 96.52 252.73)
+			(xy 114.3 259.08) (xy 114.3 257.81)
 		)
 		(stroke
 			(width 0)
@@ -10447,7 +10115,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 243.84) (xy 48.26 243.84)
+			(xy 60.96 248.92) (xy 66.04 248.92)
 		)
 		(stroke
 			(width 0)
@@ -10477,7 +10145,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 233.68) (xy 137.16 234.95)
+			(xy 154.94 238.76) (xy 154.94 240.03)
 		)
 		(stroke
 			(width 0)
@@ -10487,7 +10155,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 243.84) (xy 109.22 243.84)
+			(xy 121.92 248.92) (xy 127 248.92)
 		)
 		(stroke
 			(width 0)
@@ -10507,7 +10175,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 199.39) (xy 76.2 200.66)
+			(xy 93.98 204.47) (xy 93.98 205.74)
 		)
 		(stroke
 			(width 0)
@@ -10517,7 +10185,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 270.51) (xy 96.52 270.51)
+			(xy 134.62 275.59) (xy 114.3 275.59)
 		)
 		(stroke
 			(width 0)
@@ -10527,7 +10195,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 217.17) (xy 137.16 215.9)
+			(xy 154.94 222.25) (xy 154.94 220.98)
 		)
 		(stroke
 			(width 0)
@@ -10537,7 +10205,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 200.66) (xy 96.52 199.39)
+			(xy 41.91 176.53) (xy 52.07 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8831b4b6-59fc-4499-a842-3a606e00faa8")
+	)
+	(wire
+		(pts
+			(xy 114.3 205.74) (xy 114.3 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10567,23 +10245,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 199.39) (xy 137.16 200.66)
+			(xy 154.94 204.47) (xy 154.94 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89de4e92-75d3-4b80-b47c-41c537ff5351")
-	)
-	(wire
-		(pts
-			(xy 116.84 270.51) (xy 139.7 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b6b94a0-d7e3-458f-993a-fdc4e67f17a4")
 	)
 	(wire
 		(pts
@@ -10597,7 +10265,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 200.66) (xy 116.84 199.39)
+			(xy 134.62 205.74) (xy 134.62 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10617,7 +10285,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 243.84) (xy 88.9 243.84)
+			(xy 101.6 248.92) (xy 106.68 248.92)
 		)
 		(stroke
 			(width 0)
@@ -10627,7 +10295,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 213.36) (xy 204.47 215.9)
+			(xy 243.84 181.61) (xy 243.84 184.15)
 		)
 		(stroke
 			(width 0)
@@ -10637,7 +10305,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 182.88) (xy 76.2 182.88)
+			(xy 73.66 187.96) (xy 93.98 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10647,7 +10315,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 200.66) (xy 210.82 200.66)
+			(xy 256.54 168.91) (xy 250.19 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10667,7 +10335,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 234.95) (xy 137.16 234.95)
+			(xy 134.62 240.03) (xy 154.94 240.03)
 		)
 		(stroke
 			(width 0)
@@ -10677,17 +10345,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 275.59) (xy 171.45 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926311dd-ff6f-4225-8150-8fd33c49a46c")
-	)
-	(wire
-		(pts
-			(xy 76.2 217.17) (xy 76.2 215.9)
+			(xy 93.98 222.25) (xy 93.98 220.98)
 		)
 		(stroke
 			(width 0)
@@ -10697,7 +10355,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 261.62) (xy 68.58 261.62)
+			(xy 81.28 266.7) (xy 86.36 266.7)
 		)
 		(stroke
 			(width 0)
@@ -10707,7 +10365,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 226.06) (xy 27.94 208.28)
+			(xy 45.72 231.14) (xy 45.72 213.36)
 		)
 		(stroke
 			(width 0)
@@ -10727,17 +10385,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 270.51) (xy 156.21 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9579e29b-1f56-4a25-a583-a180bfea4c5c")
-	)
-	(wire
-		(pts
-			(xy 116.84 156.21) (xy 137.16 156.21)
+			(xy 134.62 161.29) (xy 154.94 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10757,7 +10405,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 128.27) (xy 99.06 130.81)
+			(xy 165.1 132.08) (xy 165.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10767,7 +10415,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 171.45) (xy 137.16 171.45)
+			(xy 134.62 176.53) (xy 154.94 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10787,7 +10435,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 261.62) (xy 88.9 261.62)
+			(xy 101.6 266.7) (xy 106.68 266.7)
 		)
 		(stroke
 			(width 0)
@@ -10797,7 +10445,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 270.51) (xy 55.88 269.24)
+			(xy 73.66 275.59) (xy 73.66 274.32)
 		)
 		(stroke
 			(width 0)
@@ -10837,7 +10485,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 217.17) (xy 137.16 217.17)
+			(xy 175.26 222.25) (xy 154.94 222.25)
 		)
 		(stroke
 			(width 0)
@@ -10847,7 +10495,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 199.39) (xy 25.4 199.39)
+			(xy 53.34 204.47) (xy 43.18 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10857,7 +10505,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 215.9) (xy 195.58 215.9)
+			(xy 243.84 184.15) (xy 234.95 184.15)
 		)
 		(stroke
 			(width 0)
@@ -10937,7 +10585,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 199.39) (xy 55.88 198.12)
+			(xy 73.66 204.47) (xy 73.66 203.2)
 		)
 		(stroke
 			(width 0)
@@ -10987,7 +10635,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 133.35) (xy 105.41 133.35)
+			(xy 184.15 137.16) (xy 171.45 137.16)
 		)
 		(stroke
 			(width 0)
@@ -11017,7 +10665,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 252.73) (xy 157.48 217.17)
+			(xy 175.26 257.81) (xy 175.26 222.25)
 		)
 		(stroke
 			(width 0)
@@ -11027,7 +10675,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 182.88) (xy 55.88 182.88)
+			(xy 53.34 187.96) (xy 73.66 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11087,7 +10735,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 213.36) (xy 207.01 213.36)
+			(xy 243.84 181.61) (xy 246.38 181.61)
 		)
 		(stroke
 			(width 0)
@@ -11097,7 +10745,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 254) (xy 116.84 252.73)
+			(xy 134.62 259.08) (xy 134.62 257.81)
 		)
 		(stroke
 			(width 0)
@@ -11117,7 +10765,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 199.39) (xy 55.88 199.39)
+			(xy 53.34 204.47) (xy 73.66 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11127,7 +10775,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 233.68) (xy 96.52 234.95)
+			(xy 114.3 238.76) (xy 114.3 240.03)
 		)
 		(stroke
 			(width 0)
@@ -11137,7 +10785,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 243.84) (xy 180.34 243.84)
+			(xy 218.44 212.09) (xy 219.71 212.09)
 		)
 		(stroke
 			(width 0)
@@ -11147,7 +10795,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 233.68) (xy 55.88 234.95)
+			(xy 73.66 238.76) (xy 73.66 240.03)
 		)
 		(stroke
 			(width 0)
@@ -11157,17 +10805,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 275.59) (xy 139.7 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aea3429a-1cc8-40d0-911d-af2f87699b5b")
-	)
-	(wire
-		(pts
-			(xy 116.84 199.39) (xy 137.16 199.39)
+			(xy 134.62 204.47) (xy 154.94 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11177,7 +10815,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 252.73) (xy 137.16 251.46)
+			(xy 154.94 257.81) (xy 154.94 256.54)
 		)
 		(stroke
 			(width 0)
@@ -11207,16 +10845,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 270.51) (xy 171.45 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1034f07-9511-465b-be1a-7df48ccb4b68")
-	)
-	(wire
-		(pts
 			(xy 88.9 104.14) (xy 109.22 104.14)
 		)
 		(stroke
@@ -11237,7 +10865,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 218.44) (xy 207.01 218.44)
+			(xy 243.84 186.69) (xy 246.38 186.69)
 		)
 		(stroke
 			(width 0)
@@ -11247,7 +10875,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 217.17) (xy 116.84 217.17)
+			(xy 114.3 222.25) (xy 134.62 222.25)
 		)
 		(stroke
 			(width 0)
@@ -11257,7 +10885,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 270.51) (xy 116.84 269.24)
+			(xy 134.62 275.59) (xy 134.62 274.32)
 		)
 		(stroke
 			(width 0)
@@ -11307,7 +10935,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 128.27) (xy 105.41 128.27)
+			(xy 180.34 132.08) (xy 171.45 132.08)
 		)
 		(stroke
 			(width 0)
@@ -11317,7 +10945,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 217.17) (xy 116.84 215.9)
+			(xy 134.62 222.25) (xy 134.62 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11327,7 +10955,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 217.17) (xy 157.48 182.88)
+			(xy 175.26 222.25) (xy 175.26 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11337,7 +10965,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 226.06) (xy 152.4 226.06)
+			(xy 162.56 231.14) (xy 170.18 231.14)
 		)
 		(stroke
 			(width 0)
@@ -11347,7 +10975,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 190.5) (xy 151.13 208.28)
+			(xy 168.91 195.58) (xy 168.91 213.36)
 		)
 		(stroke
 			(width 0)
@@ -11407,7 +11035,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 198.12) (xy 76.2 199.39)
+			(xy 93.98 203.2) (xy 93.98 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11447,7 +11075,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 217.17) (xy 55.88 215.9)
+			(xy 73.66 222.25) (xy 73.66 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11457,7 +11085,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 200.66) (xy 55.88 199.39)
+			(xy 73.66 205.74) (xy 73.66 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11497,7 +11125,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 236.22) (xy 76.2 234.95)
+			(xy 93.98 241.3) (xy 93.98 240.03)
 		)
 		(stroke
 			(width 0)
@@ -11507,7 +11135,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 171.45) (xy 55.88 171.45)
+			(xy 52.07 176.53) (xy 73.66 176.53)
 		)
 		(stroke
 			(width 0)
@@ -11527,7 +11155,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 190.5) (xy 68.58 190.5)
+			(xy 81.28 195.58) (xy 86.36 195.58)
 		)
 		(stroke
 			(width 0)
@@ -11537,7 +11165,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 217.17) (xy 137.16 217.17)
+			(xy 134.62 222.25) (xy 154.94 222.25)
 		)
 		(stroke
 			(width 0)
@@ -11577,7 +11205,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 252.73) (xy 76.2 251.46)
+			(xy 93.98 257.81) (xy 93.98 256.54)
 		)
 		(stroke
 			(width 0)
@@ -11597,7 +11225,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 199.39) (xy 25.4 234.95)
+			(xy 43.18 275.59) (xy 53.34 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6767e05-5aa1-4752-a3c0-ff72444b6e2c")
+	)
+	(wire
+		(pts
+			(xy 43.18 204.47) (xy 43.18 240.03)
 		)
 		(stroke
 			(width 0)
@@ -11607,7 +11245,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 226.06) (xy 48.26 226.06)
+			(xy 60.96 231.14) (xy 66.04 231.14)
 		)
 		(stroke
 			(width 0)
@@ -11617,7 +11255,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 251.46) (xy 35.56 252.73)
+			(xy 53.34 256.54) (xy 53.34 257.81)
 		)
 		(stroke
 			(width 0)
@@ -11667,7 +11305,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 208.28) (xy 151.13 208.28)
+			(xy 162.56 213.36) (xy 168.91 213.36)
 		)
 		(stroke
 			(width 0)
@@ -11677,7 +11315,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 243.84) (xy 129.54 243.84)
+			(xy 142.24 248.92) (xy 147.32 248.92)
 		)
 		(stroke
 			(width 0)
@@ -11687,7 +11325,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 254) (xy 35.56 252.73)
+			(xy 53.34 259.08) (xy 53.34 257.81)
 		)
 		(stroke
 			(width 0)
@@ -11697,7 +11335,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 217.17) (xy 96.52 217.17)
+			(xy 93.98 222.25) (xy 114.3 222.25)
 		)
 		(stroke
 			(width 0)
@@ -11707,7 +11345,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 138.43) (xy 105.41 138.43)
+			(xy 165.1 142.24) (xy 171.45 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11717,7 +11355,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 200.66) (xy 195.58 200.66)
+			(xy 245.11 168.91) (xy 234.95 168.91)
 		)
 		(stroke
 			(width 0)
@@ -11727,7 +11365,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 252.73) (xy 76.2 252.73)
+			(xy 73.66 257.81) (xy 93.98 257.81)
 		)
 		(stroke
 			(width 0)
@@ -11747,7 +11385,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 234.95) (xy 76.2 234.95)
+			(xy 73.66 240.03) (xy 93.98 240.03)
 		)
 		(stroke
 			(width 0)
@@ -11757,7 +11395,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 208.28) (xy 109.22 208.28)
+			(xy 121.92 213.36) (xy 127 213.36)
 		)
 		(stroke
 			(width 0)
@@ -11827,7 +11465,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 238.76) (xy 172.72 243.84)
+			(xy 212.09 207.01) (xy 212.09 212.09)
 		)
 		(stroke
 			(width 0)
@@ -11837,7 +11475,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 270.51) (xy 55.88 270.51)
+			(xy 93.98 275.59) (xy 73.66 275.59)
 		)
 		(stroke
 			(width 0)
@@ -11857,7 +11495,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 182.88) (xy 116.84 182.88)
+			(xy 114.3 187.96) (xy 134.62 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11867,7 +11505,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 270.51) (xy 96.52 269.24)
+			(xy 114.3 275.59) (xy 114.3 274.32)
 		)
 		(stroke
 			(width 0)
@@ -11937,7 +11575,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 252.73) (xy 116.84 252.73)
+			(xy 114.3 257.81) (xy 134.62 257.81)
 		)
 		(stroke
 			(width 0)
@@ -11957,7 +11595,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 236.22) (xy 116.84 234.95)
+			(xy 134.62 241.3) (xy 134.62 240.03)
 		)
 		(stroke
 			(width 0)
@@ -11997,16 +11635,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 270.51) (xy 25.4 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8030c17-a52e-455f-9206-97d3002c4f2d")
-	)
-	(wire
-		(pts
 			(xy 509.27 251.46) (xy 520.7 251.46)
 		)
 		(stroke
@@ -12017,7 +11645,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 234.95) (xy 55.88 234.95)
+			(xy 53.34 240.03) (xy 73.66 240.03)
 		)
 		(stroke
 			(width 0)
@@ -12047,23 +11675,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 226.06) (xy 109.22 226.06)
+			(xy 121.92 231.14) (xy 127 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de24c447-8775-4eb8-aa36-c3535149a263")
-	)
-	(wire
-		(pts
-			(xy 151.13 262.89) (xy 162.56 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de33539d-ac66-4c6f-be15-9ee279468833")
 	)
 	(wire
 		(pts
@@ -12177,7 +11795,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 234.95) (xy 96.52 236.22)
+			(xy 114.3 240.03) (xy 114.3 241.3)
 		)
 		(stroke
 			(width 0)
@@ -12207,17 +11825,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 275.59) (xy 139.7 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e753136d-08c0-4980-acd4-286d3ad8e4c2")
-	)
-	(wire
-		(pts
-			(xy 25.4 234.95) (xy 25.4 270.51)
+			(xy 43.18 240.03) (xy 43.18 275.59)
 		)
 		(stroke
 			(width 0)
@@ -12247,7 +11855,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 163.83) (xy 129.54 163.83)
+			(xy 142.24 168.91) (xy 147.32 168.91)
 		)
 		(stroke
 			(width 0)
@@ -12277,7 +11885,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 190.5) (xy 151.13 190.5)
+			(xy 162.56 195.58) (xy 168.91 195.58)
 		)
 		(stroke
 			(width 0)
@@ -12287,7 +11895,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 252.73) (xy 96.52 252.73)
+			(xy 93.98 257.81) (xy 114.3 257.81)
 		)
 		(stroke
 			(width 0)
@@ -12297,7 +11905,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 218.44) (xy 204.47 218.44)
+			(xy 234.95 186.69) (xy 243.84 186.69)
 		)
 		(stroke
 			(width 0)
@@ -12367,23 +11975,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 217.17) (xy 55.88 217.17)
+			(xy 53.34 222.25) (xy 73.66 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f20ff94d-25cf-4a2e-beb0-89f332eaa630")
-	)
-	(wire
-		(pts
-			(xy 171.45 275.59) (xy 171.45 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f292ae6f-a5cb-47be-87bc-834cfe22a3ce")
 	)
 	(wire
 		(pts
@@ -12407,7 +12005,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 234.95) (xy 55.88 236.22)
+			(xy 73.66 240.03) (xy 73.66 241.3)
 		)
 		(stroke
 			(width 0)
@@ -12417,7 +12015,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 252.73) (xy 55.88 252.73)
+			(xy 53.34 257.81) (xy 73.66 257.81)
 		)
 		(stroke
 			(width 0)
@@ -12427,7 +12025,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 217.17) (xy 96.52 215.9)
+			(xy 114.3 222.25) (xy 114.3 220.98)
 		)
 		(stroke
 			(width 0)
@@ -12497,7 +12095,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 138.43) (xy 99.06 135.89)
+			(xy 165.1 142.24) (xy 165.1 139.7)
 		)
 		(stroke
 			(width 0)
@@ -12537,7 +12135,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 233.68) (xy 35.56 234.95)
+			(xy 53.34 238.76) (xy 53.34 240.03)
 		)
 		(stroke
 			(width 0)
@@ -12547,17 +12145,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 156.21) (xy 34.29 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa247a02-09cf-4c05-85a9-48d63936ee00")
-	)
-	(wire
-		(pts
-			(xy 76.2 156.21) (xy 96.52 156.21)
+			(xy 93.98 161.29) (xy 114.3 161.29)
 		)
 		(stroke
 			(width 0)
@@ -12577,7 +12165,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 213.36) (xy 204.47 213.36)
+			(xy 234.95 181.61) (xy 243.84 181.61)
 		)
 		(stroke
 			(width 0)
@@ -12587,7 +12175,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 234.95) (xy 137.16 236.22)
+			(xy 154.94 240.03) (xy 154.94 241.3)
 		)
 		(stroke
 			(width 0)
@@ -12657,7 +12245,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 233.68) (xy 116.84 234.95)
+			(xy 134.62 238.76) (xy 134.62 240.03)
 		)
 		(stroke
 			(width 0)
@@ -12677,7 +12265,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 208.28) (xy 129.54 208.28)
+			(xy 142.24 213.36) (xy 147.32 213.36)
 		)
 		(stroke
 			(width 0)
@@ -12719,7 +12307,7 @@
 		(uuid "8bb4ab8a-2bcc-48d0-9673-5f2882a64390")
 	)
 	(label "VCC_LINK"
-		(at 195.58 200.66 0)
+		(at 234.95 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12992,6 +12580,28 @@
 			)
 		)
 	)
+	(global_label "RGB_5"
+		(shape input)
+		(at 45.72 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24203d72-ee33-4d04-b9b3-a6c5691b406b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.4019 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col4"
 		(shape input)
 		(at 55.88 26.67 90)
@@ -13058,31 +12668,9 @@
 			)
 		)
 	)
-	(global_label "KEY"
-		(shape input)
-		(at 151.13 262.89 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "44f49e0a-c281-4f80-83a4-6841ac18dab2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 257.0514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX"
 		(shape input)
-		(at 207.01 213.36 0)
+		(at 246.38 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13092,7 +12680,7 @@
 		)
 		(uuid "46ca8ddf-aa5f-484a-9bd2-eb05dc7d23ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.1723 213.36 0)
+			(at 251.5423 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13104,7 +12692,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 227.33 222.25 180)
+		(at 200.66 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13114,7 +12702,7 @@
 		)
 		(uuid "4befea14-6b94-4b3d-9ba8-acf10f39ce38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.1677 222.25 0)
+			(at 195.4977 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13234,31 +12822,9 @@
 			)
 		)
 	)
-	(global_label "RGB_5"
-		(shape input)
-		(at 24.13 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "581c67f9-d527-4414-aca3-30c1bedefa5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.8119 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RX"
 		(shape input)
-		(at 227.33 227.33 180)
+		(at 200.66 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13268,7 +12834,7 @@
 		)
 		(uuid "5944088a-b241-449c-a2de-baf3d2378dbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.8653 227.33 0)
+			(at 195.1953 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13323,7 +12889,7 @@
 	)
 	(global_label "Enc2A"
 		(shape input)
-		(at 114.3 138.43 0)
+		(at 180.34 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13333,7 +12899,7 @@
 		)
 		(uuid "5fa63a5b-55e6-4d87-9592-94a048fc3a4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.3157 138.43 0)
+			(at 188.3557 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +13020,7 @@
 	)
 	(global_label "col5"
 		(shape input)
-		(at 78.74 130.81 180)
+		(at 144.78 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13464,7 +13030,7 @@
 		)
 		(uuid "855854f1-4176-4105-b5b4-b7544891b539")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3761 130.81 0)
+			(at 138.4161 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13498,7 +13064,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 175.26 146.05 180)
+		(at 200.66 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13508,7 +13074,7 @@
 		)
 		(uuid "8af89b49-9d72-4631-b3c4-d58b25a2c7be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.4324 146.05 0)
+			(at 194.8324 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13564,7 +13130,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 175.26 151.13 180)
+		(at 200.66 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13574,7 +13140,7 @@
 		)
 		(uuid "91003338-c0e7-4ab1-9484-55f6e51c3a16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.4324 151.13 0)
+			(at 194.8324 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,9 +13281,31 @@
 			)
 		)
 	)
+	(global_label "RGB_LINK"
+		(shape input)
+		(at 44.45 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b798c9c7-fdde-4748-8d4f-8eae23fa041c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.108 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Alt"
 		(shape input)
-		(at 78.74 135.89 180)
+		(at 144.78 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13727,7 +13315,7 @@
 		)
 		(uuid "bf3951b3-b9d1-4524-b711-03b1074e3b68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0089 135.89 0)
+			(at 140.0489 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,28 +13369,6 @@
 			)
 		)
 	)
-	(global_label "RGB_5"
-		(shape input)
-		(at 24.13 190.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cabb7846-3933-4f80-b51c-1526646022eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.8119 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row4"
 		(shape input)
 		(at 26.67 104.14 180)
@@ -13838,28 +13404,6 @@
 		(uuid "d2ebea05-c9c5-4615-b2ab-567641f26035")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 383.9168 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GLOW"
-		(shape input)
-		(at 377.19 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5c10f45-1daf-4a17-9bc4-def9a3c066e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 384.601 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13957,9 +13501,9 @@
 			)
 		)
 	)
-	(global_label "GLOW"
+	(global_label "RGB_LINK"
 		(shape input)
-		(at 168.91 163.83 90)
+		(at 142.24 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13967,9 +13511,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ea2feaac-8576-4b42-9053-b3e1cf05527f")
+		(uuid "e507d963-364d-45dc-8af6-6c30443b1caa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 156.419 90)
+			(at 153.582 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14045,31 +13589,9 @@
 			)
 		)
 	)
-	(global_label "KEY"
-		(shape input)
-		(at 377.19 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eee8d99f-e29a-4b02-b133-149ef9be0034")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.0286 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RX"
 		(shape input)
-		(at 207.01 218.44 0)
+		(at 246.38 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14079,7 +13601,7 @@
 		)
 		(uuid "f0391045-fab9-41b0-8279-4d4c34c7539d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.4747 218.44 0)
+			(at 251.8447 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,7 +13635,7 @@
 	)
 	(global_label "Enc2B"
 		(shape input)
-		(at 114.3 128.27 0)
+		(at 180.34 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14123,7 +13645,7 @@
 		)
 		(uuid "fc34eb19-8410-4572-99d1-42ce493498c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.4971 128.27 0)
+			(at 188.5371 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14159,6 +13681,29 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 104.14 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e18eb28-467d-420c-8d56-f538d589f344")
+		(property "Netclass" "Power"
+			(at 104.7496 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 270.51 46.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14182,6 +13727,29 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 105.41 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "455d82b9-6480-4b30-bb37-0f8cd8c2529e")
+		(property "Netclass" "Power"
+			(at 106.0196 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 273.05 273.05 270)
 		(fields_autoplaced yes)
 		(effects
@@ -14193,52 +13761,6 @@
 		(uuid "7aa6e3fe-0347-4130-9678-f4deec98a060")
 		(property "Netclass" "Power"
 			(at 275.59 272.4404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 160.02 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f172f0a-f10f-48a4-aaa8-7e575763d258")
-		(property "Netclass" "Power"
-			(at 160.6296 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 142.24 270.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "971ae6b9-b919-400b-9f94-5fc98c1b86c1")
-		(property "Netclass" "Power"
-			(at 142.8496 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14297,7 +13819,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 195.58 200.66 0)
+		(at 234.95 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14307,7 +13829,7 @@
 		)
 		(uuid "b73d0050-ba74-4b87-8e50-7dd596a89f3c")
 		(property "Netclass" "Power"
-			(at 196.1896 198.12 0)
+			(at 235.5596 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14379,7 +13901,7 @@
 			(uuid "ff36c8ee-0944-4de1-9479-e597b04a60f7")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW25")
 					(unit 1)
@@ -14446,7 +13968,7 @@
 			(uuid "5600d29b-f665-422d-932c-b1ddf423f179")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW26")
 					(unit 1)
@@ -14513,7 +14035,7 @@
 			(uuid "9a895c71-aeb5-4fac-98ac-d5b1790f1606")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW1")
 					(unit 1)
@@ -14609,7 +14131,7 @@
 			(uuid "9edc64a3-1b9f-41ff-bdd4-3d8d6fc6eb59")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D1")
 					(unit 1)
@@ -14676,7 +14198,7 @@
 			(uuid "74147cd6-fc81-4c5c-ab5f-36006c36183c")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW2")
 					(unit 1)
@@ -14772,7 +14294,7 @@
 			(uuid "90236f4c-1b8d-4254-9d6b-81e3d0d968e5")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D2")
 					(unit 1)
@@ -14839,7 +14361,7 @@
 			(uuid "7e7b555e-bc2c-45a2-a16a-dde7808fa56d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW3")
 					(unit 1)
@@ -14935,7 +14457,7 @@
 			(uuid "16482d12-ed42-435a-83df-aa1116ae8a84")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D3")
 					(unit 1)
@@ -15002,7 +14524,7 @@
 			(uuid "2e28adb0-6125-4b6b-9c1a-d294718c1aa5")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW4")
 					(unit 1)
@@ -15098,7 +14620,7 @@
 			(uuid "360cde82-cc72-48b3-a380-04c05264ac08")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D4")
 					(unit 1)
@@ -15165,7 +14687,7 @@
 			(uuid "ac53c2cf-c7ff-4dd5-bbac-c74669121f1d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW5")
 					(unit 1)
@@ -15261,7 +14783,7 @@
 			(uuid "1876f41e-cc92-4615-b919-e9ab968084b3")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D5")
 					(unit 1)
@@ -15328,7 +14850,7 @@
 			(uuid "ea37bdd5-b42f-4000-b9b2-da7945e5f290")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW6")
 					(unit 1)
@@ -15424,7 +14946,7 @@
 			(uuid "791e5712-08f1-44dd-a510-873fb62747ff")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D6")
 					(unit 1)
@@ -15491,7 +15013,7 @@
 			(uuid "13c194eb-7195-427d-8227-414ae8277005")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW8")
 					(unit 1)
@@ -15558,7 +15080,7 @@
 			(uuid "0b219d7b-46b8-4059-a8eb-eb1cb7911d6c")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW9")
 					(unit 1)
@@ -15625,7 +15147,7 @@
 			(uuid "160982db-3bf5-46a0-9e7f-5948b4a58dd4")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW10")
 					(unit 1)
@@ -15692,7 +15214,7 @@
 			(uuid "8088fb2e-6b6d-413f-b62f-e0ff21e18bf5")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW11")
 					(unit 1)
@@ -15759,7 +15281,7 @@
 			(uuid "3793d140-381b-46fe-9e73-b3ec5e7bc57c")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW12")
 					(unit 1)
@@ -15826,7 +15348,7 @@
 			(uuid "2d0fed17-815d-432f-a7eb-ae8520ef2c33")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW7")
 					(unit 1)
@@ -15922,7 +15444,7 @@
 			(uuid "e5bafa40-af4a-4065-9ea6-d8ff9a24151d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D7")
 					(unit 1)
@@ -16018,7 +15540,7 @@
 			(uuid "8aff7831-39c5-43f8-b21c-3814575054d2")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D8")
 					(unit 1)
@@ -16114,7 +15636,7 @@
 			(uuid "cd5f2145-63ff-4424-8cbf-d1894a311594")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D9")
 					(unit 1)
@@ -16210,7 +15732,7 @@
 			(uuid "4ffbfd93-e0a5-442f-a7ea-86b309f8b74b")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D10")
 					(unit 1)
@@ -16306,7 +15828,7 @@
 			(uuid "0a33705e-b6dd-40ec-b673-059204908928")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D11")
 					(unit 1)
@@ -16402,7 +15924,7 @@
 			(uuid "e4086fe5-d9af-47e6-9e94-dcaf78451a57")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D12")
 					(unit 1)
@@ -16469,7 +15991,7 @@
 			(uuid "8f0cd46d-8e83-4d0a-a946-50fbc8f61fd5")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW13")
 					(unit 1)
@@ -16536,7 +16058,7 @@
 			(uuid "c23c24df-2469-4330-aaf5-10895152d71e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW14")
 					(unit 1)
@@ -16603,7 +16125,7 @@
 			(uuid "1178d305-c1b6-4d2c-82c9-ac1448b1a2f7")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW15")
 					(unit 1)
@@ -16670,7 +16192,7 @@
 			(uuid "aac4ecd1-f549-4397-aa9c-927fa8a4ba68")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW16")
 					(unit 1)
@@ -16737,7 +16259,7 @@
 			(uuid "2a76b045-cc30-429a-95bf-92d11ed82e44")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW17")
 					(unit 1)
@@ -16804,7 +16326,7 @@
 			(uuid "79a50418-f630-4dbd-9e90-2ddad0544245")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW18")
 					(unit 1)
@@ -16900,7 +16422,7 @@
 			(uuid "372d2e09-b3fe-4f4f-b96d-3d26dac3acea")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D13")
 					(unit 1)
@@ -16996,7 +16518,7 @@
 			(uuid "1286d7a8-a1d0-4fb7-997d-ccdb92b5257d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D14")
 					(unit 1)
@@ -17092,7 +16614,7 @@
 			(uuid "f56e35b0-e49d-4028-ae9e-074e03b32262")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D15")
 					(unit 1)
@@ -17188,7 +16710,7 @@
 			(uuid "ba6adeec-6997-4692-bab7-de50ddf075bb")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D16")
 					(unit 1)
@@ -17284,7 +16806,7 @@
 			(uuid "5c4496cd-0241-4c76-a5dc-f46f7bd2374a")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D17")
 					(unit 1)
@@ -17380,7 +16902,7 @@
 			(uuid "9621439f-e726-4594-b098-ca56ea6ebea0")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D18")
 					(unit 1)
@@ -17447,7 +16969,7 @@
 			(uuid "f030d1bf-65ca-43a4-940b-1ffb386c41e3")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW21")
 					(unit 1)
@@ -17514,7 +17036,7 @@
 			(uuid "bdc7cc6c-e4df-4d6e-85d7-7de688953979")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW22")
 					(unit 1)
@@ -17581,7 +17103,7 @@
 			(uuid "c0d701a0-f0e0-4aaa-acb8-de0c8c959f84")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW23")
 					(unit 1)
@@ -17648,7 +17170,7 @@
 			(uuid "5440af6b-33a8-4441-8aa2-9acc04a1c02e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW24")
 					(unit 1)
@@ -17715,7 +17237,7 @@
 			(uuid "3f18c604-5455-42d3-a43b-4f7ac3c71d41")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW20")
 					(unit 1)
@@ -17782,7 +17304,7 @@
 			(uuid "7c1d93ca-e0a7-4850-97ae-664f59d9398b")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW19")
 					(unit 1)
@@ -17878,7 +17400,7 @@
 			(uuid "f8233ae8-ce32-4a67-b380-d8dbc198c53e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D19")
 					(unit 1)
@@ -17974,7 +17496,7 @@
 			(uuid "94684941-c826-468d-8fc2-95d5a920467f")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D20")
 					(unit 1)
@@ -18070,7 +17592,7 @@
 			(uuid "040012b9-1b7f-4e76-8e87-aec161cff085")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D21")
 					(unit 1)
@@ -18166,7 +17688,7 @@
 			(uuid "ea80bedf-fac8-43e4-983c-f1606bc1b426")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D22")
 					(unit 1)
@@ -18262,7 +17784,7 @@
 			(uuid "0f7776a2-06e6-4035-ab8e-08a1df7992e0")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D23")
 					(unit 1)
@@ -18358,7 +17880,7 @@
 			(uuid "9a8194eb-430f-4c3a-a321-f143af424e95")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D24")
 					(unit 1)
@@ -18425,7 +17947,7 @@
 			(uuid "5a9013a3-04df-4a2f-bff7-c93eba59a902")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW27")
 					(unit 1)
@@ -18492,7 +18014,7 @@
 			(uuid "6cd6a6f1-0193-4282-8be8-5424a1ac8f04")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW28")
 					(unit 1)
@@ -18559,7 +18081,7 @@
 			(uuid "d3aed49b-c1b9-42bb-bf0e-a9adba62a062")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW29")
 					(unit 1)
@@ -18655,7 +18177,7 @@
 			(uuid "39f8f47b-1e26-4975-b4fd-b1002648ab5b")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D25")
 					(unit 1)
@@ -18751,7 +18273,7 @@
 			(uuid "c9313fa6-0f98-4eb9-baeb-f5e40007f933")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D26")
 					(unit 1)
@@ -18847,7 +18369,7 @@
 			(uuid "25802f6b-6e02-4d39-ad78-26be0554a620")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D27")
 					(unit 1)
@@ -18943,7 +18465,7 @@
 			(uuid "a423c2ee-5932-4cba-9dd4-732935498028")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D28")
 					(unit 1)
@@ -19039,7 +18561,7 @@
 			(uuid "f8a709e2-e945-4875-9737-9ad8f7fae147")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D29")
 					(unit 1)
@@ -19104,7 +18626,7 @@
 			(uuid "4f26bff4-9961-41ac-a2ff-b91e334bf656")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR05")
 					(unit 1)
@@ -19169,7 +18691,7 @@
 			(uuid "fa897540-2322-4d3e-9656-4ba1ae36c714")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#FLG01")
 					(unit 1)
@@ -19234,7 +18756,7 @@
 			(uuid "195d4783-bcb5-4cd3-96cc-f4edb477809e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR015")
 					(unit 1)
@@ -19299,7 +18821,7 @@
 			(uuid "02994b2e-8318-4c20-b688-ee9428139320")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#FLG02")
 					(unit 1)
@@ -19360,7 +18882,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "TH2")
 					(unit 1)
@@ -19421,7 +18943,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "TH3")
 					(unit 1)
@@ -19482,7 +19004,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "TH4")
 					(unit 1)
@@ -19543,7 +19065,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "TH5")
 					(unit 1)
@@ -19604,7 +19126,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "TH1")
 					(unit 1)
@@ -19614,7 +19136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 245.11 0)
+		(at 219.71 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19622,7 +19144,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8f3218")
 		(property "Reference" "#PWR011"
-			(at 180.34 251.46 0)
+			(at 219.71 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19631,7 +19153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.467 249.5042 0)
+			(at 219.837 217.7542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19639,7 +19161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 245.11 0)
+			(at 219.71 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19648,7 +19170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 245.11 0)
+			(at 219.71 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19657,7 +19179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 245.11 0)
+			(at 219.71 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19669,7 +19191,7 @@
 			(uuid "eae5b1b2-4a82-4c2c-b657-499d40021952")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR011")
 					(unit 1)
@@ -19755,7 +19277,7 @@
 			(uuid "32c44e9a-4f54-4389-beaa-e2c42926ed4a")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "P1")
 					(unit 1)
@@ -19821,7 +19343,7 @@
 			(uuid "064e643d-ec5c-4226-9d23-61ba2f028449")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR013")
 					(unit 1)
@@ -19831,7 +19353,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 35.56 190.5 0)
+		(at 53.34 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19839,7 +19361,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005d2e8536")
 		(property "Reference" "LED1"
-			(at 36.195 184.15 0)
+			(at 53.975 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19848,7 +19370,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 36.195 196.85 0)
+			(at 53.975 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19857,7 +19379,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 36.83 198.12 0)
+			(at 54.61 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19867,7 +19389,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 38.1 200.025 0)
+			(at 55.88 205.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19877,7 +19399,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 190.5 0)
+			(at 53.34 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19898,7 +19420,7 @@
 			(uuid "2b813d2f-433c-4151-8dd8-f3f6cde04e62")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED1")
 					(unit 1)
@@ -19981,7 +19503,7 @@
 			(uuid "b082197d-2f4d-4324-b67d-6fa57e47482e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW30")
 					(unit 1)
@@ -20053,7 +19575,7 @@
 			(uuid "702f0e06-1391-4a59-945d-06cd08933cfc")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "JP3")
 					(unit 1)
@@ -20118,7 +19640,7 @@
 			(uuid "ced32538-1dd9-4c03-a6f7-672c0111f1c3")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR010")
 					(unit 1)
@@ -20214,7 +19736,7 @@
 			(uuid "c0de5b61-d537-4224-a70e-094dc4ff2089")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "D30")
 					(unit 1)
@@ -20224,7 +19746,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 105.41 135.89 0)
+		(at 171.45 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20232,7 +19754,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc31123")
 		(property "Reference" "C1"
-			(at 107.7468 134.7216 0)
+			(at 173.7868 138.5316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20241,7 +19763,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 107.7468 137.033 0)
+			(at 173.7868 140.843 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20250,7 +19772,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 135.89 0)
+			(at 171.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20259,7 +19781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 135.89 0)
+			(at 171.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20268,7 +19790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 135.89 0)
+			(at 171.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20277,7 +19799,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 105.41 135.89 0)
+			(at 171.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20292,7 +19814,7 @@
 			(uuid "0b8d9c24-737b-4849-9953-6871d411db6c")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C1")
 					(unit 1)
@@ -20302,7 +19824,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 105.41 130.81 0)
+		(at 171.45 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20310,7 +19832,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc328b0")
 		(property "Reference" "C2"
-			(at 107.7468 129.6416 0)
+			(at 173.7868 133.4516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20319,7 +19841,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 107.7468 131.953 0)
+			(at 173.7868 135.763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20328,7 +19850,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 130.81 0)
+			(at 171.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20337,7 +19859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 130.81 0)
+			(at 171.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20346,7 +19868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 130.81 0)
+			(at 171.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20355,7 +19877,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 105.41 130.81 0)
+			(at 171.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20370,7 +19892,7 @@
 			(uuid "9223e02f-8d0a-425e-9116-30717d815ac8")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C2")
 					(unit 1)
@@ -20380,7 +19902,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Switches:Rotary_Encoder_Click")
-		(at 91.44 133.35 180)
+		(at 157.48 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20388,7 +19910,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005fd9f16c")
 		(property "Reference" "SW31"
-			(at 91.44 125.73 0)
+			(at 157.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20396,7 +19918,7 @@
 			)
 		)
 		(property "Value" "Rotary_Encoder_Switch"
-			(at 91.44 123.19 0)
+			(at 157.48 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20404,7 +19926,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Encoders:Encoder_Alps_EC11E_Small"
-			(at 95.25 137.414 0)
+			(at 161.29 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20413,7 +19935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 139.954 0)
+			(at 157.48 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20422,7 +19944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 133.35 0)
+			(at 157.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20452,7 +19974,7 @@
 			(uuid "903cb5ce-f66a-4ec6-9e0b-d1a8f16f2df2")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "SW31")
 					(unit 1)
@@ -20518,7 +20040,7 @@
 			(uuid "5a961736-177a-4537-a6c3-f5c839f394f9")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR07")
 					(unit 1)
@@ -20528,7 +20050,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 133.35 90)
+		(at 184.15 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20536,7 +20058,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fff76bd")
 		(property "Reference" "#PWR01"
-			(at 124.46 133.35 0)
+			(at 190.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20545,7 +20067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.5042 133.223 0)
+			(at 188.5442 137.033 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20553,7 +20075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 133.35 0)
+			(at 184.15 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20562,7 +20084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 133.35 0)
+			(at 184.15 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20571,7 +20093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 133.35 0)
+			(at 184.15 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20583,7 +20105,7 @@
 			(uuid "654dcf85-f8ff-4085-a478-7e5e6fc37792")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR01")
 					(unit 1)
@@ -20593,7 +20115,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 55.88 190.5 0)
+		(at 73.66 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20601,7 +20123,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c56730")
 		(property "Reference" "LED2"
-			(at 56.515 184.15 0)
+			(at 74.295 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +20132,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 56.515 196.85 0)
+			(at 74.295 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20619,7 +20141,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 57.15 198.12 0)
+			(at 74.93 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20629,7 +20151,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 58.42 200.025 0)
+			(at 76.2 205.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20639,7 +20161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 190.5 0)
+			(at 73.66 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20660,7 +20182,7 @@
 			(uuid "c89fd491-becb-467f-b56a-f03d598ff739")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED2")
 					(unit 1)
@@ -20670,7 +20192,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 76.2 190.5 0)
+		(at 93.98 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20678,7 +20200,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c57351")
 		(property "Reference" "LED3"
-			(at 76.835 184.15 0)
+			(at 94.615 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20687,7 +20209,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 76.835 196.85 0)
+			(at 94.615 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20696,7 +20218,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 77.47 198.12 0)
+			(at 95.25 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20706,7 +20228,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 78.74 200.025 0)
+			(at 96.52 205.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20716,7 +20238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 190.5 0)
+			(at 93.98 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20737,7 +20259,7 @@
 			(uuid "256ea15b-8858-4372-812f-a1876e96250a")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED3")
 					(unit 1)
@@ -20747,7 +20269,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 96.52 190.5 0)
+		(at 114.3 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20755,7 +20277,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c57dc1")
 		(property "Reference" "LED4"
-			(at 97.155 184.15 0)
+			(at 114.935 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20764,7 +20286,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 97.155 196.85 0)
+			(at 114.935 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20773,7 +20295,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 97.79 198.12 0)
+			(at 115.57 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20783,7 +20305,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 99.06 200.025 0)
+			(at 116.84 205.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20793,7 +20315,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 190.5 0)
+			(at 114.3 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20814,7 +20336,7 @@
 			(uuid "ff25ee76-0924-4ed2-9f82-f8d41e8f6380")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED4")
 					(unit 1)
@@ -20824,7 +20346,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 116.84 190.5 0)
+		(at 134.62 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20832,7 +20354,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c5886c")
 		(property "Reference" "LED5"
-			(at 117.475 184.15 0)
+			(at 135.255 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20841,7 +20363,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 117.475 196.85 0)
+			(at 135.255 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20850,7 +20372,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 118.11 198.12 0)
+			(at 135.89 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20860,7 +20382,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 119.38 200.025 0)
+			(at 137.16 205.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20870,7 +20392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 190.5 0)
+			(at 134.62 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20891,7 +20413,7 @@
 			(uuid "c3341a14-6e90-4cd3-abd7-f1075701d173")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED5")
 					(unit 1)
@@ -20901,7 +20423,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 137.16 190.5 0)
+		(at 154.94 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20909,7 +20431,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c5956f")
 		(property "Reference" "LED6"
-			(at 137.795 184.15 0)
+			(at 155.575 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20918,7 +20440,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 137.795 196.85 0)
+			(at 155.575 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20927,7 +20449,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 138.43 198.12 0)
+			(at 156.21 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20937,7 +20459,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 139.7 200.025 0)
+			(at 157.48 205.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20947,7 +20469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 190.5 0)
+			(at 154.94 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20968,7 +20490,7 @@
 			(uuid "fac69820-4dc6-4ef9-a2db-3e3079e1c61b")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED6")
 					(unit 1)
@@ -20978,7 +20500,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 137.16 208.28 180)
+		(at 154.94 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20986,7 +20508,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c5a679")
 		(property "Reference" "LED12"
-			(at 136.525 214.63 0)
+			(at 154.305 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20995,7 +20517,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 136.525 201.93 0)
+			(at 154.305 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21004,7 +20526,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 135.89 200.66 0)
+			(at 153.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21014,7 +20536,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 134.62 198.755 0)
+			(at 152.4 203.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21024,7 +20546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 208.28 0)
+			(at 154.94 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21045,7 +20567,7 @@
 			(uuid "933b3c63-ea97-49d6-801d-459d47299262")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED12")
 					(unit 1)
@@ -21055,7 +20577,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 116.84 208.28 180)
+		(at 134.62 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21063,7 +20585,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c5d4ef")
 		(property "Reference" "LED11"
-			(at 116.205 214.63 0)
+			(at 133.985 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21072,7 +20594,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 116.205 201.93 0)
+			(at 133.985 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21081,7 +20603,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 115.57 200.66 0)
+			(at 133.35 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21091,7 +20613,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 114.3 198.755 0)
+			(at 132.08 203.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21101,7 +20623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 208.28 0)
+			(at 134.62 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21122,7 +20644,7 @@
 			(uuid "2eccc1ea-4105-4f7f-873e-7caaca3b3205")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED11")
 					(unit 1)
@@ -21132,7 +20654,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 96.52 208.28 180)
+		(at 114.3 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21140,7 +20662,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c5e01d")
 		(property "Reference" "LED10"
-			(at 95.885 214.63 0)
+			(at 113.665 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21149,7 +20671,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 95.885 201.93 0)
+			(at 113.665 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21158,7 +20680,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 95.25 200.66 0)
+			(at 113.03 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21168,7 +20690,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 93.98 198.755 0)
+			(at 111.76 203.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21178,7 +20700,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 208.28 0)
+			(at 114.3 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21199,7 +20721,7 @@
 			(uuid "d34759ea-be41-4920-877b-f3da226d7c5d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED10")
 					(unit 1)
@@ -21209,7 +20731,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 76.2 208.28 180)
+		(at 93.98 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21217,7 +20739,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c5ec57")
 		(property "Reference" "LED9"
-			(at 75.565 214.63 0)
+			(at 93.345 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21226,7 +20748,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 75.565 201.93 0)
+			(at 93.345 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21235,7 +20757,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 74.93 200.66 0)
+			(at 92.71 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21245,7 +20767,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 73.66 198.755 0)
+			(at 91.44 203.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21255,7 +20777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 208.28 0)
+			(at 93.98 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21276,7 +20798,7 @@
 			(uuid "1c83bd42-0034-452f-984c-359e4b56b0ac")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED9")
 					(unit 1)
@@ -21286,7 +20808,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 55.88 208.28 180)
+		(at 73.66 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21294,7 +20816,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c5f871")
 		(property "Reference" "LED8"
-			(at 55.245 214.63 0)
+			(at 73.025 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21303,7 +20825,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 55.245 201.93 0)
+			(at 73.025 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21312,7 +20834,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 54.61 200.66 0)
+			(at 72.39 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21322,7 +20844,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 53.34 198.755 0)
+			(at 71.12 203.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21332,7 +20854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 208.28 0)
+			(at 73.66 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21353,7 +20875,7 @@
 			(uuid "9c497e2c-fb11-4a31-9789-3f114eb5df67")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED8")
 					(unit 1)
@@ -21363,7 +20885,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 35.56 208.28 180)
+		(at 53.34 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21371,7 +20893,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c603ab")
 		(property "Reference" "LED7"
-			(at 34.925 214.63 0)
+			(at 52.705 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21380,7 +20902,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 34.925 201.93 0)
+			(at 52.705 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21389,7 +20911,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 34.29 200.66 0)
+			(at 52.07 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21399,7 +20921,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 33.02 198.755 0)
+			(at 50.8 203.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21409,7 +20931,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 208.28 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21430,7 +20952,7 @@
 			(uuid "d04d43a9-1b28-4db2-b9a4-cde85477ba90")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED7")
 					(unit 1)
@@ -21440,7 +20962,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 35.56 226.06 0)
+		(at 53.34 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21448,7 +20970,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c626e8")
 		(property "Reference" "LED13"
-			(at 36.195 219.71 0)
+			(at 53.975 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21457,7 +20979,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 36.195 232.41 0)
+			(at 53.975 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21466,7 +20988,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 36.83 233.68 0)
+			(at 54.61 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21476,7 +20998,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 38.1 235.585 0)
+			(at 55.88 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21486,7 +21008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 226.06 0)
+			(at 53.34 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21507,7 +21029,7 @@
 			(uuid "4683f672-4d05-4749-8404-1ed4b1e7061b")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED13")
 					(unit 1)
@@ -21517,7 +21039,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 55.88 226.06 0)
+		(at 73.66 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21525,7 +21047,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6352c")
 		(property "Reference" "LED14"
-			(at 56.515 219.71 0)
+			(at 74.295 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21534,7 +21056,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 56.515 232.41 0)
+			(at 74.295 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21543,7 +21065,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 57.15 233.68 0)
+			(at 74.93 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21553,7 +21075,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 58.42 235.585 0)
+			(at 76.2 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21563,7 +21085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 226.06 0)
+			(at 73.66 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21584,7 +21106,7 @@
 			(uuid "97144878-f11a-4230-a380-24d8be096fd8")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED14")
 					(unit 1)
@@ -21594,7 +21116,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 76.2 226.06 0)
+		(at 93.98 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21602,7 +21124,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c63fac")
 		(property "Reference" "LED15"
-			(at 76.835 219.71 0)
+			(at 94.615 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21611,7 +21133,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 76.835 232.41 0)
+			(at 94.615 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21620,7 +21142,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 77.47 233.68 0)
+			(at 95.25 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21630,7 +21152,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 78.74 235.585 0)
+			(at 96.52 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21640,7 +21162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 226.06 0)
+			(at 93.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21661,7 +21183,7 @@
 			(uuid "71e75191-94a2-41e8-bc5e-18c7e819cc86")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED15")
 					(unit 1)
@@ -21671,7 +21193,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 96.52 226.06 0)
+		(at 114.3 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21679,7 +21201,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c64bd8")
 		(property "Reference" "LED16"
-			(at 97.155 219.71 0)
+			(at 114.935 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21688,7 +21210,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 97.155 232.41 0)
+			(at 114.935 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21697,7 +21219,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 97.79 233.68 0)
+			(at 115.57 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21707,7 +21229,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 99.06 235.585 0)
+			(at 116.84 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21717,7 +21239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 226.06 0)
+			(at 114.3 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21738,7 +21260,7 @@
 			(uuid "1576052f-7341-4649-961a-6fa44acd4add")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED16")
 					(unit 1)
@@ -21748,7 +21270,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 116.84 226.06 0)
+		(at 134.62 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21756,7 +21278,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6578e")
 		(property "Reference" "LED17"
-			(at 117.475 219.71 0)
+			(at 135.255 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21765,7 +21287,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 117.475 232.41 0)
+			(at 135.255 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21774,7 +21296,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 118.11 233.68 0)
+			(at 135.89 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21784,7 +21306,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 119.38 235.585 0)
+			(at 137.16 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21794,7 +21316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 226.06 0)
+			(at 134.62 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21815,7 +21337,7 @@
 			(uuid "06d2d69f-d8bf-4375-b5cb-db5a5577fb80")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED17")
 					(unit 1)
@@ -21825,7 +21347,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 137.16 226.06 0)
+		(at 154.94 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21833,7 +21355,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c663f8")
 		(property "Reference" "LED18"
-			(at 137.795 219.71 0)
+			(at 155.575 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21842,7 +21364,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 137.795 232.41 0)
+			(at 155.575 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21851,7 +21373,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 138.43 233.68 0)
+			(at 156.21 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21861,7 +21383,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 139.7 235.585 0)
+			(at 157.48 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21871,7 +21393,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 226.06 0)
+			(at 154.94 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21892,7 +21414,7 @@
 			(uuid "d1305d5a-0506-4cb9-b1de-6e38cfd9f043")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED18")
 					(unit 1)
@@ -21902,7 +21424,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 137.16 243.84 180)
+		(at 154.94 248.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21910,7 +21432,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6871a")
 		(property "Reference" "LED24"
-			(at 136.525 250.19 0)
+			(at 154.305 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21919,7 +21441,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 136.525 237.49 0)
+			(at 154.305 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21928,7 +21450,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 135.89 236.22 0)
+			(at 153.67 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21938,7 +21460,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 134.62 234.315 0)
+			(at 152.4 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21948,7 +21470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 243.84 0)
+			(at 154.94 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21969,7 +21491,7 @@
 			(uuid "47b4be20-4ecc-4148-ac4d-6e6891663eca")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED24")
 					(unit 1)
@@ -21979,7 +21501,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 116.84 243.84 180)
+		(at 134.62 248.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21987,7 +21509,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6943e")
 		(property "Reference" "LED23"
-			(at 116.205 250.19 0)
+			(at 133.985 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21996,7 +21518,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 116.205 237.49 0)
+			(at 133.985 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22005,7 +21527,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 115.57 236.22 0)
+			(at 133.35 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22015,7 +21537,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 114.3 234.315 0)
+			(at 132.08 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22025,7 +21547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 243.84 0)
+			(at 134.62 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22046,7 +21568,7 @@
 			(uuid "2d2bc278-0858-4a75-bea7-9fb301140b3e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED23")
 					(unit 1)
@@ -22056,7 +21578,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 96.52 243.84 180)
+		(at 114.3 248.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22064,7 +21586,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c69ec0")
 		(property "Reference" "LED22"
-			(at 95.885 250.19 0)
+			(at 113.665 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22073,7 +21595,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 95.885 237.49 0)
+			(at 113.665 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22082,7 +21604,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 95.25 236.22 0)
+			(at 113.03 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22092,7 +21614,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 93.98 234.315 0)
+			(at 111.76 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22102,7 +21624,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 243.84 0)
+			(at 114.3 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22123,7 +21645,7 @@
 			(uuid "1cc92eb5-0944-4516-b2fd-595f7795a98a")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED22")
 					(unit 1)
@@ -22133,7 +21655,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 76.2 243.84 180)
+		(at 93.98 248.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22141,7 +21663,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6ab94")
 		(property "Reference" "LED21"
-			(at 75.565 250.19 0)
+			(at 93.345 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22150,7 +21672,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 75.565 237.49 0)
+			(at 93.345 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22159,7 +21681,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 74.93 236.22 0)
+			(at 92.71 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22169,7 +21691,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 73.66 234.315 0)
+			(at 91.44 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22179,7 +21701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 243.84 0)
+			(at 93.98 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22200,7 +21722,7 @@
 			(uuid "4b93dd36-5ccb-4130-8cea-d6f6cee7f062")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED21")
 					(unit 1)
@@ -22210,7 +21732,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 55.88 243.84 180)
+		(at 73.66 248.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22218,7 +21740,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6b696")
 		(property "Reference" "LED20"
-			(at 55.245 250.19 0)
+			(at 73.025 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22227,7 +21749,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 55.245 237.49 0)
+			(at 73.025 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22236,7 +21758,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 54.61 236.22 0)
+			(at 72.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22246,7 +21768,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 53.34 234.315 0)
+			(at 71.12 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22256,7 +21778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 243.84 0)
+			(at 73.66 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22277,7 +21799,7 @@
 			(uuid "7fdb7495-883d-4f65-8d5c-ea6abbcf2fa7")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED20")
 					(unit 1)
@@ -22287,7 +21809,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 35.56 243.84 180)
+		(at 53.34 248.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22295,7 +21817,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6c3e4")
 		(property "Reference" "LED19"
-			(at 34.925 250.19 0)
+			(at 52.705 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22304,7 +21826,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 34.925 237.49 0)
+			(at 52.705 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22313,7 +21835,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 34.29 236.22 0)
+			(at 52.07 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22323,7 +21845,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 33.02 234.315 0)
+			(at 50.8 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22333,7 +21855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 243.84 0)
+			(at 53.34 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22354,7 +21876,7 @@
 			(uuid "197ee073-8df2-40ec-bccc-00e85fb1ca6e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED19")
 					(unit 1)
@@ -22364,7 +21886,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 35.56 261.62 0)
+		(at 53.34 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22372,7 +21894,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6e474")
 		(property "Reference" "LED25"
-			(at 36.195 255.27 0)
+			(at 53.975 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22381,7 +21903,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 36.195 267.97 0)
+			(at 53.975 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22390,7 +21912,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 36.83 269.24 0)
+			(at 54.61 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22400,7 +21922,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 38.1 271.145 0)
+			(at 55.88 276.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22410,7 +21932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 261.62 0)
+			(at 53.34 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22431,7 +21953,7 @@
 			(uuid "0921b09f-b713-4233-9a1b-9196bdd42a5f")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED25")
 					(unit 1)
@@ -22441,7 +21963,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 55.88 261.62 0)
+		(at 73.66 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22449,7 +21971,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c6f65a")
 		(property "Reference" "LED26"
-			(at 56.515 255.27 0)
+			(at 74.295 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22458,7 +21980,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 56.515 267.97 0)
+			(at 74.295 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22467,7 +21989,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 57.15 269.24 0)
+			(at 74.93 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22477,7 +21999,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 58.42 271.145 0)
+			(at 76.2 276.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22487,7 +22009,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 261.62 0)
+			(at 73.66 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22508,7 +22030,7 @@
 			(uuid "84cf4453-2e8f-4291-a518-c15e255d2112")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED26")
 					(unit 1)
@@ -22518,7 +22040,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 76.2 261.62 0)
+		(at 93.98 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22526,7 +22048,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c704e3")
 		(property "Reference" "LED27"
-			(at 76.835 255.27 0)
+			(at 94.615 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22535,7 +22057,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 76.835 267.97 0)
+			(at 94.615 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22544,7 +22066,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 77.47 269.24 0)
+			(at 95.25 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,7 +22076,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 78.74 271.145 0)
+			(at 96.52 276.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22564,7 +22086,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 261.62 0)
+			(at 93.98 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22585,7 +22107,7 @@
 			(uuid "44681856-3c12-4f6b-a588-b0d5e9243d70")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED27")
 					(unit 1)
@@ -22595,7 +22117,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 96.52 261.62 0)
+		(at 114.3 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22603,7 +22125,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c71295")
 		(property "Reference" "LED28"
-			(at 97.155 255.27 0)
+			(at 114.935 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22612,7 +22134,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 97.155 267.97 0)
+			(at 114.935 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22621,7 +22143,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 97.79 269.24 0)
+			(at 115.57 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22631,7 +22153,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 99.06 271.145 0)
+			(at 116.84 276.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22641,7 +22163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 261.62 0)
+			(at 114.3 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22662,7 +22184,7 @@
 			(uuid "2052f0e6-2be5-4448-8bdb-ca816b0c14f9")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED28")
 					(unit 1)
@@ -22672,7 +22194,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 116.84 261.62 0)
+		(at 134.62 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22680,7 +22202,7 @@
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061c7203d")
 		(property "Reference" "LED29"
-			(at 117.475 255.27 0)
+			(at 135.255 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22689,7 +22211,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 117.475 267.97 0)
+			(at 135.255 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22698,7 +22220,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
-			(at 118.11 269.24 0)
+			(at 135.89 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22708,7 +22230,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 119.38 271.145 0)
+			(at 137.16 276.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22718,7 +22240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 261.62 0)
+			(at 134.62 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22739,7 +22261,7 @@
 			(uuid "710c87df-58cf-4d1c-ad64-932a210b6aae")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED29")
 					(unit 1)
@@ -22749,7 +22271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 118.11 90)
+		(at 158.75 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22757,7 +22279,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000621ceed4")
 		(property "Reference" "#PWR0107"
-			(at 99.06 118.11 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22766,7 +22288,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.1042 117.983 0)
+			(at 163.1442 121.793 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22774,7 +22296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 118.11 0)
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22783,7 +22305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 118.11 0)
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22792,7 +22314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 118.11 0)
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22804,7 +22326,7 @@
 			(uuid "bda3cc4b-7e03-47d1-970e-3b00994fb206")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR0107")
 					(unit 1)
@@ -22870,7 +22392,7 @@
 			(uuid "bf694f32-000a-4848-8c3b-4d87484f6de7")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR0108")
 					(unit 1)
@@ -22950,7 +22472,7 @@
 			(uuid "a6c44bd7-1fab-49e8-843b-ff7982d67efe")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C3")
 					(unit 1)
@@ -23030,7 +22552,7 @@
 			(uuid "e4eadf81-e34e-48f2-a9bf-a6425c6da862")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "RES2")
 					(unit 1)
@@ -23096,7 +22618,7 @@
 			(uuid "86981632-eae0-4322-b2df-fe986445d25f")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR036")
 					(unit 1)
@@ -23162,7 +22684,7 @@
 			(uuid "c986a14e-2450-4348-8865-240de41be436")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR08")
 					(unit 1)
@@ -23228,7 +22750,7 @@
 			(uuid "1b6ec5da-9a58-44b2-b58a-a313fde495e8")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR016")
 					(unit 1)
@@ -23290,7 +22812,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "Logo3")
 					(unit 1)
@@ -23356,7 +22878,7 @@
 			(uuid "7adaa8cf-91e4-4b03-ba1a-2141ad4d0ba0")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR019")
 					(unit 1)
@@ -23366,7 +22888,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 96.52 163.83 0)
+		(at 114.3 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23374,7 +22896,7 @@
 		(dnp yes)
 		(uuid "0f8bfbbc-983f-40a4-89e0-e863e0346660")
 		(property "Reference" "LED33"
-			(at 97.155 157.48 0)
+			(at 114.935 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23383,7 +22905,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 97.155 170.18 0)
+			(at 114.935 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23392,7 +22914,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_special_v2"
-			(at 97.79 171.45 0)
+			(at 115.57 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23402,7 +22924,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 99.06 173.355 0)
+			(at 116.84 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23412,7 +22934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 163.83 0)
+			(at 114.3 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23433,7 +22955,7 @@
 			(uuid "0e12ed5f-6139-48c8-8624-16ed054f793e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED33")
 					(unit 1)
@@ -23677,7 +23199,7 @@
 			(uuid "ee8f05a8-0c2e-4cf1-9535-31e23aa2c7f2")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "U4")
 					(unit 1)
@@ -23687,7 +23209,7 @@
 	)
 	(symbol
 		(lib_id "LCSC Parts:Ferrite Bead")
-		(at 176.53 243.84 90)
+		(at 215.9 212.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23696,7 +23218,7 @@
 		(fields_autoplaced yes)
 		(uuid "16c1ccfd-7fb6-467e-8188-33b1c08f3742")
 		(property "Reference" "FB4"
-			(at 176.4919 237.49 90)
+			(at 215.8619 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23704,7 +23226,7 @@
 			)
 		)
 		(property "Value" "BLM18SG700TZ1D"
-			(at 176.4919 240.03 90)
+			(at 215.8619 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23712,7 +23234,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 176.53 245.618 90)
+			(at 215.9 213.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23721,7 +23243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 243.84 0)
+			(at 215.9 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23730,7 +23252,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 243.84 0)
+			(at 215.9 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23739,7 +23261,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 176.53 243.84 0)
+			(at 215.9 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23754,7 +23276,7 @@
 			(uuid "e01ed49f-7fb8-4555-a443-25c82e94ecc1")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "FB4")
 					(unit 1)
@@ -23831,7 +23353,7 @@
 			(uuid "1128df21-5349-4aa2-b726-2b36dd7bb7a3")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R8")
 					(unit 1)
@@ -23910,7 +23432,7 @@
 			(uuid "e159a412-ed11-4d63-80dc-4b964e1c9d87")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "RES1")
 					(unit 1)
@@ -23989,7 +23511,7 @@
 			(uuid "103d8ea8-7815-457f-8e5a-40107b63d2eb")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C11")
 					(unit 1)
@@ -23999,7 +23521,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 34.29 163.83 0)
+		(at 52.07 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24007,7 +23529,7 @@
 		(dnp yes)
 		(uuid "1cd5d5c6-5ed3-448a-80c9-5b5cfcbaef97")
 		(property "Reference" "LED30"
-			(at 34.925 157.48 0)
+			(at 52.705 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24016,7 +23538,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 34.925 170.18 0)
+			(at 52.705 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24025,7 +23547,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_special_v2"
-			(at 35.56 171.45 0)
+			(at 53.34 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24035,7 +23557,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 36.83 173.355 0)
+			(at 54.61 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24045,7 +23567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 163.83 0)
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24066,7 +23588,7 @@
 			(uuid "8cbd01ba-c720-47b2-ba99-a614963c37d2")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED30")
 					(unit 1)
@@ -24143,7 +23665,7 @@
 			(uuid "d2729691-e2d4-4062-ae0a-4c97a5042a40")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "FB2")
 					(unit 1)
@@ -24152,81 +23674,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
-		(at 151.13 267.97 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1db618cc-1665-42f8-8bca-b52e6531c23d")
-		(property "Reference" "Q2"
-			(at 149.8599 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n2007"
-			(at 152.3999 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 148.59 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 151.13 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e05a1d25-0ba3-42e8-95f5-1a517eea71f7")
-		)
-		(pin "1"
-			(uuid "c3b63cdc-3661-4386-aad7-9bd401d0fbc6")
-		)
-		(pin "2"
-			(uuid "30426e73-4cc5-4d4f-aca0-aa4897259b52")
-		)
-		(instances
-			(project "Lotus58_RP2040_100"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 172.72 243.84 0)
+		(at 212.09 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24235,7 +23684,7 @@
 		(fields_autoplaced yes)
 		(uuid "1de13602-39a4-464b-a9fb-91c6c10c660f")
 		(property "Reference" "#PWR03"
-			(at 172.72 254 0)
+			(at 212.09 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24244,7 +23693,7 @@
 			)
 		)
 		(property "Value" "Earth_Protective"
-			(at 172.72 252.73 0)
+			(at 212.09 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24252,7 +23701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 246.38 0)
+			(at 212.09 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24261,7 +23710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 246.38 0)
+			(at 212.09 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24270,7 +23719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 172.72 243.84 0)
+			(at 212.09 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24282,7 +23731,7 @@
 			(uuid "82c72ef4-4977-4c5b-89ba-892c1533353b")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR03")
 					(unit 1)
@@ -24348,7 +23797,7 @@
 			(uuid "04b3ca35-a93f-4f02-aa38-fd4dfa43b54c")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR023")
 					(unit 1)
@@ -24414,7 +23863,7 @@
 			(uuid "1bb74ac0-3015-4b5d-8570-84f856794f75")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR046")
 					(unit 1)
@@ -24480,7 +23929,7 @@
 			(uuid "270d9255-c6df-4afe-b6bc-57cb8a1eb1c1")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR038")
 					(unit 1)
@@ -24546,7 +23995,7 @@
 			(uuid "a5854591-eba5-40f8-9182-6710e84b7ecc")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR047")
 					(unit 1)
@@ -24612,7 +24061,7 @@
 			(uuid "8f01889b-58e8-4813-92e6-aecb703b6978")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR037")
 					(unit 1)
@@ -24689,7 +24138,7 @@
 			(uuid "94004c9c-032d-4518-afed-2d810b18b421")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "FB3")
 					(unit 1)
@@ -24757,7 +24206,7 @@
 			(uuid "61c9bcd4-3571-4a4f-b19a-0ee00b2b0258")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "JP1")
 					(unit 1)
@@ -24823,7 +24272,7 @@
 			(uuid "d824d679-294d-463f-aea6-a983b40daa85")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR045")
 					(unit 1)
@@ -24833,7 +24282,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:SRV05-4")
-		(at 187.96 148.59 0)
+		(at 213.36 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24842,7 +24291,7 @@
 		(fields_autoplaced yes)
 		(uuid "38f6fff5-123d-48e5-a109-fe6620bb0c5b")
 		(property "Reference" "U2"
-			(at 190.9765 133.35 0)
+			(at 216.3765 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24851,7 +24300,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 190.9765 135.89 0)
+			(at 216.3765 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24860,7 +24309,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 205.74 160.02 0)
+			(at 231.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24869,7 +24318,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 187.96 148.59 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24878,7 +24327,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-			(at 187.96 148.59 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24887,7 +24336,7 @@
 			)
 		)
 		(property "LCSC" "C7420376"
-			(at 187.96 148.59 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24914,7 +24363,7 @@
 			(uuid "912e5e2e-7387-41f5-b55f-5f6a14f1e609")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "U2")
 					(unit 1)
@@ -24980,7 +24429,7 @@
 			(uuid "1fd744aa-2d82-4d83-8453-41c84617bde8")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR040")
 					(unit 1)
@@ -25047,7 +24496,7 @@
 			(uuid "f230c726-aec7-411c-99ac-3e3d9da7e9d5")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR025")
 					(unit 1)
@@ -25113,7 +24562,7 @@
 			(uuid "84cfb90a-b798-4a72-9bde-8250c188d721")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR042")
 					(unit 1)
@@ -25199,7 +24648,7 @@
 			(uuid "ffaf6b43-5b18-4982-a098-ceeed4185367")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "U5")
 					(unit 1)
@@ -25278,7 +24727,7 @@
 			(uuid "15b75c0d-f385-489f-a599-676d6991884a")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C10")
 					(unit 1)
@@ -25288,7 +24737,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 55.88 163.83 0)
+		(at 73.66 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25296,7 +24745,7 @@
 		(dnp yes)
 		(uuid "4b5cc9c4-e146-442b-928c-b397ebc20215")
 		(property "Reference" "LED31"
-			(at 56.515 157.48 0)
+			(at 74.295 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25305,7 +24754,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 56.515 170.18 0)
+			(at 74.295 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25314,7 +24763,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_special_v2"
-			(at 57.15 171.45 0)
+			(at 74.93 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25324,7 +24773,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 58.42 173.355 0)
+			(at 76.2 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25334,7 +24783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 163.83 0)
+			(at 73.66 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25355,7 +24804,7 @@
 			(uuid "034e7c23-4547-4499-8dc9-8ebd76294031")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED31")
 					(unit 1)
@@ -25421,7 +24870,7 @@
 			(uuid "ae3791ea-0c4f-4929-8bc6-98581f9903cc")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR028")
 					(unit 1)
@@ -25431,7 +24880,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 240.03 212.09 0)
+		(at 213.36 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25440,7 +24889,7 @@
 		(fields_autoplaced yes)
 		(uuid "576c7482-2277-4016-b03f-51d54e52b38b")
 		(property "Reference" "#PWR043"
-			(at 240.03 215.9 0)
+			(at 213.36 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25449,7 +24898,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 240.03 207.01 0)
+			(at 213.36 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25457,7 +24906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 212.09 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25466,7 +24915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 212.09 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25475,7 +24924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 240.03 212.09 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25487,7 +24936,7 @@
 			(uuid "a0824543-031c-459e-808b-e45d588e1fc6")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR043")
 					(unit 1)
@@ -25564,7 +25013,7 @@
 			(uuid "1aa6f8d8-5eb4-413a-a7b2-693fd7278506")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C5")
 					(unit 1)
@@ -25641,7 +25090,7 @@
 			(uuid "381d5e9e-5637-4a25-9394-d86b022d5f43")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "ZD1")
 					(unit 1)
@@ -25707,9 +25156,74 @@
 			(uuid "6da2887c-8e8d-4412-ba25-d8c68d2e1f35")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e9ebc82-01f3-406f-a581-7f012325a734")
+		(property "Reference" "#PWR049"
+			(at 43.18 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.307 279.9842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2a7fcd9-3f40-409d-885e-9eacbe945727")
+		)
+		(instances
+			(project "Lotus58_EZ_100"
+				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -25784,7 +25298,7 @@
 			(uuid "9dba3d39-5512-4c29-91ea-89ce741b7fbe")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R1")
 					(unit 1)
@@ -25845,7 +25359,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "Logo2")
 					(unit 1)
@@ -25924,7 +25438,7 @@
 			(uuid "2d096ed0-4da7-4038-8930-2f977ad3be9c")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R2")
 					(unit 1)
@@ -26001,7 +25515,7 @@
 			(uuid "c3e2d5e8-5f86-41eb-a1ad-6e8b3ca3666d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R3")
 					(unit 1)
@@ -26011,7 +25525,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 237.49 0)
+		(at 213.36 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26019,7 +25533,7 @@
 		(dnp no)
 		(uuid "67cdbf6d-f3ad-4f7b-b059-43c5f6577818")
 		(property "Reference" "#PWR048"
-			(at 240.03 243.84 0)
+			(at 213.36 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26028,7 +25542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.157 241.8842 0)
+			(at 213.487 69.1642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26036,7 +25550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 237.49 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26045,7 +25559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 237.49 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26054,7 +25568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 237.49 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26066,7 +25580,7 @@
 			(uuid "1bb302e4-012a-4563-b5f6-13cb93801b29")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR048")
 					(unit 1)
@@ -26143,7 +25657,7 @@
 			(uuid "38075481-7d78-45f2-a15e-04eec572def8")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R7")
 					(unit 1)
@@ -26209,7 +25723,7 @@
 			(uuid "bceb8308-ea33-466b-b63a-776be5c81174")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR022")
 					(unit 1)
@@ -26275,7 +25789,7 @@
 			(uuid "191ed12a-2949-4c3b-a314-87883a8c361e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR039")
 					(unit 1)
@@ -26341,7 +25855,7 @@
 			(uuid "dbb17889-4e70-45a1-bebb-bb1ce1bdae27")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR041")
 					(unit 1)
@@ -26351,7 +25865,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 161.29 0)
+		(at 213.36 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26359,7 +25873,7 @@
 		(dnp no)
 		(uuid "721b3709-4b6e-4b1f-8e7e-a63301ef205c")
 		(property "Reference" "#PWR0110"
-			(at 187.96 167.64 0)
+			(at 213.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26368,7 +25882,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 188.087 165.6842 0)
+			(at 213.487 112.3442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26376,7 +25890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 161.29 0)
+			(at 213.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26385,7 +25899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 161.29 0)
+			(at 213.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26394,7 +25908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 161.29 0)
+			(at 213.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26406,7 +25920,7 @@
 			(uuid "8da7a6a8-0110-48f0-8c83-5afa00b61ca0")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR0110")
 					(unit 1)
@@ -26472,7 +25986,7 @@
 			(uuid "5a8965b0-0e56-4954-9e1e-69d23d574d3d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR02")
 					(unit 1)
@@ -26551,7 +26065,7 @@
 			(uuid "d2eba0d8-12f8-4aec-a8e8-893c9db08a38")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C14")
 					(unit 1)
@@ -26617,7 +26131,7 @@
 			(uuid "4b9add98-103e-4b82-a679-426fb0274927")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR030")
 					(unit 1)
@@ -26704,7 +26218,7 @@
 			(uuid "779a1bca-73b6-431c-b2a7-2f8a74aed665")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "U6")
 					(unit 1)
@@ -26783,7 +26297,7 @@
 			(uuid "c1426603-96c3-47ab-bfd2-903c5fc63ada")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C17")
 					(unit 1)
@@ -26849,7 +26363,7 @@
 			(uuid "91a3bcf8-7047-4484-b708-ab78aa5847e8")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR020")
 					(unit 1)
@@ -26947,7 +26461,7 @@
 			(uuid "a78b9ad9-b1d4-4a23-b512-0e50b8c6d973")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "U3")
 					(unit 1)
@@ -27012,7 +26526,7 @@
 			(uuid "1661b8ad-36b1-4f81-af2d-82f4e9fdcd7a")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR026")
 					(unit 1)
@@ -27092,7 +26606,7 @@
 			(uuid "b95b5738-4ed7-4d3a-99a5-8a1b75c2b47d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R6")
 					(unit 1)
@@ -27102,7 +26616,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 137.16 163.83 0)
+		(at 154.94 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27110,7 +26624,7 @@
 		(dnp yes)
 		(uuid "8e4f362a-390d-429f-b74b-e39932c96a91")
 		(property "Reference" "LED35"
-			(at 137.795 157.48 0)
+			(at 155.575 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27119,7 +26633,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 137.795 170.18 0)
+			(at 155.575 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27128,7 +26642,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_special_v2"
-			(at 138.43 171.45 0)
+			(at 156.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27138,7 +26652,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 139.7 173.355 0)
+			(at 157.48 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27148,7 +26662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 163.83 0)
+			(at 154.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27169,7 +26683,7 @@
 			(uuid "2b07506e-a720-41d6-98ef-15f0af1cb5d3")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED35")
 					(unit 1)
@@ -27178,74 +26692,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 270.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fa0b146-0a8a-457a-a4c5-7eaf1cfa9d10")
-		(property "Reference" "#PWR050"
-			(at 182.88 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 270.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aabb296f-4ee5-4b3e-94c1-5d5564ba16c7")
-		)
-		(instances
-			(project "Lotus58_RP2040_100"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 25.4 156.21 90)
+		(at 40.64 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27254,7 +26702,7 @@
 		(fields_autoplaced yes)
 		(uuid "90c78d39-bc2c-4e59-961e-0d29bc08aa5a")
 		(property "Reference" "#PWR04"
-			(at 29.21 156.21 0)
+			(at 44.45 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27263,7 +26711,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 21.59 156.2099 90)
+			(at 36.83 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27272,7 +26720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 156.21 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27281,7 +26729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 156.21 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27290,7 +26738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 156.21 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27302,7 +26750,7 @@
 			(uuid "f198e18e-75b7-4464-89cc-eb7238052477")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR04")
 					(unit 1)
@@ -27381,7 +26829,7 @@
 			(uuid "253110f1-fe4c-4723-bac5-a71f21f3b193")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R10")
 					(unit 1)
@@ -27448,7 +26896,7 @@
 			(uuid "7839ad5e-12ca-4227-8859-dc0e8da7c9ea")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR09")
 					(unit 1)
@@ -27514,7 +26962,7 @@
 			(uuid "f2f3f112-8e55-4a23-babf-c409902e03fc")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR021")
 					(unit 1)
@@ -27580,7 +27028,7 @@
 			(uuid "bebc67a4-8f10-483f-b708-dbad0d1e73ea")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR017")
 					(unit 1)
@@ -27659,7 +27107,7 @@
 			(uuid "4b683ae7-dc54-43ba-b439-d04d851c66eb")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C8")
 					(unit 1)
@@ -27738,7 +27186,7 @@
 			(uuid "9e644a61-20c0-40ba-b861-c679c60f52ab")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R9")
 					(unit 1)
@@ -27817,7 +27265,7 @@
 			(uuid "8900a8a3-b190-428a-8fb5-d54618721cf3")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R11")
 					(unit 1)
@@ -27883,7 +27331,7 @@
 			(uuid "84a50686-80ee-4ae5-917a-b452ada03f4d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR035")
 					(unit 1)
@@ -27893,7 +27341,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:SRV05-4")
-		(at 240.03 224.79 0)
+		(at 213.36 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27902,7 +27350,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4d74555-3340-4385-977b-ff82411c480f")
 		(property "Reference" "U1"
-			(at 243.0465 209.55 0)
+			(at 216.3765 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27911,7 +27359,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 243.0465 212.09 0)
+			(at 216.3765 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27920,7 +27368,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 257.81 236.22 0)
+			(at 231.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27929,7 +27377,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 240.03 224.79 0)
+			(at 213.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27938,7 +27386,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-			(at 240.03 224.79 0)
+			(at 213.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27947,7 +27395,7 @@
 			)
 		)
 		(property "LCSC" "C7420376"
-			(at 240.03 224.79 0)
+			(at 213.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27974,7 +27422,7 @@
 			(uuid "4485fb62-7762-497c-958a-7db0d35ced8f")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "U1")
 					(unit 1)
@@ -28053,7 +27501,7 @@
 			(uuid "2fd78349-4f56-41c4-9c2e-5c3cb5cbadd8")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C18")
 					(unit 1)
@@ -28118,7 +27566,7 @@
 			(uuid "dd9b6328-4e10-4b43-9482-16799aad2f64")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR06")
 					(unit 1)
@@ -28197,7 +27645,7 @@
 			(uuid "b88aa573-1aee-4cf6-8a0d-61be30655c28")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "F1")
 					(unit 1)
@@ -28207,7 +27655,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 116.84 163.83 0)
+		(at 134.62 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28215,7 +27663,7 @@
 		(dnp yes)
 		(uuid "b0305e70-b36e-4fe0-8a90-208cfae0048c")
 		(property "Reference" "LED34"
-			(at 117.475 157.48 0)
+			(at 135.255 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28224,7 +27672,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 117.475 170.18 0)
+			(at 135.255 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28233,7 +27681,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_special_v2"
-			(at 118.11 171.45 0)
+			(at 135.89 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28243,7 +27691,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 119.38 173.355 0)
+			(at 137.16 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28253,7 +27701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 163.83 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28274,7 +27722,7 @@
 			(uuid "547b8c8a-2f2f-46a5-aeab-7ddbd8653cc5")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED34")
 					(unit 1)
@@ -28283,74 +27731,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 173.99 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1095ea0-8465-405f-9b86-0ecececdb6a8")
-		(property "Reference" "#PWR049"
-			(at 180.34 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbdc63ee-82ff-4330-a913-a7cbff96fb06")
-		)
-		(instances
-			(project "Lotus58_RP2040_100"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0")
-		(at 180.34 215.9 0)
+		(at 219.71 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28359,7 +27741,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2607c73-09d4-4365-b609-db983edc4d0a")
 		(property "Reference" "J3"
-			(at 180.34 193.802 0)
+			(at 219.71 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28367,7 +27749,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 180.34 196.342 0)
+			(at 219.71 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28375,7 +27757,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard Common:Molex-216990_GCT-USB45xx_HRO-TYPE-C-31-M-13x-PiMicro"
-			(at 184.15 215.9 0)
+			(at 223.52 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28384,7 +27766,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 184.15 215.9 0)
+			(at 223.52 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28393,7 +27775,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 215.9 0)
+			(at 219.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28402,7 +27784,7 @@
 			)
 		)
 		(property "LCSC" "C963373"
-			(at 180.34 215.9 0)
+			(at 219.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28462,7 +27844,7 @@
 			(uuid "409a70c5-48db-4ab6-a582-36b3d1ea1c1e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "J3")
 					(unit 1)
@@ -28528,7 +27910,7 @@
 			(uuid "13f752a9-dcc9-41e9-bca1-20ca9ccfd270")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR029")
 					(unit 1)
@@ -28538,7 +27920,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 217.17 200.66 0)
+		(at 256.54 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28547,7 +27929,7 @@
 		(fields_autoplaced yes)
 		(uuid "b34a7c10-6004-405d-85a7-8431cebf6705")
 		(property "Reference" "#PWR012"
-			(at 217.17 204.47 0)
+			(at 256.54 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28556,7 +27938,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 217.17 195.58 0)
+			(at 256.54 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28564,7 +27946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 200.66 0)
+			(at 256.54 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28573,7 +27955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 200.66 0)
+			(at 256.54 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28582,7 +27964,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 217.17 200.66 0)
+			(at 256.54 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28594,7 +27976,7 @@
 			(uuid "37923f4e-a5c6-4120-a1ff-9ddb12276d8c")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR012")
 					(unit 1)
@@ -28671,7 +28053,7 @@
 			(uuid "59e9735a-2a37-4ad9-960e-ca711c0323ef")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R5")
 					(unit 1)
@@ -28737,7 +28119,7 @@
 			(uuid "ccba17a1-7c6a-4aa6-8ebf-b9973ab8f995")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR044")
 					(unit 1)
@@ -28815,7 +28197,7 @@
 			(uuid "ffc766e5-84fe-4bf1-91a7-169e3c798a71")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R4")
 					(unit 1)
@@ -28894,7 +28276,7 @@
 			(uuid "72a2c040-f421-452d-ae3a-ef2498b1328c")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C12")
 					(unit 1)
@@ -28973,7 +28355,7 @@
 			(uuid "d407a555-48b7-4fca-bec8-86550fe6810d")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C7")
 					(unit 1)
@@ -29039,82 +28421,9 @@
 			(uuid "2f69f89e-35e5-411b-8dac-be1451de2d49")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
-		(at 168.91 168.91 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c497e617-c781-41db-bf34-bd658445acb8")
-		(property "Reference" "Q1"
-			(at 167.6399 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n2007"
-			(at 170.1799 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 166.37 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 168.91 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "097e951c-5416-4c99-89c0-f66dfde672e2")
-		)
-		(pin "1"
-			(uuid "018e9595-72dd-447c-af67-b72168288830")
-		)
-		(pin "2"
-			(uuid "89b1f5ba-553a-4a98-9a20-e5a687ce83d9")
-		)
-		(instances
-			(project "Lotus58_RP2040_100"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -29191,9 +28500,74 @@
 			(uuid "64e5342f-a488-40d1-ad77-0ba6ffb0d8a1")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c97ac606-1d17-459f-b9c1-513ded308c7e")
+		(property "Reference" "#PWR024"
+			(at 41.91 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 42.037 180.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14408c84-fc1d-4527-bdb6-4aaaedb73544")
+		)
+		(instances
+			(project "Lotus58_EZ_100"
+				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -29257,7 +28631,7 @@
 			(uuid "68f8309f-c616-41f1-bef8-78a2db431490")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR027")
 					(unit 1)
@@ -29351,7 +28725,7 @@
 			(uuid "103756e6-1bea-4986-a85c-8a2bb8faa8bb")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "Y1")
 					(unit 1)
@@ -29428,7 +28802,7 @@
 			(uuid "56f5a330-7d78-42a9-b994-4097c07c78be")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C4")
 					(unit 1)
@@ -29494,7 +28868,7 @@
 			(uuid "f8d53dde-7498-433f-a520-35977fd0c1c5")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR033")
 					(unit 1)
@@ -29616,7 +28990,7 @@
 			(uuid "459c86a7-375d-4363-ba3c-a104d60ed3c0")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "J1")
 					(unit 1)
@@ -29626,7 +29000,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard Common:SK6812MINI-E")
-		(at 76.2 163.83 0)
+		(at 93.98 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29634,7 +29008,7 @@
 		(dnp yes)
 		(uuid "dba7fafe-6535-4a43-bd51-79969ebf8a5d")
 		(property "Reference" "LED32"
-			(at 76.835 157.48 0)
+			(at 94.615 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29643,7 +29017,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 76.835 170.18 0)
+			(at 94.615 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29652,7 +29026,7 @@
 			)
 		)
 		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_special_v2"
-			(at 77.47 171.45 0)
+			(at 95.25 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29662,7 +29036,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 78.74 173.355 0)
+			(at 96.52 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29672,7 +29046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 163.83 0)
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29693,7 +29067,7 @@
 			(uuid "3c012049-42aa-48a8-925f-d65b58e0d4ae")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED32")
 					(unit 1)
@@ -29759,7 +29133,7 @@
 			(uuid "db4e6572-c517-4857-9225-b7d6ab1eb219")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR031")
 					(unit 1)
@@ -29824,7 +29198,7 @@
 			(uuid "7adc79a0-22fb-4999-ba09-cc1f2272b407")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#FLG04")
 					(unit 1)
@@ -29834,7 +29208,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 25.4 182.88 90)
+		(at 41.91 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29843,7 +29217,7 @@
 		(fields_autoplaced yes)
 		(uuid "def31c03-5e0c-4c39-84a3-92c08e78d5a7")
 		(property "Reference" "#PWR018"
-			(at 29.21 182.88 0)
+			(at 45.72 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29852,7 +29226,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 21.59 182.8799 90)
+			(at 38.1 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29861,7 +29235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 182.88 0)
+			(at 41.91 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29870,7 +29244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 182.88 0)
+			(at 41.91 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29879,7 +29253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 182.88 0)
+			(at 41.91 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29891,7 +29265,7 @@
 			(uuid "0f1576ce-93eb-43d7-b052-5216b5fbadef")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR018")
 					(unit 1)
@@ -29953,7 +29327,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "Logo4")
 					(unit 1)
@@ -30032,7 +29406,7 @@
 			(uuid "e0f9db4e-8603-47bf-b85a-f86b370b995e")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C16")
 					(unit 1)
@@ -30041,81 +29415,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
-		(at 162.56 273.05 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e82feef2-73b5-4c5e-806f-a49e27d64ad7")
-		(property "Reference" "Q3"
-			(at 161.2899 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n2007"
-			(at 163.8299 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 160.02 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 162.56 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "db73a9e3-3f39-4580-91ca-9a9430d3258f")
-		)
-		(pin "1"
-			(uuid "f45f9d49-a68a-444e-8413-dc5a8644ab65")
-		)
-		(pin "2"
-			(uuid "a13d3529-0776-4b6f-9c2c-603681197f5d")
-		)
-		(instances
-			(project "Lotus58_RP2040_100"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LCSC Parts:Ferrite Bead")
-		(at 208.28 200.66 90)
+		(at 247.65 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30124,7 +29425,7 @@
 		(fields_autoplaced yes)
 		(uuid "e91e981b-b7e0-4fa1-8b39-918180a7f319")
 		(property "Reference" "FB1"
-			(at 208.2419 194.818 90)
+			(at 247.6119 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30132,7 +29433,7 @@
 			)
 		)
 		(property "Value" "BLM18SG700TZ1D"
-			(at 208.2419 197.358 90)
+			(at 247.6119 165.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30140,7 +29441,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 208.28 202.438 90)
+			(at 247.65 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30149,7 +29450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 200.66 0)
+			(at 247.65 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30158,7 +29459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 200.66 0)
+			(at 247.65 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30167,7 +29468,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 208.28 200.66 0)
+			(at 247.65 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30182,7 +29483,7 @@
 			(uuid "c9452a19-5143-4e33-9631-0c4920b79a91")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "FB1")
 					(unit 1)
@@ -30247,7 +29548,7 @@
 			(uuid "ebf88376-6aa9-4e91-804b-5ca4dc635ff3")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#FLG03")
 					(unit 1)
@@ -30326,7 +29627,7 @@
 			(uuid "6e300af1-3046-4a86-bf70-ea106f343f07")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C9")
 					(unit 1)
@@ -30405,7 +29706,7 @@
 			(uuid "bd29c41d-16bc-428a-b159-4058863bd495")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C15")
 					(unit 1)
@@ -30484,7 +29785,7 @@
 			(uuid "37d3ee65-30ae-45e8-8a23-54276f83fd90")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "R12")
 					(unit 1)
@@ -30494,7 +29795,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 187.96 135.89 0)
+		(at 213.36 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30503,7 +29804,7 @@
 		(fields_autoplaced yes)
 		(uuid "f477e684-b40c-4752-ba94-c903cc1f9659")
 		(property "Reference" "#PWR014"
-			(at 187.96 139.7 0)
+			(at 213.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30512,7 +29813,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 187.96 130.81 0)
+			(at 213.36 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30520,7 +29821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 135.89 0)
+			(at 213.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30529,7 +29830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 135.89 0)
+			(at 213.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30538,7 +29839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 187.96 135.89 0)
+			(at 213.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30550,7 +29851,7 @@
 			(uuid "a7cb31e2-54da-43ab-b198-e142540357df")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR014")
 					(unit 1)
@@ -30629,7 +29930,7 @@
 			(uuid "99173483-b1f3-4038-82ab-c3e5fc38f6de")
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "C6")
 					(unit 1)
@@ -30691,7 +29992,7 @@
 			)
 		)
 		(instances
-			(project "Lotus58_RP2040_100"
+			(project "Lotus58_EZ_100"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "Logo1")
 					(unit 1)

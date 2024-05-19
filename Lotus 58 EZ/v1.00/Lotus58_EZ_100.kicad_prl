@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "000d070_ffffffff",
+    "visible_layers": "0001030_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Lotus58_RP2040_100.kicad_prl",
+    "filename": "Lotus58_EZ_100.kicad_prl",
     "version": 3
   },
   "project": {
