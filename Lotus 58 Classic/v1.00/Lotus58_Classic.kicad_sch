@@ -20205,6 +20205,67 @@
 		)
 	)
 	(symbol
+		(lib_id "Logotypes:QMK_Logo")
+		(at 283.21 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "04374528-e056-470f-9510-16058cf25d9c")
+		(property "Reference" "Logo6"
+			(at 283.21 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QMK_Logo"
+			(at 283.21 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Logotypes:qmk logo"
+			(at 283.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Lotus58_Classic"
+				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
+					(reference "Logo6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
 		(at 288.29 54.61 0)
 		(mirror y)
@@ -20601,15 +20662,6 @@
 		)
 		(property "exclude_from_bom" ""
 			(at 0 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 259.08 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21380,77 +21432,6 @@
 			(project "Lotus58_Classic"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logotypes:QMK_Logo")
-		(at 259.08 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34d17394-0ecf-46f2-98c6-c933c4f8be85")
-		(property "Reference" "Logo1"
-			(at 259.08 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "QMK_Logo"
-			(at 259.08 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Logotypes:Powered_by_QMK"
-			(at 259.08 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 259.08 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Lotus58_Classic"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "Logo1")
 					(unit 1)
 				)
 			)
@@ -24025,6 +24006,68 @@
 		)
 	)
 	(symbol
+		(lib_id "Logotypes:QMK_Logo")
+		(at 261.62 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "bd4a1684-e367-41cd-bb3e-e5ff0d2135e4")
+		(property "Reference" "Logo5"
+			(at 261.62 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QMK_Logo"
+			(at 261.62 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Logotypes:qmk logo"
+			(at 261.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Lotus58_Classic"
+				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
+					(reference "Logo5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
 		(at 391.16 44.45 0)
 		(unit 1)
@@ -24852,68 +24895,6 @@
 			(project "Lotus58_Classic"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logotypes:QMK_Logo")
-		(at 285.75 163.83 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0b31c1e-d41e-4fec-815f-eb0524ed4bfb")
-		(property "Reference" "Logo4"
-			(at 285.75 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "QMK_Logo"
-			(at 285.75 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Logotypes:Powered_by_QMK"
-			(at 285.75 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Lotus58_Classic"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "Logo4")
 					(unit 1)
 				)
 			)
