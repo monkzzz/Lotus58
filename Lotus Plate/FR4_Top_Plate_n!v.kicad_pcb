@@ -1,0 +1,4728 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "Lotus 58 Glow MX")
+		(date "2020-12-12")
+		(rev "0.95")
+		(company "Markus Knutsson <markus.knutsson@tweety.se>")
+		(comment 1 "https://github.com/TweetyDaBird")
+		(comment 2 "Licensed under CERN-OHL-S v2 or any superseding version")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Purple")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 76.0603 36.6903)
+		(pcbplotparams
+			(layerselection 0x00010f0_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk yes)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "gerber/")
+		)
+	)
+	(net 0 "")
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3957")
+		(at 133.45 47.6)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ff2b9a89-0ac6-41df-b4b0-c62f1a7e1c67")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "44664078-9853-441a-8f81-307ee7d6fecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f8327ef-9486-4d60-97ba-726c5a09743d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50fb05f8-4d43-4c76-b438-382bd7abbd25")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6382b0b1-8212-4b7d-9425-429bbc584faa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7227cd")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7b3127d0-49cb-44b8-9517-aabfc4569e06")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "22db4f0f-e83b-4078-a978-1aa651a6250d")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "603ff6c1-81da-453b-b1c9-12df3f8b2a54")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d881153-337f-4b17-8897-f4203acd51eb")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e396c")
+		(at 152.5 46.21)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW3"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fbb3aed8-5318-4278-aac5-ce229996b6c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "649a875d-d5b6-4bb9-bd11-7e9c3ddd6005")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61c2a3c5-b2a3-4812-a0b1-3e3072838de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e97fb74-48e1-4a15-aec5-202982dffa26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b0577a7-fa88-4ba6-b408-2127168981f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7228f7")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2c8e1cd7-fa03-4e3e-8e72-898ccd17c689")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8e2ad50e-5b21-42db-a018-e3c2c242d729")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "716c53ff-cb55-4f7a-86c1-6d4b9c2a694b")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b4c214db-2a8c-4390-9935-156d4f05457e")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3981")
+		(at 171.55 47.6)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW4"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8bb5a60-e027-4733-9dad-70ac3b584146")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e56d02a1-63bd-411f-bfda-da4394eec8fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c90b2ada-55ea-416f-b2f8-ab625387890b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eeba5f4-5366-4652-a921-854bb5956d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb41216f-5402-47d4-8614-5d35d4a6898b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b722a11")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0f97579f-2068-4d58-b4ce-c8352b80ee63")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dd53a351-7636-4b15-9c39-f0c59b6e68a2")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "173112b1-0c0e-46a4-bbbb-7a889db80171")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fde84334-ef9c-4ea1-8e63-8dc761a49be3")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e39ab")
+		(at 209.65 53.9)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW6"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "03c9737c-e488-4a05-a705-ab73e408a1b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1f6f4726-80e0-45a7-9517-a965d8c4b02c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc4b169d-6854-48cc-80fc-b33fd1c64482")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28ced969-bcde-41c2-98c1-9893bde96676")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55d72f3f-45a1-420a-803a-6a137caa85b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b722ca9")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "95ac72b5-4a93-4454-adb7-260e13508fda")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d3eb2b49-5557-48c9-b0e0-b9f6b8870923")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f580071d-7716-4162-b1ed-ee2eda3a5e40")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6a1d91f0-6b40-4e63-b381-67883b1e58f7")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e39c0")
+		(at 114.4 69.05)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW7"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e8c1105-834c-4032-95cf-c62dc437a8aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e72114c3-6525-407c-a642-df5c55f5c4d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c624a4a-5a78-4592-a5da-9d44ba92b81a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5338a20-d9ed-4fc9-be81-b414933b320a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "650b6b43-de7f-41eb-84ce-91a892744798")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b723c9d")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8f36b0b9-5d99-4020-aee2-bf66042b393f")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "972cd96d-7606-4994-bfc7-1886181b61fe")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "253d2b72-89f3-4526-ac41-dd0c39795e83")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a7cd5143-a110-414d-b0bb-e625eabbfdf7")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e39ea")
+		(at 152.5 65.26)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW9"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0109d934-1746-43f6-9424-4993fabdc5b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e94806a-eced-43a0-a560-491b0ac42e40")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea3af225-de94-4327-a2e8-63c3a01a1a0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d86594e-9abb-49a8-ba8b-b7b84fa44106")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22743710-7489-4034-a8b9-b8694a02ba44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b723731")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b4d988ec-7f71-443e-b948-6cdb3f210298")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3379e7d4-45a9-4665-b39c-e0059dedff05")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "acd04de2-d708-4651-b7b0-635e407e07fe")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ff2828d4-e735-47e7-8144-811968a5dc93")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e39ff")
+		(at 171.55 66.65)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW10"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c97eebbe-3f63-4f13-be39-455533b54de8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5844b2e9-f44e-4125-92bc-620774bd0319")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd366984-3947-45f7-b7a6-1531256b917a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e8bd3bd-6dfc-4780-8772-103a4668d0a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27e59b6a-2113-4880-8fc0-d7275ba14da3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7237a6")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1e3fd40c-8d7f-4439-81ea-d99550b89b15")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ceb139ef-e8b9-400a-9abc-54b57bc1c8d8")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "85f8b076-86e9-4962-b576-899b52ab8282")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "15ffe843-4e15-41b9-8f30-1c630cd83ae7")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3a14")
+		(at 190.6 71.45)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW11"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e2cb5b00-ffba-4d73-8182-ee046eafed2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20b87b79-efa0-4109-bd10-087b66ad4d5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "053b6fb8-4b01-4def-b67c-9d949008777c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c69c292-abe5-4b0c-a3d2-78802bc36775")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d49f3337-d133-42d6-8966-022fc014a6ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b72387d")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ee398e68-9a0e-40ae-9bea-eae497410fef")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b64faabf-048d-4428-baa0-849d148fa3ee")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a0118654-a837-43d2-a15a-b57931f9962c")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a8f7033e-d920-45ad-979e-9abc3fefa146")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3a29")
+		(at 209.65 72.95)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW12"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b71c66f3-787b-4415-acb7-03abc9ee28fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "21b2f82d-e28a-4109-a4bb-267ef93f419b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6435eecc-2c07-4872-99c5-a52e2b274091")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4e0ae9a-2437-470e-b297-dd22cc47cffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7358b6c5-8334-46e5-920c-854c7c4d80fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b723ad3")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9a4ec82c-367f-451c-85b6-fddb9b40432b")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2e883a3a-1e57-4a6d-9449-681f67d09d0f")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cb8e93b0-aecf-4d31-a54f-0e307837a990")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e7e0bcc5-4015-4526-803b-827d565b1b21")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3a3e")
+		(at 114.4 88.1)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW13"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5f6a8677-7dea-4f8b-be2a-6b942bd43840")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0ed77f30-81fb-4a01-838c-38a97cfcc3d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2734aeef-0f12-4087-97ad-02f170fe8a4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d12c86ac-5803-46d8-aa49-cbafeac9937c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcbd51a4-dbd5-42b9-a16b-b70cfa4fdc15")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7250ad")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ed43ee8b-e569-4116-bc35-ff013e666802")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3416d56f-b689-445d-be58-2eb4bd097a24")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cb403490-9f0d-408f-9cfb-2766bb14d528")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "65189aab-9674-4b44-9cfd-6dcde0965d88")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3a53")
+		(at 133.45 85.7)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW14"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "41683fc7-693b-4ff1-90d5-bf839a30c4eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5cc38d33-f43d-4fc8-a3cf-1b29052df484")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84b04b01-6ac7-4de7-9b71-3fe9ccfb632e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc6c3de1-82c1-4bd6-8c13-7fa69c786c27")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f52f7fb3-0c43-4f2d-b6e1-6a95072c6826")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b725133")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9aebb257-a436-4ea3-aa1a-6336d523a3a3")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4df216de-8aae-43f6-8dd0-7f2b7020cf83")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "efab46a9-e5f1-40ab-979a-2c16f5758583")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5549184c-7fda-4069-be05-0c08413c5b37")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3a68")
+		(at 152.5 84.31)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW15"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3f40f2e1-69d8-409a-a8d9-029a243d5fad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f946e05a-6233-4b5c-ae57-d5420526a9ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f979dba-1bb6-4b3a-91ad-cb83ea98d75a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf31d483-ad52-4d47-8f91-2235633158f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eec9a2dd-d3c7-482a-b5d7-da28fe17cf23")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7251bf")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9977eb9b-8ecf-4f61-8e2f-f4fb57891493")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "96081207-6bac-45d1-95e7-3de96021c3cb")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6faf626f-944f-4c49-9287-d1dfec23329e")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "07a77072-9f9a-4dac-9e4b-4c55ec86df0a")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3a92")
+		(at 190.6 90.5)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW17"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2fcc2f2-f5ec-4da6-8628-3e4b46284e3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9117dd13-801c-41ea-92d8-57a33187d837")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e49a6481-a7ce-4a36-bdb0-485e3c53fb95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "931be75c-dd03-42e2-9e69-dbc160b84a45")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc32f32f-ba1d-42e2-936c-7d512b983fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7252f1")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2c69a123-5148-4160-9078-19aa35db68c9")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "22e0d066-01b6-4cba-b5dd-c7644662171d")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a8a8781a-bc3d-43fc-bce3-ecc50366af28")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "14353ea7-60e4-419d-adf4-738318de9940")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3aa7")
+		(at 209.65 92)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW18"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e32a31b-a17c-4750-860f-0f71f5b0b209")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0f4bde6a-53d7-4844-a5d8-c1ed138aa953")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48b9f102-d3f2-4b09-b964-326c1226de00")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6aac77db-b295-42a6-934b-5a2a1b802c32")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da235054-e610-4216-a077-276e589c0581")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b725398")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "79c7f00b-0435-4121-b334-0ef4b51167f6")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8016a3c1-3bb1-4954-b171-6577137a66a4")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cfd44fe9-acbd-4496-b1b8-a2c63d1b8ca7")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7e26cd52-ff7c-4461-a079-a4675eddd27b")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3abc")
+		(at 114.4 107.15)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW19"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "205db04e-91ad-4280-bf6d-66a74649d53c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "192ff987-72a2-442b-9fd0-3ddd5465d90c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98a76a71-415e-4714-a630-f2d81721ecdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0aa3b05-cdde-453a-96de-3840d56e7fa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "510d40af-985f-45e8-9736-9e7c7333ef0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b727312")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b6f55d6c-69f4-4c0c-8e22-e4ea104da337")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d56d3492-a0ea-49c6-966d-7c3d0e8e9665")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "07128b9d-c9d9-4855-b7f9-9b8d77719529")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7824c52b-0484-449f-b975-309fa332414a")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3ad1")
+		(at 133.45 104.75)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW20"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dc37f6e5-b262-48be-82c5-cfed3e1cc0d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "94070015-c33b-4bbd-b485-271afdd2e451")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc8ac61b-5da5-4f98-98f0-e89e75cdd933")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11ae682a-a535-4b7f-92e6-e79c3c123473")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18deb615-2170-4dda-879a-d18e745511d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b727256")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "648a41dd-0e56-47ab-b397-6d7647e81397")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3b0c4646-a942-40c6-b3e6-c70b07aa97d8")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1f7f306b-4a5f-49e5-8abf-ae0b6460239c")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "05a5673e-65d2-4949-b003-1d065e931eec")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3ae6")
+		(at 152.5 103.36)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW21"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84b101c0-8378-47e0-8708-b9b84aec9794")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c14a0cbb-79d6-4575-9aa2-6d037a9bff8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6efef952-6909-4c5d-b378-6546e3ff2c56")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d8c27ef-2aa4-4e0e-b039-622850c4c571")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3088dd81-a349-447a-a379-f46a58440396")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b726f89")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c338b57c-c8dd-412c-bc81-f1435dc4c825")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8a76a540-3947-46bd-98e6-efe9e14d843b")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d0ed42ad-7dfa-468f-8f66-def6b5ccd724")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c20223f7-8385-44c8-ad13-b53aa789ccf7")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3afb")
+		(at 171.55 104.75)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW22"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "733d6b68-44d2-4d44-823e-fd9780a5ec85")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8a92590d-7497-49db-a6c9-c0923c16b445")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0be46fca-b0d5-4375-9369-14f1db0488f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbd69779-83d8-4f06-ad20-cf3c5fd54f57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa1a93e7-af31-4416-a54a-d94772eaba31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b727035")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b6328228-9894-4b82-a61b-2b85dc81bc6f")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3390aa4a-94d9-4f29-b037-615dd053b08d")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e4e72a0a-09a1-4746-8d18-6f02814c0de4")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5c8c6e8a-3dc3-4277-84fd-971bf02d8287")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3b10")
+		(at 190.6 109.55)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW23"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "168174fb-901a-4837-99f8-3c01f5bc1e48")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1bc9bc6a-37a6-40d5-8866-5096506ae8ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47ed6cbf-a91e-456c-9b0f-6a6c574775fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e890c1e-ce0a-40fa-a824-15ce3e236d76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16bea2ef-99af-4308-882b-b526ba8b071a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7270f6")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a27da060-cab3-436d-b910-18f8c5d33de0")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "91706783-1981-4ac0-89da-86321b216e00")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "148b8061-b174-4872-b60b-c585f6a0e23a")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "32164925-1960-4a6e-a439-ed49797e70d6")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3b64")
+		(at 123.85 126.2)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW27"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "10794b5a-f625-41fd-8d35-ad4f22c80291")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b847a2e8-a4d8-4ec1-8d08-d4f2e4a1a744")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9645cac2-73d5-4387-92cb-4b1f1d557030")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00e96248-ac3c-4aae-b332-b882459cf3cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cddd0b6-14ee-450f-b667-4c3b2f9e045a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7293b0")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "86be3ef6-5daf-4159-bc90-2b112c96435a")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cecde0a7-bf10-415c-b624-650c6c375693")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e21a10be-7f2d-43e2-9fd4-2699c57ed1a1")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "94bf35fe-d998-48e0-9ba6-e79ab095850b")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3b79")
+		(at 142.8977 124.8283)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW28"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9f72f52b-ce5e-4b32-8640-465687286317")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "119f91f7-9d46-4ccd-8525-552d8696fa5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fcdade6-27f1-4344-8fb6-b0e51543cc54")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbd90ac3-bdef-4d27-90c8-ca034babee58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d216c3b4-09f0-4ab0-9cc0-ffaf39166d7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b734347")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0694b829-b7ca-417f-9252-69018a759a4d")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e0b01d8d-433c-4172-adcc-7cfbe9179412")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ac627b4d-ed6e-49f7-8135-83034dbc160c")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "85cfd9ca-230b-488f-9122-f994ac40a784")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2e3b8e")
+		(at 161.95 123.8)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW29"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3d1aab9-2df3-44f1-a256-3b6e231084a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b7fa93fb-8cba-418c-8350-d653e9dc2b0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f7f8cc6-7121-4458-bb0e-918c92a26aa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "462e06e2-3918-46c4-af6e-2eeb1fde0905")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01268bb1-866b-45bc-b02d-a14c8ad5ae0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b73449b")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e70a0f68-6fae-4e4d-8ed9-dbc33aa0c4de")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "adc71557-fcdd-4f77-8d48-ff1464ae414f")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "998c6f42-72bf-4276-8944-359ce26f0a31")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "68c7e7ea-fc12-4368-8c05-be8e8eed8b40")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005d2eb223")
+		(at 114.4 50)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0027a5ea-883c-4ebd-8901-de1a4f24e6ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8909c201-3d7d-415e-a318-0864a404790b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17228213-9e94-4143-a760-e853f01af2ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d74644e-cb29-41f0-87c8-e5d7ca239c8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "256fd86c-4e88-40ce-8612-e357aaf346c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7225da")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7f9dcaae-9dc1-442e-a5a2-b3bca0629137")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "29810b0d-be95-4f37-889b-f8e9a0f00627")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d69d7634-55a6-4af8-9804-7c7e2ea74a0b")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "465997a3-1485-4122-9cfa-ec1e266e0227")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005fac2aeb")
+		(at 90.4748 98.2853)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW25"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "270084f9-d336-4420-ab1a-c51343a99b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8257a551-63ff-41cb-a1fb-6eac3835c58c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76eaf9fa-167d-4820-8c7b-46783ade5217")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77b4b269-6b95-4e83-8454-88ca19d7d6de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a322232-d346-4e6b-b7b1-753514cf583c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b722503")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "543c2236-8018-44ed-9584-7f05a3ac7fd1")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a66efb5b-4d88-4175-95a4-ce24ddf3618c")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5e3731e8-6e6b-407f-94da-fccfa467be6a")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "52bec012-2e65-4880-838b-367e2231992d")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005fac4603")
+		(at 209.65 111.05)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW24"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "91e97778-ff94-4e2a-83d3-a908d8053ffa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30593eb2-04f7-40d8-9b53-7c0f020cc0d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd423c9e-4edb-4ded-a634-3e93c3671a72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27765bf0-07c1-4cc4-a868-bc4aa3f5f122")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c9d5f3d-82b8-4969-8d61-9711f335ed68")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b7271a5")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "65dac75d-3b9d-4fc5-aa80-1be7bae81128")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a3fdd1c9-8766-45b5-9f00-6f3b9417573f")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6a9ea655-d484-4963-9320-ee57c99e1365")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6502ab3b-b5d6-4b4a-b8c3-e1cb4fe5baee")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005fb1ee42")
+		(at 98.171 126.0475 -60)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW26"
+			(at 0 0 120)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "941350a2-8822-4c11-8f71-0d65e4f681dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 120)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30d6d54b-79d6-4e8c-b577-ed3701e9f543")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 -60)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "350857bf-d57a-4331-aab0-3847c893c0ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -60)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6491451f-3cfa-462d-9106-314867c2a6d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 -60)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6c3ed3e-038a-4503-90ea-c45283b3686b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b722582")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0d939345-2ded-44db-9544-0e5d2f3fa975")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9f22bf1f-ccb0-4e00-ad07-fad911773137")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "eefdf90b-013c-4acc-bbb0-7fb6ca080124")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "870685e6-bbdc-4d3a-9504-952968605d20")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005fb39990")
+		(at 171.55 85.7)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW16"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8708fe0c-58df-476f-9129-7dd52b977f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9185fb19-7bd4-4633-9bff-be4e4f86a880")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b34392e-fac6-4b7c-b111-eeba9dcfd799")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "753e8d82-1f8a-44fd-b8ed-7e5491720384")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2000b4bb-e920-4aaf-8cc0-9ce40cc0950e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b72524e")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "525762e1-b449-4b38-9c8b-c9f78b7b180b")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "00ba7f7a-c614-46f6-a5c5-1dd6f2da8b2d")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dc580065-977f-47a2-a8d2-5d8baa15a5dd")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "90ffac7a-5256-4387-8349-51726718a0cb")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005fd2c7f5")
+		(at 190.6 52.4)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW5"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5d599074-5db0-4383-a067-647320f28f5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dea6f7a8-6272-4188-a274-005f7c3fde35")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7aa1f2a0-bd77-46b1-92df-4e17522eae53")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1d26aee-ef4d-42de-acf3-e6127c4656b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "062763bd-70ff-4a54-8ded-bf4705f806cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b722b51")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "86ec17ad-2584-4125-858f-2b3dff52ba83")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0ad4afba-3f2e-4bca-9add-2369a512444f")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5f8c6cd1-af56-4847-9eff-029dd117e8db")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a61c48d4-fddf-4024-9a6d-0dfbe0184d1f")
+		)
+	)
+	(footprint "Keyboard Library:Cherry_MX_Plate_Hole_Placeholder"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00005fe2a4b7")
+		(at 133.45 66.65)
+		(descr "MX-style keyswitch with reversible Kailh socket mount")
+		(tags "MX,cherry,gateron,kailh,pg1511,socket")
+		(property "Reference" "SW8"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6424a30d-8c0a-4b6b-aa66-8d5b3a16033a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "572564b7-03ed-4767-80c5-5712bb8c8bce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b1e81a2-8f24-42f4-8948-a54fc61d29ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f608313f-796b-4dd1-8cb5-e030621156bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce25b0c2-7ea8-4801-8904-003bb7faf8bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00000000-0000-0000-0000-00005b723388")
+		(attr through_hole)
+		(fp_line
+			(start -6.9 6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "01320da0-d469-4339-bcb4-dd6d936d037a")
+		)
+		(fp_line
+			(start 6.9 -6.9)
+			(end -6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "254e1041-01b2-4c36-8b94-6f483824adf0")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end -6.9 6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cd9577a0-abe2-4bcb-8384-bfc5fd1e5bac")
+		)
+		(fp_line
+			(start 6.9 6.9)
+			(end 6.9 -6.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b7144335-1405-4d26-b7a1-3e3326572f8d")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00006029b134")
+		(at 124.32538 57.40908)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43075ce6-7c41-4c3d-bcc0-5a9604b3ad55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "6beff3ba-2d99-4741-9d7b-24e42150b808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81d6f81a-93cd-4f1b-90c9-5a6d9857865c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1185e80a-8e30-426f-801b-ffb52cb9e263")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4fc3498-af62-4aac-a52f-5da88feb99ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "f242cdae-27d5-4ca6-bbdc-edb286ac4278")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8de5dfbd-c5c5-442a-99a7-48690ace42a0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "53bfe0a4-f1ce-4225-b009-52d9f5271d68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "74dab7a2-a39d-4207-9d23-ac43447dc53b")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00006029b1a3")
+		(at 199.7 100)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b1367d4c-d494-459c-913d-5b07f41471d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "302ebcd0-2fb7-4753-b964-7f30f142366e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5afd503-4dd8-425c-a115-1d894da09b84")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0062ad6c-16fd-4ead-9dd3-6baf44bd39e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72b52505-603e-4c61-9e20-8a31d930ed5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "8fb017ea-3a58-4813-ac72-6485a9c8041b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "a9c3fa7f-912b-4037-bd21-66b075c13595")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "d7a9e521-8834-4e8d-ba3c-01b72f66f46e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3d8d115d-edde-41e5-84d4-abe40a6ef369")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00006029b224")
+		(at 124.3965 95.5675)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fc60d29d-cbc8-4043-a8f1-0ed3ea54e266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "aa65f520-9191-4177-8388-55cc1b113764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "903c7c36-4c83-4395-bae7-0c90a842f4e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16a42cfb-b664-4a32-92ea-191d33e4c8a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bac01b38-f1e6-4577-b982-60bb73ea7caa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "d75e6ae9-aacc-49ef-ae0b-0bb55a5d6404")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "53e9ab0f-37f1-44d8-a9ff-c9a741ee0bba")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "8d594a6a-8084-4491-a2b2-c831013f3e0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2dff12c7-3349-4cc4-bb93-9161f78bb4e4")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "00000000-0000-0000-0000-00006029b25c")
+		(at 98.8949 114.1095)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3045c6b0-1107-432a-9068-50f77e181101")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "71a9e0a7-2b1f-42fa-9c88-65a55b6e1af9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca67a18f-8041-4d6b-93d4-f3fa111b9063")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b138c22b-988a-4340-a158-058584dac014")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "252a45d0-81e2-45af-be37-aa854b9d4e1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "1f641c98-d0c9-4276-aea7-b522a93ebbe0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "18f6c81d-e843-46ea-b323-694c7bae5ae7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "16ef5f1f-e669-4272-bf52-1447c27f2d69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6931f7f5-5ef8-43e9-9fc2-f139d3369fe6")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "87b4c17c-17e9-43cb-b7ff-059b64d5662b")
+		(at 199.7 61.8)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20f31b89-1b4e-4882-9808-20e5a5476bc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(uuid "9578f861-324c-4420-aee9-312e91da7934")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bba685a-89df-41f1-9224-0c284d8bf7b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96bc2bb2-6202-457d-b4e8-1cfe98980986")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "373e0dfa-d8d3-4f44-b9d1-cb1881ea4b4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "6db7975d-7932-4535-8445-64222a8150ec")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "7dbf1511-4ac7-4b21-920b-0dc6e024b078")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "d6db4285-61a1-46c0-aaec-f303f8925a6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ae831b30-7f61-4a99-b67e-16c3da0df910")
+		)
+	)
+	(gr_line
+		(start 61.3824 -17.470697)
+		(end 61.3824 -17.470697)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "82fa9d6d-fea8-4e3f-96cf-72c484f9bdf6")
+	)
+	(gr_line
+		(start 45.503294 -44.952764)
+		(end 45.503294 -44.952764)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "9cd34527-3545-4293-9092-b9d254aee733")
+	)
+	(gr_line
+		(start 81.4197 116.3955)
+		(end 81.9785 117.6655)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac2f1f")
+	)
+	(gr_line
+		(start 219.50172 44.1452)
+		(end 219.70492 44.8564)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac4583")
+	)
+	(gr_line
+		(start 219.258732 120.757048)
+		(end 219.03678 120.940136)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac468b")
+	)
+	(gr_line
+		(start 219.03678 120.940136)
+		(end 218.781972 121.078352)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac468e")
+	)
+	(gr_line
+		(start 219.667372 119.998631)
+		(end 219.580037 120.280287)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac4691")
+	)
+	(gr_line
+		(start 219.580037 120.280287)
+		(end 219.441821 120.535096)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac4694")
+	)
+	(gr_line
+		(start 219.70492 119.6848)
+		(end 219.667372 119.998631)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac4697")
+	)
+	(gr_line
+		(start 219.441821 120.535096)
+		(end 219.258732 120.757048)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac469a")
+	)
+	(gr_line
+		(start 218.781972 121.078352)
+		(end 218.500315 121.165688)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac469d")
+	)
+	(gr_line
+		(start 218.500315 121.165688)
+		(end 218.18092 121.19356)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fac46a0")
+	)
+	(gr_line
+		(start 172.075297 134.989392)
+		(end 171.937081 135.244201)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb0bd0b")
+	)
+	(gr_line
+		(start 80.7003 36.7444)
+		(end 80.722283 36.528775)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb119c4")
+	)
+	(gr_line
+		(start 80.722283 36.528775)
+		(end 80.783417 36.331615)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb119c7")
+	)
+	(gr_line
+		(start 81.342063 35.77297)
+		(end 81.539222 35.711835)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb119ca")
+	)
+	(gr_line
+		(start 81.539222 35.711835)
+		(end 81.7544 35.6903)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb119cd")
+	)
+	(gr_line
+		(start 80.880169 36.153249)
+		(end 81.00833 35.997883)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb119d0")
+	)
+	(gr_line
+		(start 80.783417 36.331615)
+		(end 80.880169 36.153249)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb119d3")
+	)
+	(gr_line
+		(start 81.00833 35.997883)
+		(end 81.163697 35.869721)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb119d6")
+	)
+	(gr_line
+		(start 81.163697 35.869721)
+		(end 81.342063 35.77297)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb119d9")
+	)
+	(gr_line
+		(start 80.772 112.649)
+		(end 80.899 114.1095)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb11b71")
+	)
+	(gr_line
+		(start 80.7085 111.8235)
+		(end 80.772 112.649)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fb11e18")
+	)
+	(gr_line
+		(start 171.704 35.687)
+		(end 81.7544 35.6903)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00000000-0000-0000-0000-00005fdbb7f0")
+	)
+	(gr_line
+		(start 219.13342 43.5102)
+		(end 218.511891 42.96639)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00462ab2-0504-4cca-97bb-7e363263f772")
+	)
+	(gr_line
+		(start 96.852328 143.322532)
+		(end 96.98047 143.386445)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "05ab88a7-e385-4803-a25d-e42130bcf4b2")
+	)
+	(gr_line
+		(start 97.268206 143.404468)
+		(end 97.426864 143.357278)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "158c4ee2-e24c-4326-ad5e-2d0afe6f41f4")
+	)
+	(gr_line
+		(start 172.19422 124.69622)
+		(end 172.290391 123.987771)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "19cde2b8-e418-4a43-a9b7-2fe492ba464a")
+	)
+	(gr_line
+		(start 96.629837 143.08815)
+		(end 96.735295 143.222884)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b237ea4-51a3-4943-9b96-1933bd8ca916")
+	)
+	(gr_line
+		(start 170.995576 135.874793)
+		(end 170.69308 135.90524)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1bfc252f-15b8-4032-bc9b-d0c9492fa389")
+	)
+	(gr_line
+		(start 175.013524 121.264638)
+		(end 175.719348 121.193595)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "29bfe8e2-6ebf-49e9-a350-c0ffb821d5e5")
+	)
+	(gr_line
+		(start 99.63 73.59)
+		(end 85.13 73.59)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "382a90e3-4e71-4548-b600-7c3bdb8de44b")
+	)
+	(gr_line
+		(start 172.19422 124.69622)
+		(end 172.19308 134.427634)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "427ad9c1-9a59-4ad0-9704-5cdf1e3cd351")
+	)
+	(gr_line
+		(start 81.9785 117.6655)
+		(end 96.629837 143.08815)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4907673a-9e09-45bf-83fb-dcae6fb31fb5")
+	)
+	(gr_line
+		(start 219.13342 43.5102)
+		(end 219.50172 44.1452)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4bae298c-5c47-420b-913c-1cecb77d1126")
+	)
+	(gr_line
+		(start 173.243884 122.218131)
+		(end 173.761773 121.790925)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "550ce27b-37bc-4211-94c3-e68eccf6985c")
+	)
+	(gr_line
+		(start 97.594758 143.271756)
+		(end 110.31982 135.90524)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5554fa34-beca-4485-bf1b-6fa408b78a40")
+	)
+	(gr_line
+		(start 172.494174 123.330573)
+		(end 172.816678 122.73602)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e8a3bb3-2f71-43bb-b1f9-3255ad20ac71")
+	)
+	(gr_line
+		(start 172.19308 134.427634)
+		(end 172.162633 134.707736)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e8cfd2f-83d6-4b5d-a099-6f6a70a547f8")
+	)
+	(gr_line
+		(start 171.53204 135.649242)
+		(end 171.277232 135.787458)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "60b90cbe-5fda-4318-9800-08f4d3b3b1db")
+	)
+	(gr_line
+		(start 96.735295 143.222884)
+		(end 96.852328 143.322532)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "708cfd90-e2f9-4ee4-bf7c-d956cd893850")
+	)
+	(gr_line
+		(start 80.899 114.1095)
+		(end 81.153 115.3795)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "72230bb3-dc04-4f5f-ab67-e210f475d33b")
+	)
+	(gr_line
+		(start 171.753993 135.466153)
+		(end 171.53204 135.649242)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7a855363-3b5e-4607-b67e-e70c42c04957")
+	)
+	(gr_line
+		(start 218.511891 42.96639)
+		(end 217.79552 42.621355)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "805e4379-c373-456b-ad32-ba5289f4c645")
+	)
+	(gr_line
+		(start 85.13 43.09)
+		(end 99.63 43.09)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "818f779a-35f3-4666-8db8-ba07c3e1a3f3")
+	)
+	(gr_line
+		(start 85.13 73.59)
+		(end 85.13 43.09)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a146b74-b588-4847-918c-f188a4b848f1")
+	)
+	(gr_line
+		(start 96.98047 143.386445)
+		(end 97.119252 143.413974)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "91210953-276c-4fc2-8c90-acd80d016ab9")
+	)
+	(gr_line
+		(start 217.79552 42.621355)
+		(end 171.704 35.687)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "97ceeca1-42bd-45e4-97be-4d334f69a825")
+	)
+	(gr_line
+		(start 171.937081 135.244201)
+		(end 171.753993 135.466153)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9df9a5fe-06c6-4d3c-b172-7d4c14e5d327")
+	)
+	(gr_line
+		(start 97.119252 143.413974)
+		(end 97.268206 143.404468)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e775c5c-2b0b-485b-a56a-72589d07f4a7")
+	)
+	(gr_line
+		(start 174.356326 121.468421)
+		(end 175.013524 121.264638)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9f345293-73d7-47f9-84dc-5b2049a36e4b")
+	)
+	(gr_line
+		(start 81.153 115.3795)
+		(end 81.4197 116.3955)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b1943ec4-fa19-40c0-8dcc-bb7e0fd38e67")
+	)
+	(gr_line
+		(start 175.719348 121.193595)
+		(end 218.18092 121.19356)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bbe106b4-f82a-4c69-a88e-864308df602f")
+	)
+	(gr_line
+		(start 171.277232 135.787458)
+		(end 170.995576 135.874793)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "be3a985f-eaff-40d1-949a-e4985635316f")
+	)
+	(gr_line
+		(start 80.645 110.617)
+		(end 80.7003 36.7444)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c79179f3-2155-41f3-a66f-1034a74f985e")
+	)
+	(gr_line
+		(start 172.816678 122.73602)
+		(end 173.243884 122.218131)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cc4f93df-ceb6-4461-8f63-7f4ef16e7d7b")
+	)
+	(gr_line
+		(start 172.162633 134.707736)
+		(end 172.075297 134.989392)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d077da9a-71ab-4da0-b711-e6d2707e2603")
+	)
+	(gr_line
+		(start 219.70492 44.8564)
+		(end 219.70492 119.6848)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d292cf2a-20be-40cc-9f95-809ca669cefe")
+	)
+	(gr_line
+		(start 97.426864 143.357278)
+		(end 97.594758 143.271756)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e372cf53-566a-4f39-9373-8ee5e9a911a1")
+	)
+	(gr_line
+		(start 173.761773 121.790925)
+		(end 174.356326 121.468421)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9621d7f-549e-4d21-9cbf-4054b04ee4b8")
+	)
+	(gr_line
+		(start 99.63 43.09)
+		(end 99.63 73.59)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea24598c-70b1-42b3-a589-b92b977a26a5")
+	)
+	(gr_line
+		(start 80.645 110.617)
+		(end 80.7085 111.8235)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eaf6d663-6289-4a50-97e3-790d67d9a47b")
+	)
+	(gr_line
+		(start 110.31982 135.90524)
+		(end 170.69308 135.90524)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f7312f06-fdce-43a3-bfb3-b781dbd371af")
+	)
+	(gr_line
+		(start 172.290391 123.987771)
+		(end 172.494174 123.330573)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fee32c1b-f991-468a-a5de-23a202e6ca4b")
+	)
+	(gr_text "Lotus 58\nBLE"
+		(at 92.38 80.99 0)
+		(layer "F.Cu")
+		(uuid "747757ae-dc5a-42cd-8cfc-53feddb19c03")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+			)
+		)
+	)
+	(gr_text "Lotus 58\nBLE"
+		(at 92.38 80.99 0)
+		(layer "B.Cu")
+		(uuid "00000000-0000-0000-0000-0000602952c1")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 152.23 93.91 0)
+		(layer "F.SilkS")
+		(uuid "cfe4b8ab-5472-47b5-bb12-cd29e5994e96")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Eco1.User")
+		(uuid "00000000-0000-0000-0000-00005be6b60c")
+		(pts
+			(xy 76.0603 143.4084) (xy 76.0603 36.6903)
+		)
+		(height -3)
+		(gr_text "106,7181 mm"
+			(at 71.2603 90.04935 90)
+			(layer "Eco1.User")
+			(uuid "00000000-0000-0000-0000-00005be6b60c")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.3)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Eco1.User")
+		(uuid "89828570-f291-4471-8b02-55c871f66ce7")
+		(pts
+			(xy 80.7003 44.8564) (xy 219.70492 44.8564)
+		)
+		(height -23.0124)
+		(gr_text "139,0046 mm"
+			(at 150.20261 20.694 0)
+			(layer "Eco1.User")
+			(uuid "89828570-f291-4471-8b02-55c871f66ce7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "6823421f-16f9-48e3-b89a-31618dc3963d")
+		(pts
+			(xy 85.13 43.09) (xy 85.13 73.59)
+		)
+		(height -18.92)
+		(orientation 1)
+		(gr_text "30,5000 mm"
+			(at 65.06 58.34 90)
+			(layer "Cmts.User")
+			(uuid "6823421f-16f9-48e3-b89a-31618dc3963d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "a18f2fcb-0147-4336-b0a4-9926421d1c79")
+		(pts
+			(xy 81.7544 35.6903) (xy 85.13 43.09)
+		)
+		(height -15.5444)
+		(orientation 1)
+		(gr_text "7,3997 mm"
+			(at 65.06 39.39015 90)
+			(layer "Cmts.User")
+			(uuid "a18f2fcb-0147-4336-b0a4-9926421d1c79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "c04c9438-b4cb-4d1c-b4cd-55ad64430d28")
+		(pts
+			(xy 85.13 43.09) (xy 80.7003 36.7444)
+		)
+		(height -13.85)
+		(orientation 0)
+		(gr_text "4,4297 mm"
+			(at 82.91515 28.09 0)
+			(layer "Cmts.User")
+			(uuid "c04c9438-b4cb-4d1c-b4cd-55ad64430d28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "fcdcf2cb-5d9f-43ab-bb80-f764278f9a16")
+		(pts
+			(xy 85.13 43.09) (xy 99.63 43.09)
+		)
+		(height -13.85)
+		(orientation 0)
+		(gr_text "14,5000 mm"
+			(at 92.38 28.09 0)
+			(layer "Cmts.User")
+			(uuid "fcdcf2cb-5d9f-43ab-bb80-f764278f9a16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+)
