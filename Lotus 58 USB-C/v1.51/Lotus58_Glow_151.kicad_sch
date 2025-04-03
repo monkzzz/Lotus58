@@ -10230,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Value" "ProMicro"
+		(property "Value" "Controller"
 			(at 336.55 95.25 0)
 			(effects
 				(font
@@ -15727,7 +15727,7 @@
 		(at 234.95 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005b74d1c0")
@@ -15788,7 +15788,7 @@
 		(at 243.84 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005b74d78b")
@@ -15849,7 +15849,7 @@
 		(at 252.73 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005b74d88c")
@@ -15910,7 +15910,7 @@
 		(at 261.62 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005b74d98f")
@@ -15971,7 +15971,7 @@
 		(at 226.06 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005b74da95")
@@ -16803,7 +16803,7 @@
 				)
 			)
 		)
-		(property "Value" "Rotary_Encoder_Click"
+		(property "Value" "EC11"
 			(at 175.26 97.79 0)
 			(effects
 				(font
@@ -17101,7 +17101,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc31123")
 		(property "Reference" "C1"
 			(at 207.2132 106.5784 0)
@@ -17112,7 +17112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "50V/100nF axial"
 			(at 207.2132 104.267 0)
 			(effects
 				(font
@@ -17170,7 +17170,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc328b0")
 		(property "Reference" "C2"
 			(at 211.8868 109.3216 0)
@@ -17181,7 +17181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "50V/100nF axial"
 			(at 211.8868 111.633 0)
 			(effects
 				(font
@@ -17315,7 +17315,7 @@
 				)
 			)
 		)
-		(property "Value" "Rotary_Encoder_Click"
+		(property "Value" "EC11"
 			(at 228.6 43.18 0)
 			(effects
 				(font
@@ -20210,7 +20210,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "0603/150-200R"
 			(at 185.3819 243.078 90)
 			(effects
 				(font
@@ -20367,7 +20367,7 @@
 	)
 	(symbol
 		(lib_id "Logotypes:RoHS_Logo")
-		(at 184.15 283.21 0)
+		(at 176.53 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20376,7 +20376,7 @@
 		(fields_autoplaced yes)
 		(uuid "070c352e-fe03-4f47-b0a2-71d98f75b0b3")
 		(property "Reference" "Logo3"
-			(at 184.15 273.685 0)
+			(at 176.53 262.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20385,7 +20385,7 @@
 			)
 		)
 		(property "Value" "RoHS_Logo"
-			(at 191.77 281.9399 0)
+			(at 184.15 270.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20394,7 +20394,7 @@
 			)
 		)
 		(property "Footprint" "Logotypes:RoHS"
-			(at 184.15 283.21 0)
+			(at 176.53 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20403,7 +20403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 283.21 0)
+			(at 176.53 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20412,7 +20412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 283.21 0)
+			(at 176.53 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21316,7 +21316,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
+		(property "Value" "HRO-TYPE-C-31-M-13x"
 			(at 189.23 198.882 0)
 			(effects
 				(font
@@ -22043,7 +22043,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "4ead145f-2041-467a-ad33-9d87a7e5ec29")
@@ -22108,7 +22108,7 @@
 	)
 	(symbol
 		(lib_id "Logotypes:CE_Logo")
-		(at 184.15 289.56 0)
+		(at 176.53 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22117,7 +22117,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f4e7a4b-057e-48ca-85f5-c22e00e9c064")
 		(property "Reference" "Logo6"
-			(at 184.15 280.035 0)
+			(at 176.53 268.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22126,7 +22126,7 @@
 			)
 		)
 		(property "Value" "CE_Logo"
-			(at 191.77 288.2899 0)
+			(at 184.15 276.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22135,7 +22135,7 @@
 			)
 		)
 		(property "Footprint" "Logotypes:CE"
-			(at 184.15 289.56 0)
+			(at 176.53 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22144,7 +22144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 289.56 0)
+			(at 176.53 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22153,7 +22153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 289.56 0)
+			(at 176.53 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22268,7 +22268,7 @@
 	)
 	(symbol
 		(lib_id "Logotypes:QMK_Logo")
-		(at 207.01 276.86 0)
+		(at 201.93 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22277,7 +22277,7 @@
 		(fields_autoplaced yes)
 		(uuid "622f5bef-14ab-40fc-b6d0-eda3d2d2699f")
 		(property "Reference" "Logo2"
-			(at 207.01 267.335 0)
+			(at 201.93 255.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22285,7 +22285,7 @@
 			)
 		)
 		(property "Value" "QMK_Logo"
-			(at 207.01 269.875 0)
+			(at 201.93 258.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22293,7 +22293,7 @@
 			)
 		)
 		(property "Footprint" "Logotypes:RoHS"
-			(at 207.01 276.86 0)
+			(at 201.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22302,7 +22302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 276.86 0)
+			(at 201.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22311,7 +22311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 276.86 0)
+			(at 201.93 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22426,7 +22426,7 @@
 	)
 	(symbol
 		(lib_id "Logotypes:RoHS_Logo")
-		(at 209.55 289.56 0)
+		(at 201.93 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22435,7 +22435,7 @@
 		(fields_autoplaced yes)
 		(uuid "6718e178-747f-4b4f-9b4b-2ba04e157816")
 		(property "Reference" "Logo5"
-			(at 209.55 280.035 0)
+			(at 201.93 268.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22444,7 +22444,7 @@
 			)
 		)
 		(property "Value" "RoHS_Logo"
-			(at 217.17 288.2899 0)
+			(at 209.55 276.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22453,7 +22453,7 @@
 			)
 		)
 		(property "Footprint" "Logotypes:RoHS"
-			(at 209.55 289.56 0)
+			(at 201.93 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22462,7 +22462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 289.56 0)
+			(at 201.93 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22471,7 +22471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 289.56 0)
+			(at 201.93 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22743,7 +22743,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "0603/150-200R"
 			(at 217.1319 199.898 90)
 			(effects
 				(font
@@ -23250,7 +23250,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "0603/150-200R"
 			(at 185.3819 243.078 90)
 			(effects
 				(font
@@ -24351,7 +24351,7 @@
 	)
 	(symbol
 		(lib_id "Logotypes:CE_Logo")
-		(at 209.55 281.94 0)
+		(at 201.93 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -24360,7 +24360,7 @@
 		(fields_autoplaced yes)
 		(uuid "c753a4a2-e176-4f77-bb27-b2a0f6f783e4")
 		(property "Reference" "Logo4"
-			(at 209.55 272.415 0)
+			(at 201.93 262.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24369,7 +24369,7 @@
 			)
 		)
 		(property "Value" "CE_Logo"
-			(at 217.17 280.6699 0)
+			(at 209.55 270.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24378,7 +24378,7 @@
 			)
 		)
 		(property "Footprint" "Logotypes:CE"
-			(at 209.55 281.94 0)
+			(at 201.93 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24387,7 +24387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 281.94 0)
+			(at 201.93 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24396,7 +24396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 281.94 0)
+			(at 201.93 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24988,7 +24988,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "0603/150-200R"
 			(at 217.1319 199.898 90)
 			(effects
 				(font
@@ -25050,7 +25050,7 @@
 	(symbol
 		(lib_name "QMK_Logo_1")
 		(lib_id "Logotypes:QMK_Logo")
-		(at 184.15 276.86 0)
+		(at 176.53 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -25059,7 +25059,7 @@
 		(fields_autoplaced yes)
 		(uuid "faf56078-4e61-4bd5-a895-aacf9835f5a1")
 		(property "Reference" "Logo1"
-			(at 184.15 267.335 0)
+			(at 176.53 255.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25068,7 +25068,7 @@
 			)
 		)
 		(property "Value" "QMK_Logo"
-			(at 184.404 271.526 0)
+			(at 176.784 260.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25076,7 +25076,7 @@
 			)
 		)
 		(property "Footprint" "Logotypes:qmk logo"
-			(at 184.15 276.86 0)
+			(at 176.53 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25085,7 +25085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 276.86 0)
+			(at 176.53 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25094,7 +25094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 276.86 0)
+			(at 176.53 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
