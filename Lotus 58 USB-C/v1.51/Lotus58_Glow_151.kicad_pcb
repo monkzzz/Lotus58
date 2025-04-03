@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Lotus 58 Glow")
-		(date "2024-11-18")
-		(rev "v1.5.0")
+		(title "Lotus 58 - USB Link")
+		(date "2025-04-03")
+		(rev "v1.5.1")
 		(company "Markus Knutsson <markus.knutsson@tweety.se>")
 		(comment 1 "https://github.com/TweetyDaBird")
 		(comment 2 "Licensed under CERN-OHL-S v2 or any superseding version")
