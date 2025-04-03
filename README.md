@@ -1,9 +1,8 @@
-### Notice! Files in the development branches are NOT intended for public use in production of PCB's, may or may not be tested and may change or be removed without notice! 
-Please use the Gerber files for producing PCB's, found under the header 'Releases' instead. Also please note the difference between a 'Pre-release' (partially/fully untested, basically what I order a prototype PCB from to test) and a full actual 'Release' which is fully tested, built and ready to be used to produce PCB's.
+### Notice! Project files in the development branches are NOT intended for public use in production of PCB's, may or may not be tested and may change or be removed without notice! 
+If you order PCB's from these, YOU bear the sole responsibility for how these turn out!!! Please use the Gerber files for producing PCB's, found under the header 'Releases' instead (Look here >>). Also please note the difference between a 'Pre-release' (partially/fully untested, basically what I order a prototype PCB from to test) and a full actual 'Release' which is fully tested, built and ready to be used to produce PCB's.
 
-That said, if you want to tweak/change or make something new based on my project, I can point you to a suitable starting point in the raw files. Talk to me, and I'm happy to help.
-
-# Lotus 58 Glow
+# Lotus 58 Glow - Classic
+#### Lotus 58 Classic is the wired designs of the Lotus keyboard. Wireless with BLE and 2.4Ghz dongled wireless reside in other repositories.
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
 
@@ -49,11 +48,16 @@ The gerber files are where they belong, zipped up in releases, look under that h
 
 If ordering from [JLCPCB](https://www.jlcpcb.com) the plate Gerber files include a reference putting the added serial etc on a breakaway part for a clean look with minimal cost, if using another manufacturer it's possible they have additional fee's for removing the extra text, or you should consider plotting the Gerber files yourself with the correct reference for your manufacturer. Otherwise use the standard settings from JLPCB.
 
+## Build guide
+**Some basic build instructions are in the [WIKI](https://github.com/TweetyDaBird/Lotus-58-Classic/wiki), and I really try to keep these updated.** But please keep in mind that whenever these instructions conflict with information on the PCB silkscreen, the silkscreen is and always will be the correct source of information! It's always updated with the version, and the most current information for the PCB version in question. 
+
+**The intent has always been that the keyboard should be able to be fully built with some very basic soldering skills and the instructions on the silkscreen.**
+
+### Discord for further build help and discussions!
+
+<a href="https://discord.gg/G6QzcJQUnm"><img alt="Discuss on Discord" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/625eb604bb8605784489d361_Discord-Logo%2BWordmark-Color%20(1).png" width="219" height="60"/></a>
+
 ## Buy a kit!
 I sell complete kits, making it easy to build your keyboard, and it also supports prototypes for new wacky ones. 
 
 <a href="https://lectronz.com/stores/tweetys-wild-thinking"><img alt="Buy it on Lectronz" src="https://lectronz.com/static/badges/buy-it-on-lectronz-small.png" /></a>
-
-## Discord for build help and discussions!
-
-<a href="https://discord.gg/G6QzcJQUnm"><img alt="Discuss on Discord" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/625eb604bb8605784489d361_Discord-Logo%2BWordmark-Color%20(1).png" width="219" height="60"/></a>

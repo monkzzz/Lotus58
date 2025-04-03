@@ -7,9 +7,9 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 ![Lotus 58 Glow](https://preview.redd.it/7apgomy67qf61.jpg?width=4032&format=pjpg&auto=webp&s=ce1f045339149a99311582d44b458c88c2b167a3)
 (photo from reddit by u/bduzik)
 
-## TRRS link version - Lotus 58 Classic
+## USB C link version - Lotus 58 USB-C
 
-This is the original branch of the Lotus 58 Glow design, using the TRRS link. A lot of features have been added along the way for the newer versions.
+This is the USB-C branch of the Lotus 58 Glow design, using a USB C to C cable link. This allows full hot plugging, with ESD protection on the serial data line.
 
 ## General Specifications
 
