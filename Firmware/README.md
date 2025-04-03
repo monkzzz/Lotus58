@@ -2,14 +2,16 @@
 ### Vial - user friendly, easier for a beginner.
 [VIAL](https://get.vial.today) allows you to dynamically remap and change settings on the keyboard from a GUI both [app](https://get.vial.today) and [online](https://vial.rocks), without re-flashing it. It however requires that the keyboard is first flashed with a dedicated firmware for Vial. 
 
-Unfortunately, since the GUI functions add some size and complexity to the firmware, and with recent memory bloat from upstream QMK, requiring more and more memory for essentially the same functions, **it is no longer a viable option to supply a full featured binary for using Vial on a Atmega32u4 based Pro Micro.** 
+Unfortunately, since the GUI functions add some size and complexity to the firmware, and with recent memory bloat from upstream QMK, requiring more and more memory for essentially the same functions, **it is no longer a viable option to supply a full featured binary for using Vial on a Atmega32u4 based Pro Micro here for every update.** You can find them for the default target here, https://keyboard.gay or compile from source.
 
-You can still use Vial on a Pro Micro based on the Atmega32u4, but with the limited memory, you will have to remove features and select/enable the features you deem important. **As such, no Atmega32u4 based binary will be supplied!**
+You can still use Vial on a Pro Micro based on the Atmega32u4, but with the limited memory, you will have to remove features and select/enable the features that you deem important, and as such no universal image can be provided.
+
+Please read the [instructions](https://get.vial.today/docs/porting-to-vial.html) before compiling, to avoid the simplest errors.
 
 **Vial source:** [https://github.com/TweetyDaBird/vial-qmk](https://github.com/TweetyDaBird/vial-qmk)
 
 ### QMK - The most powerful and flexible option, but requires a bit more knowledge.
-In most cases you can use [QMK Configurator](https://config.qmk.fm/#/tweetydabird/lotus58/promicro/LAYOUT) to build your firmware, as Lotus is included in the main QMK git branch. However if you are using a RP2040 based controller, you need to build from source and use the appropriorate [converter](https://docs.qmk.fm/#/feature_converters?id=converters) for your exact controller (since there are multiple different options, supplying pre-compiled binaries is not a good option).  
+In most cases you can use [QMK Configurator](https://config.qmk.fm/#/tweetydabird/lotus58/promicro/LAYOUT) to build your firmware, as Lotus is included in the main QMK git branch. However if you are using a RP2040 based controller, you need to build from source and use the appropriorate [converter](https://docs.qmk.fm/#/feature_converters?id=converters) for your exact controller.  
 
 **QMK source:** [https://github.com/qmk/qmk_firmware/tree/master/keyboards/tweetydabird/lotus58](https://github.com/qmk/qmk_firmware/tree/master/keyboards/tweetydabird/lotus58)
 
