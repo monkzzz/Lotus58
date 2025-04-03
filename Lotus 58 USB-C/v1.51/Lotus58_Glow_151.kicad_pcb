@@ -429,8 +429,8 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005b74da95")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.07 0)
@@ -531,8 +531,8 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005b74d1c0")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.07 0)
@@ -633,8 +633,8 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005b74d78b")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.07 0)
@@ -735,8 +735,8 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005b74d88c")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.07 0)
@@ -837,8 +837,8 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00005b74d98f")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.07 0)
@@ -953,7 +953,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7227cd")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -1813,7 +1813,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7228f7")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -2673,7 +2673,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b722a11")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -3533,7 +3533,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b722ca9")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -4393,7 +4393,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b723c9d")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -5253,7 +5253,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b723731")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -6113,7 +6113,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7237a6")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -6973,7 +6973,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b72387d")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -7833,7 +7833,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b723ad3")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -8693,7 +8693,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7250ad")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -9553,7 +9553,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b725133")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -10413,7 +10413,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7251bf")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -11273,7 +11273,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7252f1")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -12133,7 +12133,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b725398")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -12993,7 +12993,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b727312")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -13853,7 +13853,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b727256")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -14713,7 +14713,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b726f89")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -15573,7 +15573,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b727035")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -16433,7 +16433,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7270f6")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -17293,7 +17293,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7293b0")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -18153,7 +18153,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b734347")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -19013,7 +19013,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b73449b")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -19873,7 +19873,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7225da")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -20733,7 +20733,7 @@
 		)
 		(path "/768acd99-49e7-492d-8dbb-db6ba1f49dac")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -21593,7 +21593,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b7271a5")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -22453,7 +22453,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b722582")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 7)
@@ -23313,7 +23313,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b72524e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -24156,7 +24156,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005be5032c")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr allow_missing_courtyard dnp)
 		(fp_line
 			(start 14 6)
@@ -24915,7 +24915,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/0f8bfbbc-983f-40a4-89e0-e863e0346660")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -25131,7 +25131,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/b0305e70-b36e-4fe0-8a90-208cfae0048c")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -25347,7 +25347,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/8e4f362a-390d-429f-b74b-e39932c96a91")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -25563,7 +25563,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/dba7fafe-6535-4a43-bd51-79969ebf8a5d")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -25779,7 +25779,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/1cd5d5c6-5ed3-448a-80c9-5b5cfcbaef97")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -25956,7 +25956,7 @@
 				)
 			)
 		)
-		(property "Value" "ProMicro"
+		(property "Value" "Controller"
 			(at 0 -16.5 0)
 			(layer "F.Fab")
 			(uuid "f3ae27e4-959b-48fd-9b13-6b28be1bfd8e")
@@ -25993,7 +25993,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b722440")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -8.89 -15.24)
@@ -30174,7 +30174,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b722b51")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -31020,7 +31020,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/4b5cc9c4-e146-442b-928c-b397ebc20215")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -31250,7 +31250,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005b723388")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -7 -7)
@@ -32109,7 +32109,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-00005d2e8536")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -32388,7 +32388,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c56730")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -32667,7 +32667,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c57351")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -32946,7 +32946,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c57dc1")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -33225,7 +33225,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c5886c")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -33504,7 +33504,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c5956f")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -33783,7 +33783,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c603ab")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -34062,7 +34062,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c5f871")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -34341,7 +34341,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c5ec57")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -34620,7 +34620,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c5e01d")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -34899,7 +34899,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c5d4ef")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -35178,7 +35178,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c5a679")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -35457,7 +35457,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c626e8")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -35736,7 +35736,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6352c")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -36015,7 +36015,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c63fac")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -36294,7 +36294,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c64bd8")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -36573,7 +36573,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6578e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -36852,7 +36852,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c663f8")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -37131,7 +37131,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6c3e4")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -37410,7 +37410,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6b696")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -37689,7 +37689,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6ab94")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -37968,7 +37968,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c69ec0")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -38247,7 +38247,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6943e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -38526,7 +38526,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6871a")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -38805,7 +38805,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6e474")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -39084,7 +39084,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c6f65a")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -39363,7 +39363,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c704e3")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -39642,7 +39642,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c71295")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -39921,7 +39921,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/00000000-0000-0000-0000-000061c7203d")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -40130,6 +40130,493 @@
 			)
 		)
 	)
+	(footprint "Logotypes:CC_BY_SA_40_line"
+		(layer "F.Cu")
+		(uuid "0933c5f8-80bb-4f80-b02b-1396edfb8f65")
+		(at 135.843307 113.613436)
+		(property "Reference" "Logo8"
+			(at -11.461736 -0.068082 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45d703c7-46e1-4145-ae94-67bf4fcf6bab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CC-BY-SA-4.0"
+			(at 0.968264 0.695 0)
+			(layer "F.SilkS")
+			(uuid "fc70d3eb-3a89-446e-ad88-557002caad66")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.125)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -9.810365 0.718289 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7718b8f4-254a-4b2a-9759-9df80a96a45a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -9.810365 0.718289 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "853de625-a252-429b-b045-683e7dca7bc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at -9.810365 0.718289 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5efe732-0e91-4d38-849e-80d08e25bb1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at -9.810365 0.718289 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "071f07a1-4d8b-488b-bb48-c0773e45f171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e1a375bf-088a-431e-8f97-5653c23cbc91")
+		(sheetname "/")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(fp_poly
+			(pts
+				(xy -9.818612 -1.092348) (xy -9.794603 -1.089863) (xy -9.774448 -1.084395) (xy -9.752827 -1.07486)
+				(xy -9.745786 -1.071312) (xy -9.710459 -1.049111) (xy -9.685319 -1.022629) (xy -9.668925 -0.989291)
+				(xy -9.659835 -0.946524) (xy -9.65719 -0.913083) (xy -9.65681 -0.875465) (xy -9.658729 -0.841157)
+				(xy -9.662634 -0.815508) (xy -9.663006 -0.814055) (xy -9.678046 -0.781387) (xy -9.703346 -0.750189)
+				(xy -9.734865 -0.724383) (xy -9.76856 -0.707895) (xy -9.773936 -0.706371) (xy -9.808162 -0.700948)
+				(xy -9.849594 -0.698976) (xy -9.891633 -0.700435) (xy -9.92768 -0.705303) (xy -9.934459 -0.70691)
+				(xy -9.958782 -0.71797) (xy -9.986131 -0.737774) (xy -9.997283 -0.747888) (xy -10.019604 -0.772787)
+				(xy -10.034679 -0.79878) (xy -10.043489 -0.829172) (xy -10.047019 -0.867268) (xy -10.046397 -0.913083)
+				(xy -10.04122 -0.963221) (xy -10.029659 -1.002285) (xy -10.010272 -1.03285) (xy -9.981618 -1.057489)
+				(xy -9.9578 -1.071312) (xy -9.934817 -1.082181) (xy -9.914786 -1.088679) (xy -9.892393 -1.09189)
+				(xy -9.862316 -1.0929) (xy -9.851793 -1.092935) (xy -9.818612 -1.092348)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "9204de38-6d98-4276-b661-a3f5c0b90108")
+		)
+		(fp_poly
+			(pts
+				(xy -9.773199 -0.639852) (xy -9.707805 -0.639654) (xy -9.654301 -0.639133) (xy -9.611374 -0.638126)
+				(xy -9.57771 -0.63648) (xy -9.551997 -0.634031) (xy -9.532923 -0.630626) (xy -9.519175 -0.626104)
+				(xy -9.50944 -0.620307) (xy -9.502407 -0.613077) (xy -9.496761 -0.604256) (xy -9.492688 -0.596577)
+				(xy -9.489902 -0.589343) (xy -9.487615 -0.578545) (xy -9.48578 -0.562842) (xy -9.484351 -0.540892)
+				(xy -9.483284 -0.511352) (xy -9.482527 -0.472881) (xy -9.48204 -0.424138) (xy -9.481773 -0.36378)
+				(xy -9.481681 -0.290465) (xy -9.481678 -0.277386) (xy -9.481679 0.020517) (xy -9.633931 0.020518)
+				(xy -9.63582 0.348903) (xy -9.637708 0.67729) (xy -9.848662 0.679211) (xy -9.902609 0.679537) (xy -9.951797 0.679518)
+				(xy -9.994369 0.679178) (xy -10.028464 0.678546) (xy -10.052226 0.677647) (xy -10.063795 0.676505)
+				(xy -10.064562 0.676187) (xy -10.065585 0.668126) (xy -10.066536 0.647031) (xy -10.067393 0.614384)
+				(xy -10.068134 0.571664) (xy -10.068739 0.520351) (xy -10.069183 0.461929) (xy -10.069444 0.397876)
+				(xy -10.069508 0.34588) (xy -10.069508 0.020518) (xy -10.221908 0.020518) (xy -10.221908 -0.277386)
+				(xy -10.22184 -0.352907) (xy -10.221604 -0.415257) (xy -10.221155 -0.465776) (xy -10.220446 -0.505808)
+				(xy -10.219431 -0.536691) (xy -10.218063 -0.559771) (xy -10.216296 -0.576387) (xy -10.214085 -0.587883)
+				(xy -10.211382 -0.595599) (xy -10.210899 -0.596577) (xy -10.205435 -0.606683) (xy -10.199558 -0.615081)
+				(xy -10.191956 -0.621927) (xy -10.181315 -0.627381) (xy -10.166324 -0.6316) (xy -10.145669 -0.634745)
+				(xy -10.118039 -0.636972) (xy -10.08212 -0.63844) (xy -10.0366 -0.639306) (xy -9.980166 -0.63973)
+				(xy -9.911506 -0.639869) (xy -9.851793 -0.639882) (xy -9.773199 -0.639852)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "154a6a03-bcf0-4f31-92d2-fcb4a1c50d85")
+		)
+		(fp_poly
+			(pts
+				(xy -12.326479 -0.637834) (xy -12.257065 -0.63104) (xy -12.19738 -0.616905) (xy -12.1441 -0.59443)
+				(xy -12.107152 -0.572058) (xy -12.082014 -0.552698) (xy -12.055671 -0.528856) (xy -12.030501 -0.503144)
+				(xy -12.008882 -0.478176) (xy -11.993192 -0.456564) (xy -11.985807 -0.44092) (xy -11.985533 -0.438417)
+				(xy -11.991013 -0.429958) (xy -12.007775 -0.417298) (xy -12.036515 -0.399979) (xy -12.077929 -0.377544)
+				(xy -12.079558 -0.376691) (xy -12.173444 -0.327585) (xy -12.203524 -0.368304) (xy -12.235428 -0.40339)
+				(xy -12.270613 -0.425328) (xy -12.311612 -0.435459) (xy -12.332155 -0.436523) (xy -12.380951 -0.430426)
+				(xy -12.422151 -0.412223) (xy -12.454833 -0.382695) (xy -12.478075 -0.342624) (xy -12.489302 -0.303229)
+				(xy -12.491944 -0.279338) (xy -12.49351 -0.245884) (xy -12.493979 -0.207778) (xy -12.493334 -0.169935)
+				(xy -12.491556 -0.137269) (xy -12.489986 -0.122541) (xy -12.479048 -0.08431) (xy -12.458644 -0.047266)
+				(xy -12.431706 -0.015361) (xy -12.401168 0.007454) (xy -12.389507 0.012815) (xy -12.362805 0.018567)
+				(xy -12.328556 0.020228) (xy -12.293091 0.017957) (xy -12.262741 0.01191) (xy -12.255869 0.0095)
+				(xy -12.24078 0.001591) (xy -12.22587 -0.01084) (xy -12.209143 -0.029989) (xy -12.188608 -0.058051)
+				(xy -12.171253 -0.083639) (xy -12.166934 -0.088599) (xy -12.160848 -0.090493) (xy -12.150794 -0.088619)
+				(xy -12.134572 -0.082275) (xy -12.109984 -0.070757) (xy -12.074828 -0.053365) (xy -12.072034 -0.051969)
+				(xy -12.03918 -0.035472) (xy -12.011268 -0.021307) (xy -11.990725 -0.010719) (xy -11.979984 -0.004951)
+				(xy -11.979017 -0.004332) (xy -11.980183 0.00371) (xy -11.989329 0.019664) (xy -12.004452 0.040914)
+				(xy -12.023544 0.064839) (xy -12.044603 0.088821) (xy -12.065623 0.110238) (xy -12.069382 0.113743)
+				(xy -12.129183 0.159601) (xy -12.195451 0.194365) (xy -12.249989 0.212702) (xy -12.287451 0.219106)
+				(xy -12.333156 0.222281) (xy -12.381176 0.222128) (xy -12.425584 0.218551) (xy -12.442593 0.21584)
+				(xy -12.510463 0.195934) (xy -12.573569 0.16407) (xy -12.629713 0.121883) (xy -12.676703 0.071006)
+				(xy -12.710738 0.016365) (xy -12.731844 -0.032052) (xy -12.74606 -0.0797) (xy -12.754335 -0.131116)
+				(xy -12.757623 -0.190838) (xy -12.757778 -0.208082) (xy -12.754745 -0.282564) (xy -12.744799 -0.346321)
+				(xy -12.727029 -0.401845) (xy -12.700525 -0.451622) (xy -12.664379 -0.498146) (xy -12.64406 -0.519339)
+				(xy -12.588832 -0.567126) (xy -12.532152 -0.601987) (xy -12.471622 -0.624816) (xy -12.404844 -0.636511)
+				(xy -12.329419 -0.637963) (xy -12.326479 -0.637834)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "cddc59ef-f700-4216-a33b-37397429f985")
+		)
+		(fp_poly
+			(pts
+				(xy -13.053731 -0.634193) (xy -12.98043 -0.617451) (xy -12.915099 -0.589989) (xy -12.877147 -0.566244)
+				(xy -12.851947 -0.545582) (xy -12.827143 -0.521156) (xy -12.804543 -0.495328) (xy -12.785953 -0.470456)
+				(xy -12.77318 -0.448903) (xy -12.768031 -0.43303) (xy -12.770108 -0.426401) (xy -12.777146 -0.422363)
+				(xy -12.794699 -0.412838) (xy -12.82043 -0.399079) (xy -12.851999 -0.38234) (xy -12.866652 -0.37461)
+				(xy -12.903333 -0.355462) (xy -12.929342 -0.342517) (xy -12.946751 -0.335032) (xy -12.957629 -0.332265)
+				(xy -12.964051 -0.333472) (xy -12.968088 -0.337912) (xy -12.968252 -0.338184) (xy -12.997365 -0.380599)
+				(xy -13.027417 -0.41003) (xy -13.060623 -0.427954) (xy -13.0992 -0.435847) (xy -13.115927 -0.436523)
+				(xy -13.160383 -0.431539) (xy -13.19712 -0.415523) (xy -13.227562 -0.387489) (xy -13.253132 -0.346447)
+				(xy -13.256819 -0.338711) (xy -13.264028 -0.321345) (xy -13.268838 -0.304063) (xy -13.271716 -0.283327)
+				(xy -13.273123 -0.255598) (xy -13.273533 -0.217338) (xy -13.273536 -0.211711) (xy -13.273219 -0.171894)
+				(xy -13.271956 -0.143046) (xy -13.269282 -0.121624) (xy -13.264732 -0.104093) (xy -13.25784 -0.086913)
+				(xy -13.256836 -0.084711) (xy -13.234173 -0.045884) (xy -13.206089 -0.013825) (xy -13.175779 0.007951)
+				(xy -13.170355 0.010497) (xy -13.136189 0.019114) (xy -13.096201 0.020157) (xy -13.05677 0.013914)
+				(xy -13.030534 0.004189) (xy -13.006923 -0.012657) (xy -12.982312 -0.037658) (xy -12.961262 -0.065562)
+				(xy -12.948713 -0.089989) (xy -12.942266 -0.091867) (xy -12.925832 -0.087216) (xy -12.898539 -0.075723)
+				(xy -12.866113 -0.060322) (xy -12.826117 -0.040716) (xy -12.797584 -0.026166) (xy -12.779044 -0.015148)
+				(xy -12.769026 -0.006133) (xy -12.766058 0.002406) (xy -12.768671 0.011997) (xy -12.775392 0.024166)
+				(xy -12.77895 0.03018) (xy -12.799592 0.058501) (xy -12.829238 0.090404) (xy -12.864143 0.122529)
+				(xy -12.900562 0.15152) (xy -12.934751 0.174017) (xy -12.945988 0.179976) (xy -13.018869 0.207476)
+				(xy -13.095975 0.221597) (xy -13.175437 0.222127) (xy -13.238878 0.212749) (xy -13.299276 0.19303)
+				(xy -13.35856 0.161518) (xy -13.413152 0.120722) (xy -13.459473 0.073152) (xy -13.48188 0.042289)
+				(xy -13.494348 0.019152) (xy -13.508079 -0.011758) (xy -13.520357 -0.044258) (xy -13.521753 -0.048425)
+				(xy -13.529851 -0.074768) (xy -13.535329 -0.098315) (xy -13.538691 -0.123145) (xy -13.540446 -0.153337)
+				(xy -13.541101 -0.192968) (xy -13.541151 -0.204454) (xy -13.538368 -0.279971) (xy -13.528964 -0.344497)
+				(xy -13.512082 -0.400365) (xy -13.486863 -0.449902) (xy -13.452451 -0.49544) (xy -13.422914 -0.525732)
+				(xy -13.363864 -0.573533) (xy -13.301809 -0.60784) (xy -13.234784 -0.62943) (xy -13.160818 -0.639077)
+				(xy -13.133455 -0.639775) (xy -13.053731 -0.634193)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "ff4417ed-617d-4d85-b595-d0ea5e58f681")
+		)
+		(fp_poly
+			(pts
+				(xy -6.884343 -0.933087) (xy -6.786346 -0.920609) (xy -6.732385 -0.908571) (xy -6.669504 -0.887852)
+				(xy -6.604539 -0.858337) (xy -6.541366 -0.822302) (xy -6.483865 -0.782022) (xy -6.435913 -0.739772)
+				(xy -6.424996 -0.7282) (xy -6.38718 -0.680609) (xy -6.349658 -0.623325) (xy -6.315073 -0.560976)
+				(xy -6.28607 -0.498191) (xy -6.271545 -0.45958) (xy -6.254244 -0.39404) (xy -6.242482 -0.319026)
+				(xy -6.236364 -0.238521) (xy -6.235995 -0.156511) (xy -6.241483 -0.076979) (xy -6.252928 -0.00391)
+				(xy -6.258875 0.02138) (xy -6.291177 0.118377) (xy -6.335009 0.207591) (xy -6.38958 0.28822) (xy -6.454102 0.359463)
+				(xy -6.527788 0.420519) (xy -6.609848 0.470587) (xy -6.699495 0.508865) (xy -6.754695 0.525358)
+				(xy -6.802655 0.535063) (xy -6.858061 0.542274) (xy -6.916257 0.546706) (xy -6.972595 0.548079)
+				(xy -7.022421 0.54611) (xy -7.047679 0.543139) (xy -7.133485 0.522696) (xy -7.215637 0.490217) (xy -7.292315 0.446984)
+				(xy -7.361698 0.394279) (xy -7.421966 0.333384) (xy -7.471299 0.265582) (xy -7.490376 0.231324)
+				(xy -7.504844 0.198776) (xy -7.519407 0.159409) (xy -7.532915 0.117136) (xy -7.54422 0.075868) (xy -7.552172 0.03952)
+				(xy -7.555621 0.012) (xy -7.555679 0.009031) (xy -7.553893 0.005735) (xy -7.547479 0.003248) (xy -7.534851 0.001494)
+				(xy -7.514425 0.000396) (xy -7.484613 -0.000122) (xy -7.443832 -0.000134) (xy -7.390496 0.000283)
+				(xy -7.376065 0.000434) (xy -7.196451 0.002375) (xy -7.195274 0.025796) (xy -7.188511 0.064219)
+				(xy -7.173395 0.105732) (xy -7.152452 0.14382) (xy -7.145973 0.152873) (xy -7.111274 0.187038) (xy -7.066702 0.21372)
+				(xy -7.015126 0.232394) (xy -6.959415 0.242531) (xy -6.902436 0.243601) (xy -6.847061 0.235077)
+				(xy -6.797486 0.21709) (xy -6.747555 0.18575) (xy -6.705228 0.144234) (xy -6.669826 0.091604) (xy -6.640669 0.026926)
+				(xy -6.625252 -0.020253) (xy -6.619039 -0.043487) (xy -6.614597 -0.065466) (xy -6.611641 -0.089334)
+				(xy -6.609897 -0.118237) (xy -6.609084 -0.155318) (xy -6.608925 -0.203722) (xy -6.608926 -0.204454)
+				(xy -6.609874 -0.268121) (xy -6.612852 -0.320434) (xy -6.618361 -0.364472) (xy -6.626904 -0.403314)
+				(xy -6.638985 -0.440039) (xy -6.65267 -0.472461) (xy -6.684661 -0.526775) (xy -6.725459 -0.569698)
+				(xy -6.774567 -0.600968) (xy -6.831485 -0.620335) (xy -6.895716 -0.62754) (xy -6.949502 -0.624681)
+				(xy -6.99237 -0.618532) (xy -7.025693 -0.610669) (xy -7.054438 -0.599622) (xy -7.079953 -0.586062)
+				(xy -7.120265 -0.55521) (xy -7.154285 -0.515142) (xy -7.17898 -0.469961) (xy -7.188884 -0.438497)
+				(xy -7.193974 -0.414911) (xy -7.146227 -0.41491) (xy -7.120257 -0.414371) (xy -7.105706 -0.412204)
+				(xy -7.099501 -0.407589) (xy -7.098479 -0.402137) (xy -7.103469 -0.393617) (xy -7.117317 -0.376814)
+				(xy -7.138345 -0.353415) (xy -7.164873 -0.325111) (xy -7.195221 -0.293591) (xy -7.227711 -0.260544)
+				(xy -7.260662 -0.22766) (xy -7.292395 -0.196627) (xy -7.321231 -0.169134) (xy -7.34549 -0.146872)
+				(xy -7.363493 -0.131528) (xy -7.37356 -0.124793) (xy -7.374396 -0.124625) (xy -7.382837 -0.129646)
+				(xy -7.39951 -0.143582) (xy -7.422737 -0.164743) (xy -7.450839 -0.191439) (xy -7.48214 -0.221979)
+				(xy -7.51496 -0.254674) (xy -7.547623 -0.287833) (xy -7.578451 -0.319766) (xy -7.605765 -0.348783)
+				(xy -7.627889 -0.373193) (xy -7.643144 -0.391308) (xy -7.649852 -0.401435) (xy -7.650022 -0.402283)
+				(xy -7.648124 -0.408842) (xy -7.640486 -0.412674) (xy -7.62418 -0.414468) (xy -7.596418 -0.41491)
+				(xy -7.542813 -0.414911) (xy -7.537906 -0.447633) (xy -7.529243 -0.486903) (xy -7.514613 -0.533435)
+				(xy -7.495768 -0.5822) (xy -7.475887 -0.625368) (xy -7.430567 -0.699679) (xy -7.374944 -0.764558)
+				(xy -7.310081 -0.819599) (xy -7.23704 -0.864399) (xy -7.156883 -0.898552) (xy -7.070673 -0.921654)
+				(xy -6.979472 -0.933301) (xy -6.884343 -0.933087)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "c337c304-c8d7-43fc-b9ad-04a57f2aec74")
+		)
+		(fp_poly
+			(pts
+				(xy -12.700321 -1.561369) (xy -12.646436 -1.56106) (xy -12.60298 -1.560399) (xy -12.56791 -1.559289)
+				(xy -12.539183 -1.557629) (xy -12.514758 -1.555319) (xy -12.492589 -1.552262) (xy -12.470639 -1.548357)
+				(xy -12.461876 -1.54662) (xy -12.339628 -1.514667) (xy -12.219278 -1.469075) (xy -12.102176 -1.410706)
+				(xy -11.989675 -1.340424) (xy -11.883123 -1.259094) (xy -11.783872 -1.167579) (xy -11.693272 -1.066744)
+				(xy -11.674118 -1.042734) (xy -11.598482 -0.934222) (xy -11.533369 -0.816561) (xy -11.47949 -0.691298)
+				(xy -11.437555 -0.55998) (xy -11.421338 -0.49276) (xy -11.416645 -0.462034) (xy -11.412887 -0.419407)
+				(xy -11.410063 -0.367465) (xy -11.40817 -0.308792) (xy -11.407206 -0.245971) (xy -11.407168 -0.181588)
+				(xy -11.408054 -0.118226) (xy -11.409862 -0.05847) (xy -11.412591 -0.004903) (xy -11.416236 0.03989)
+				(xy -11.420796 0.073324) (xy -11.421851 0.078575) (xy -11.458695 0.215443) (xy -11.508218 0.34526)
+				(xy -11.570383 0.46796) (xy -11.645156 0.583479) (xy -11.7325 0.69175) (xy -11.787562 0.749862)
+				(xy -11.827969 0.788701) (xy -11.867786 0.824276) (xy -11.904506 0.854493) (xy -11.935628 0.877255)
+				(xy -11.950947 0.886667) (xy -11.963698 0.894279) (xy -11.985202 0.907761) (xy -12.012096 0.924985)
+				(xy -12.032565 0.938284) (xy -12.121029 0.990279) (xy -12.219293 1.037742) (xy -12.322899 1.078862)
+				(xy -12.427389 1.111827) (xy -12.505419 1.130469) (xy -12.530559 1.135198) (xy -12.554855 1.138805)
+				(xy -12.58076 1.141423) (xy -12.610724 1.143185) (xy -12.6472 1.144222) (xy -12.692638 1.144667)
+				(xy -12.74949 1.144653) (xy -12.766676 1.14459) (xy -12.839295 1.14383) (xy -12.901299 1.142231)
+				(xy -12.951627 1.139838) (xy -12.989216 1.136698) (xy -13.006426 1.134257) (xy -13.126322 1.105653)
+				(xy -13.246505 1.064083) (xy -13.364057 1.010738) (xy -13.476062 0.946806) (xy -13.493269 0.935677)
+				(xy -13.52066 0.917877) (xy -13.543443 0.903491) (xy -13.559 0.894144) (xy -13.564596 0.891375)
+				(xy -13.572915 0.886775) (xy -13.589587 0.874285) (xy -13.612306 0.85587) (xy -13.63877 0.833495)
+				(xy -13.666674 0.809126) (xy -13.693718 0.784727) (xy -13.717594 0.762265) (xy -13.728103 0.751891)
+				(xy -13.822176 0.647135) (xy -13.904198 0.534945) (xy -13.974457 0.414806) (xy -14.03324 0.286202)
+				(xy -14.080832 0.148619) (xy -14.098116 0.085832) (xy -14.102864 0.065834) (xy -14.106638 0.045835)
+				(xy -14.109588 0.023719) (xy -14.111861 -0.00263) (xy -14.113608 -0.035329) (xy -14.114976 -0.076494)
+				(xy -14.116116 -0.12824) (xy -14.117025 -0.182682) (xy -14.117465 -0.213174) (xy -13.857956 -0.213174)
+				(xy -13.851672 -0.091415) (xy -13.831741 0.028492) (xy -13.79847 0.14504) (xy -13.752163 0.256719)
+				(xy -13.717713 0.321689) (xy -13.662486 0.408957) (xy -13.601648 0.488334) (xy -13.533022 0.562151)
+				(xy -13.454433 0.632734) (xy -13.363707 0.702413) (xy -13.35844 0.706181) (xy -13.320816 0.730335)
+				(xy -13.273519 0.756683) (xy -13.220757 0.783177) (xy -13.166741 0.807773) (xy -13.11568 0.828426)
+				(xy -13.084705 0.839201) (xy -13.002538 0.860196) (xy -12.91093 0.874596) (xy -12.813491 0.882155)
+				(xy -12.713831 0.88263) (xy -12.615559 0.875776) (xy -12.590192 0.872698) (xy -12.500022 0.857029)
+				(xy -12.41724 0.834322) (xy -12.335696 0.802779) (xy -12.308336 0.790279) (xy -12.196488 0.730092)
+				(xy -12.092625 0.659374) (xy -11.997813 0.579153) (xy -11.91311 0.490459) (xy -11.839585 0.394321)
+				(xy -11.778298 0.291767) (xy -11.764235 0.263632) (xy -11.744707 0.219472) (xy -11.725554 0.17003)
+				(xy -11.708258 0.119667) (xy -11.694301 0.072743) (xy -11.685163 0.033621) (xy -11.684149 0.027774)
+				(xy -11.680194 0.00438) (xy -11.67662 -0.014955) (xy -11.675702 -0.019397) (xy -11.673002 -0.039653)
+				(xy -11.670845 -0.07135) (xy -11.66926 -0.111424) (xy -11.668275 -0.156812) (xy -11.66792 -0.204448)
+				(xy -11.668224 -0.25127) (xy -11.669217 -0.294213) (xy -11.670926 -0.330212) (xy -11.672561 -0.349597)
+				(xy -11.692702 -0.467537) (xy -11.726585 -0.582586) (xy -11.773527 -0.693462) (xy -11.832843 -0.798886)
+				(xy -11.903853 -0.897578) (xy -11.985872 -0.988256) (xy -12.039822 -1.038058) (xy -12.130443 -1.110699)
+				(xy -12.219634 -1.170439) (xy -12.309538 -1.218067) (xy -12.402297 -1.254371) (xy -12.500054 -1.28014)
+				(xy -12.604953 -1.296161) (xy -12.719135 -1.303225) (xy -12.761908 -1.303725) (xy -12.870848 -1.300183)
+				(xy -12.969592 -1.289172) (xy -13.060686 -1.270173) (xy -13.146676 -1.242668) (xy -13.222736 -1.209759)
+				(xy -13.329755 -1.149787) (xy -13.430112 -1.077724) (xy -13.522701 -0.994886) (xy -13.606415 -0.902595)
+				(xy -13.680152 -0.802164) (xy -13.742803 -0.694913) (xy -13.793263 -0.582158) (xy -13.822273 -0.495372)
+				(xy -13.828243 -0.47399) (xy -13.832868 -0.455318) (xy -13.836734 -0.436004) (xy -13.840424 -0.412697)
+				(xy -13.844529 -0.382047) (xy -13.849633 -0.340702) (xy -13.850291 -0.335273) (xy -13.857956 -0.213174)
+				(xy -14.117465 -0.213174) (xy -14.117903 -0.243519) (xy -14.118386 -0.292157) (xy -14.118356 -0.330911)
+				(xy -14.117693 -0.362093) (xy -14.116279 -0.388016) (xy -14.113993 -0.410997) (xy -14.110718 -0.433346)
+				(xy -14.106334 -0.457377) (xy -14.101688 -0.480649) (xy -14.06746 -0.613152) (xy -14.019731 -0.741238)
+				(xy -13.959043 -0.864144) (xy -13.88594 -0.981108) (xy -13.800967 -1.091368) (xy -13.704667 -1.194159)
+				(xy -13.597585 -1.28872) (xy -13.480265 -1.374288) (xy -13.450467 -1.393514) (xy -13.374067 -1.436518)
+				(xy -13.288053 -1.47612) (xy -13.197253 -1.510396) (xy -13.106494 -1.537422) (xy -13.065042 -1.547111)
+				(xy -13.044184 -1.551181) (xy -13.02314 -1.554407) (xy -12.99992 -1.556886) (xy -12.972538 -1.558715)
+				(xy -12.939005 -1.559986) (xy -12.897334 -1.560797) (xy -12.845537 -1.561241) (xy -12.781626 -1.561415)
+				(xy -12.766676 -1.561425) (xy -12.700321 -1.561369)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "6aa9d742-a7a1-4439-8f54-f4c2ff299cf7")
+		)
+		(fp_poly
+			(pts
+				(xy -9.784272 -1.56128) (xy -9.722795 -1.560607) (xy -9.671385 -1.559173) (xy -9.62782 -1.556747)
+				(xy -9.589876 -1.553095) (xy -9.555333 -1.547985) (xy -9.521968 -1.541182) (xy -9.487559 -1.532457)
+				(xy -9.449882 -1.521574) (xy -9.435226 -1.517124) (xy -9.348973 -1.487364) (xy -9.266536 -1.451635)
+				(xy -9.18474 -1.408292) (xy -9.100411 -1.355696) (xy -9.035365 -1.310471) (xy -8.998677 -1.281925)
+				(xy -8.956852 -1.246015) (xy -8.912858 -1.205604) (xy -8.869668 -1.163553) (xy -8.830251 -1.122724)
+				(xy -8.797579 -1.085978) (xy -8.781816 -1.066241) (xy -8.761656 -1.039485) (xy -8.739825 -1.010697)
+				(xy -8.730355 -0.99828) (xy -8.690307 -0.940151) (xy -8.650345 -0.87159) (xy -8.612384 -0.796556)
+				(xy -8.578335 -0.71902) (xy -8.550114 -0.642942) (xy -8.535194 -0.593939) (xy -8.523503 -0.549671)
+				(xy -8.51419 -0.510141) (xy -8.507031 -0.472902) (xy -8.501802 -0.435505) (xy -8.498279 -0.395503)
+				(xy -8.496238 -0.350448) (xy -8.495456 -0.297893) (xy -8.495709 -0.23539) (xy -8.496583 -0.171797)
+				(xy -8.49768 -0.109632) (xy -8.498819 -0.05978) (xy -8.50017 -0.020038) (xy -8.501901 0.011795)
+				(xy -8.504182 0.037922) (xy -8.507183 0.060544) (xy -8.511071 0.081862) (xy -8.516017 0.104079)
+				(xy -8.51861 0.114861) (xy -8.557404 0.24723) (xy -8.607376 0.370873) (xy -8.669221 0.487106) (xy -8.743637 0.597246)
+				(xy -8.828088 0.699061) (xy -8.906732 0.777347) (xy -8.996736 0.852548) (xy -9.094988 0.922644)
+				(xy -9.198372 0.985618) (xy -9.303776 1.039453) (xy -9.408084 1.082132) (xy -9.431922 1.090265)
+				(xy -9.482446 1.106135) (xy -9.528189 1.11871) (xy -9.571894 1.128342) (xy -9.616306 1.135379) (xy -9.664171 1.140173)
+				(xy -9.718234 1.143073) (xy -9.781241 1.144431) (xy -9.855937 1.144596) (xy -9.857605 1.14459) (xy -9.938406 1.143761)
+				(xy -10.004875 1.141991) (xy -10.056966 1.13928) (xy -10.094636 1.13563) (xy -10.105665 1.133906)
+				(xy -10.204365 1.110651) (xy -10.306693 1.076888) (xy -10.408531 1.034381) (xy -10.50576 0.984894)
+				(xy -10.594261 0.930194) (xy -10.614766 0.915748) (xy -10.633863 0.902497) (xy -10.648184 0.893647)
+				(xy -10.653436 0.891375) (xy -10.662269 0.886725) (xy -10.679435 0.874051) (xy -10.702692 0.855265)
+				(xy -10.729795 0.832281) (xy -10.758498 0.807012) (xy -10.786559 0.781371) (xy -10.811732 0.757271)
+				(xy -10.817447 0.751575) (xy -10.913607 0.644814) (xy -10.997597 0.530647) (xy -11.069052 0.409734)
+				(xy -11.127608 0.28273) (xy -11.1729 0.150291) (xy -11.191298 0.078575) (xy -11.195477 0.052415)
+				(xy -11.199164 0.014337) (xy -11.202306 -0.033071) (xy -11.204851 -0.087219) (xy -11.206748 -0.145518)
+				(xy -11.207943 -0.205379) (xy -11.208098 -0.226132) (xy -10.947993 -0.226132) (xy -10.946173 -0.131476)
+				(xy -10.937815 -0.040475) (xy -10.922921 0.043084) (xy -10.913907 0.077874) (xy -10.872586 0.194753)
+				(xy -10.818235 0.306369) (xy -10.751693 0.411733) (xy -10.6738 0.509859) (xy -10.585394 0.599756)
+				(xy -10.487317 0.680438) (xy -10.380408 0.750916) (xy -10.3093 0.789433) (xy -10.233391 0.823639)
+				(xy -10.159941 0.848436) (xy -10.08254 0.865779) (xy -10.036851 0.872735) (xy -9.967706 0.880909)
+				(xy -9.907072 0.88569) (xy -9.850309 0.887069) (xy -9.792779 0.885037) (xy -9.729842 0.879584) (xy -9.666736 0.872006)
+				(xy -9.575352 0.855825) (xy -9.488974 0.831347) (xy -9.405273 0.797526) (xy -9.321918 0.753315)
+				(xy -9.23658 0.697669) (xy -9.173251 0.650443) (xy -9.074902 0.565091) (xy -8.988597 0.472103) (xy -8.914664 0.371857)
+				(xy -8.873704 0.303546) (xy -8.843771 0.242267) (xy -8.816419 0.173418) (xy -8.793175 0.10173) (xy -8.775566 0.031935)
+				(xy -8.765117 -0.031236) (xy -8.764833 -0.033911) (xy -8.76184 -0.074426) (xy -8.760067 -0.123602)
+				(xy -8.759447 -0.178317) (xy -8.759916 -0.235447) (xy -8.761407 -0.291867) (xy -8.763855 -0.344456)
+				(xy -8.767194 -0.39009) (xy -8.771358 -0.425644) (xy -8.773309 -0.436682) (xy -8.803941 -0.550714)
+				(xy -8.847818 -0.661131) (xy -8.903877 -0.766736) (xy -8.97105 -0.866326) (xy -9.048271 -0.958702)
+				(xy -9.134475 -1.042662) (xy -9.228596 -1.117008) (xy -9.329567 -1.180539) (xy -9.436324 -1.232054)
+				(xy -9.501026 -1.256137) (xy -9.572984 -1.275561) (xy -9.654447 -1.28985) (xy -9.742326 -1.298998)
+				(xy -9.833532 -1.302996) (xy -9.924975 -1.301838) (xy -10.013567 -1.295516) (xy -10.096218 -1.284022)
+				(xy -10.16984 -1.267349) (xy -10.200136 -1.257829) (xy -10.30566 -1.213754) (xy -10.408622 -1.156591)
+				(xy -10.50717 -1.087752) (xy -10.59945 -1.008643) (xy -10.683609 -0.920678) (xy -10.744923 -0.843389)
+				(xy -10.784316 -0.783711) (xy -10.822827 -0.715525) (xy -10.858259 -0.643367) (xy -10.888412 -0.571771)
+				(xy -10.911088 -0.505273) (xy -10.91421 -0.494178) (xy -10.932014 -0.411268) (xy -10.943275 -0.320657)
+				(xy -10.947993 -0.226132) (xy -11.208098 -0.226132) (xy -11.208384 -0.264214) (xy -11.20802 -0.319432)
+				(xy -11.206798 -0.368445) (xy -11.204665 -0.408665) (xy -11.201699 -0.436682) (xy -11.191949 -0.489713)
+				(xy -11.178868 -0.547509) (xy -11.16384 -0.604627) (xy -11.148251 -0.655624) (xy -11.140287 -0.678166)
+				(xy -11.121924 -0.722714) (xy -11.098624 -0.772786) (xy -11.071969 -0.825523) (xy -11.043537 -0.878064)
+				(xy -11.014909 -0.927549) (xy -10.987665 -0.971117) (xy -10.963383 -1.005907) (xy -10.950452 -1.02188)
+				(xy -10.940194 -1.034114) (xy -10.923666 -1.054507) (xy -10.90352 -1.07977) (xy -10.890225 -1.096627)
+				(xy -10.823158 -1.172808) (xy -10.744182 -1.246704) (xy -10.655888 -1.31653) (xy -10.560876 -1.380495)
+				(xy -10.461739 -1.436814) (xy -10.361072 -1.4837) (xy -10.289185 -1.510585) (xy -10.248056 -1.523921)
+				(xy -10.211351 -1.534713) (xy -10.176813 -1.543228) (xy -10.142187 -1.549731) (xy -10.105218 -1.554489)
+				(xy -10.063649 -1.557767) (xy -10.015224 -1.559831) (xy -9.957689 -1.560948) (xy -9.888786 -1.561384)
+				(xy -9.858038 -1.561426) (xy -9.784272 -1.56128)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "729f8d0d-625d-4c66-be93-28452d3057ed")
+		)
+		(fp_poly
+			(pts
+				(xy -6.865825 -1.561445) (xy -6.812521 -1.561093) (xy -6.769572 -1.560379) (xy -6.7349 -1.559201)
+				(xy -6.706426 -1.557454) (xy -6.682072 -1.555034) (xy -6.659758 -1.551838) (xy -6.637407 -1.547765)
+				(xy -6.631533 -1.54659) (xy -6.529538 -1.521267) (xy -6.430515 -1.486906) (xy -6.332439 -1.44255)
+				(xy -6.233281 -1.387238) (xy -6.131013 -1.320012) (xy -6.089778 -1.290305) (xy -6.045931 -1.254667)
+				(xy -5.997162 -1.209381) (xy -5.945998 -1.157254) (xy -5.894965 -1.101093) (xy -5.846594 -1.043705)
+				(xy -5.803412 -0.987897) (xy -5.767948 -0.936476) (xy -5.760896 -0.925147) (xy -5.736522 -0.882046)
+				(xy -5.710083 -0.830325) (xy -5.683764 -0.774677) (xy -5.659745 -0.719799) (xy -5.640211 -0.670386)
+				(xy -5.633326 -0.650768) (xy -5.619752 -0.608448) (xy -5.608751 -0.570015) (xy -5.600064 -0.533212)
+				(xy -5.593423 -0.495778) (xy -5.588569 -0.455459) (xy -5.585237 -0.409994) (xy -5.583163 -0.357127)
+				(xy -5.582086 -0.294599) (xy -5.581741 -0.220153) (xy -5.581736 -0.208082) (xy -5.581832 -0.141627)
+				(xy -5.582186 -0.087653) (xy -5.582895 -0.044129) (xy -5.584056 -0.009024) (xy -5.585769 0.019694)
+				(xy -5.588132 0.044056) (xy -5.591241 0.066094) (xy -5.595196 0.08784) (xy -5.596261 0.093142) (xy -5.629191 0.219603)
+				(xy -5.675663 0.341925) (xy -5.735856 0.460457) (xy -5.809949 0.575551) (xy -5.897236 0.686531)
+				(xy -5.944601 0.739313) (xy -5.990463 0.78506) (xy -6.038529 0.827013) (xy -6.092508 0.868412) (xy -6.155051 0.911791)
+				(xy -6.273257 0.983727) (xy -6.395224 1.044358) (xy -6.518752 1.092705) (xy -6.641279 1.127708)
+				(xy -6.667227 1.131851) (xy -6.705166 1.135421) (xy -6.752584 1.138384) (xy -6.806964 1.140708)
+				(xy -6.865796 1.14236) (xy -6.926565 1.143308) (xy -6.986759 1.143519) (xy -7.043866 1.142961) (xy -7.095368 1.1416)
+				(xy -7.138756 1.139406) (xy -7.171515 1.136344) (xy -7.181936 1.13471) (xy -7.285565 1.110297) (xy -7.389468 1.076891)
+				(xy -7.489999 1.035969) (xy -7.583515 0.98901) (xy -7.663538 0.939461) (xy -7.688956 0.921946) (xy -7.710814 0.907031)
+				(xy -7.725637 0.897081) (xy -7.728847 0.895003) (xy -7.764588 0.869691) (xy -7.806505 0.835266)
+				(xy -7.852012 0.794187) (xy -7.898518 0.748911) (xy -7.943439 0.701898) (xy -7.984187 0.655604)
+				(xy -7.996196 0.641003) (xy -8.080691 0.525353) (xy -8.151695 0.404688) (xy -8.209091 0.279251)
+				(xy -8.252764 0.149281) (xy -8.271888 0.071318) (xy -8.276662 0.039858) (xy -8.280485 -0.00346)
+				(xy -8.283356 -0.056011) (xy -8.285275 -0.115171) (xy -8.286244 -0.178316) (xy -8.286252 -0.211711)
+				(xy -8.030451 -0.211711) (xy -8.026143 -0.094802) (xy -8.012722 0.012336) (xy -7.989838 0.111504)
+				(xy -7.957146 0.204501) (xy -7.944331 0.233737) (xy -7.924087 0.273069) (xy -7.897327 0.318188)
+				(xy -7.865811 0.366703) (xy -7.8313 0.416223) (xy -7.795552 0.464358) (xy -7.760328 0.508717) (xy -7.72739 0.546909)
+				(xy -7.698492 0.576544) (xy -7.681137 0.591272) (xy -7.660367 0.607476) (xy -7.635264 0.628181)
+				(xy -7.617365 0.643575) (xy -7.540279 0.70407) (xy -7.45518 0.757734) (xy -7.365218 0.803037) (xy -7.273541 0.838453)
+				(xy -7.1833 0.862449) (xy -7.156536 0.867263) (xy -7.058755 0.880081) (xy -6.967864 0.885929) (xy -6.878065 0.88488)
+				(xy -6.783558 0.877007) (xy -6.746507 0.872415) (xy -6.640137 0.852026) (xy -6.538804 0.819511)
+				(xy -6.440072 0.773985) (xy -6.378764 0.73863) (xy -6.339602 0.712754) (xy -6.294132 0.680188) (xy -6.246626 0.644179)
+				(xy -6.201356 0.607972) (xy -6.162596 0.574814) (xy -6.159599 0.572115) (xy -6.130176 0.542343)
+				(xy -6.09585 0.502428) (xy -6.05861 0.454997) (xy -6.020448 0.402679) (xy -5.983353 0.348103) (xy -5.950752 0.296288)
+				(xy -5.939658 0.274871) (xy -5.925795 0.243807) (xy -5.910833 0.207269) (xy -5.896441 0.169429)
+				(xy -5.884289 0.134459) (xy -5.878626 0.116095) (xy -5.862217 0.045216) (xy -5.85013 -0.035736)
+				(xy -5.842551 -0.12292) (xy -5.839664 -0.212496) (xy -5.841657 -0.300625) (xy -5.848717 -0.383466)
+				(xy -5.852963 -0.414029) (xy -5.877958 -0.526975) (xy -5.916833 -0.636557) (xy -5.969213 -0.742139)
+				(xy -6.034721 -0.843083) (xy -6.112982 -0.93875) (xy -6.20362 -1.028505) (xy -6.227622 -1.049479)
+				(xy -6.327507 -1.126492) (xy -6.430629 -1.190044) (xy -6.536321 -1.239745) (xy -6.590479 -1.259465)
+				(xy -6.663454 -1.278704) (xy -6.746354 -1.292395) (xy -6.835984 -1.30057) (xy -6.929147 -1.303261)
+				(xy -7.022647 -1.3005) (xy -7.113286 -1.292319) (xy -7.197871 -1.278751) (xy -7.273203 -1.259826)
+				(xy -7.295554 -1.252388) (xy -7.343892 -1.233011) (xy -7.39711 -1.208199) (xy -7.450449 -1.180424)
+				(xy -7.499156 -1.152151) (xy -7.536523 -1.127285) (xy -7.573176 -1.099202) (xy -7.613064 -1.066473)
+				(xy -7.653612 -1.031415) (xy -7.692246 -0.996353) (xy -7.726391 -0.963609) (xy -7.753475 -0.935505)
+				(xy -7.767766 -0.918658) (xy -7.83328 -0.8297) (xy -7.887819 -0.747058) (xy -7.932191 -0.668564)
+				(xy -7.967199 -0.592054) (xy -7.993649 -0.51536) (xy -8.012345 -0.436315) (xy -8.024092 -0.352755)
+				(xy -8.029698 -0.262512) (xy -8.030451 -0.211711) (xy -8.286252 -0.211711) (xy -8.286261 -0.242819)
+				(xy -8.285326 -0.306056) (xy -8.28344 -0.365403) (xy -8.280603 -0.418235) (xy -8.276814 -0.461926)
+				(xy -8.272074 -0.493853) (xy -8.271888 -0.494739) (xy -8.238576 -0.617901) (xy -8.191882 -0.739677)
+				(xy -8.132935 -0.858303) (xy -8.062864 -0.972019) (xy -7.982798 -1.079062) (xy -7.893863 -1.17767)
+				(xy -7.797189 -1.266081) (xy -7.758141 -1.297031) (xy -7.678783 -1.35457) (xy -7.604202 -1.402415)
+				(xy -7.530648 -1.442618) (xy -7.454375 -1.477232) (xy -7.373119 -1.507796) (xy -7.330601 -1.521965)
+				(xy -7.292071 -1.53344) (xy -7.255257 -1.542496) (xy -7.217886 -1.549412) (xy -7.177688 -1.55446)
+				(xy -7.132393 -1.557921) (xy -7.079724 -1.560069) (xy -7.017416 -1.561182) (xy -6.943193 -1.561535)
+				(xy -6.931565 -1.561539) (xy -6.865825 -1.561445)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "f1e87397-a98b-49b0-bca5-7ab0dd06c3c3")
+		)
+		(fp_text user "https://creativecommons.org"
+			(at 5.139694 -0.695 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2416b835-fc8d-450c-8f8f-20337d8f86b9")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.125)
+				)
+			)
+		)
+		(group ""
+			(uuid "28fda2fa-e462-4a5e-9adc-af164cc79364")
+			(members "2416b835-fc8d-450c-8f8f-20337d8f86b9")
+		)
+		(group ""
+			(uuid "1bb69940-bbf0-47ae-8214-8442c12b2f4d")
+			(members "28fda2fa-e462-4a5e-9adc-af164cc79364" "b12038a2-6235-44b4-ae1b-dc0ea4a4540a")
+		)
+		(group ""
+			(uuid "b12038a2-6235-44b4-ae1b-dc0ea4a4540a")
+			(members "071f07a1-4d8b-488b-bb48-c0773e45f171" "154a6a03-bcf0-4f31-92d2-fcb4a1c50d85"
+				"6aa9d742-a7a1-4439-8f54-f4c2ff299cf7" "729f8d0d-625d-4c66-be93-28452d3057ed"
+				"9204de38-6d98-4276-b661-a3f5c0b90108" "a5efe732-0e91-4d38-849e-80d08e25bb1b"
+				"c337c304-c8d7-43fc-b9ad-04a57f2aec74" "cddc59ef-f700-4216-a33b-37397429f985"
+				"f1e87397-a98b-49b0-bca5-7ab0dd06c3c3" "ff4417ed-617d-4d85-b595-d0ea5e58f681"
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Keyboard Common:Diode_DO35_SOD123"
 		(placed yes)
 		(layer "F.Cu")
@@ -40229,7 +40716,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/dd478d9f-2847-40a6-b161-f1473eef3239")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -40539,7 +41026,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/653a5a2f-ff06-4886-b80c-ac806c4b7248")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 -0.7)
@@ -40851,7 +41338,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b85fab76-bffb-42e6-b6d8-6d533790f42e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -41161,7 +41648,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b23e8b64-6858-4651-b243-11e99a2cce01")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -41442,7 +41929,7 @@
 		)
 		(path "/1bb0260a-119b-454a-91e0-85dcab981ae5")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -2.4 -0.85)
@@ -41647,7 +42134,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/553bc39d-7686-46b4-9753-c2443ce60e5e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -41957,7 +42444,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/dc7e5a7d-2268-4123-af89-acedfd2ddb7e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -42267,7 +42754,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7ef8d131-3ece-45df-9d3c-c851db10acea")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -42577,7 +43064,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0f4461de-c95f-4970-b84a-61c06e1cf703")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -42887,7 +43374,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ff50bfd0-d09a-4473-9cbb-655cc37f18f6")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -43197,7 +43684,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1d0440bd-4ce9-4b2e-bda1-9581f1514ff3")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -43411,7 +43898,7 @@
 	(footprint "Logotypes:CE"
 		(layer "F.Cu")
 		(uuid "3f305c71-e609-4651-b600-e9d293feaee6")
-		(at 159.516059 112.391748)
+		(at 160.65 112.3)
 		(property "Reference" "Logo4"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -43462,7 +43949,7 @@
 		)
 		(path "/c753a4a2-e176-4f77-bb27-b2a0f6f783e4")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
@@ -43591,7 +44078,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "0603/150-200R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "4112d481-3275-444e-ac4f-d77333a049b6")
@@ -43644,7 +44131,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/02819e9c-b443-4bf3-b9de-998a26eaff03")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -43887,7 +44374,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/14e0d55c-d14e-43d0-ac2c-79484b98d8f6")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -44197,7 +44684,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ae8ee83f-303a-4252-af31-f7c203eea904")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -44479,7 +44966,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/38f6fff5-123d-48e5-a109-fe6620bb0c5b")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -44806,7 +45293,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/35a5d044-222b-46ba-ae37-592e21729c4f")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -45116,7 +45603,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e4459452-b2e8-400c-b1df-c5930cbc80d1")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -45426,7 +45913,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/95fdc1c0-e733-4fe6-ae67-bd4b9a891591")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -45692,8 +46179,8 @@
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/4ead145f-2041-467a-ad33-9d87a7e5ec29")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start -1.07 -0.8)
 			(end 1.07 0.8)
@@ -45865,7 +46352,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/85d38ca1-dfa9-4791-8da6-2d8dbb985cf2")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -46094,7 +46581,7 @@
 				)
 			)
 		)
-		(property "Value" "Rotary_Encoder_Click"
+		(property "Value" "EC11"
 			(at 0 7.9 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -46135,7 +46622,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/00000000-0000-0000-0000-00005faedc34")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -6 5.8)
@@ -46419,7 +46906,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2d5005b2-2bd5-47bd-b8f4-1ac90217793b")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -46729,7 +47216,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e1ac6ed7-01e7-40f5-9e9f-3c4c7b4c3612")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 -0.7)
@@ -47039,7 +47526,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b9e3f030-0c3f-4c86-808c-826d0d6221d8")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -47349,7 +47836,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7cdfb9af-2472-4b2b-8057-3bb455aeaf5e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -47659,7 +48146,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/175b2b6e-6755-4e94-b529-7cfbace4615a")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -47969,7 +48456,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/6c3d5253-a12a-4a0a-91ff-1c83490266d7")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -48279,7 +48766,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b4028894-d7a5-4a55-a0c8-0994f617ec22")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -48589,7 +49076,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1c7f21cb-d062-4c7a-ab51-72b182162fee")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -48899,7 +49386,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/327b5b04-c70c-4d1d-bed7-92674350e594")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -49113,7 +49600,7 @@
 	(footprint "Logotypes:qmk logo"
 		(layer "F.Cu")
 		(uuid "a07f2304-f741-4091-bc7b-96e52b9ec4e2")
-		(at 132.56 113.4)
+		(at 181.77 118.55)
 		(property "Reference" "Logo1"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -49164,7 +49651,7 @@
 		)
 		(path "/faf56078-4e61-4bd5-a895-aacf9835f5a1")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
@@ -49654,7 +50141,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9b522157-7c8d-4dd3-8a6d-3b9b88f2a6db")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -49883,7 +50370,7 @@
 				)
 			)
 		)
-		(property "Value" "Rotary_Encoder_Click"
+		(property "Value" "EC11"
 			(at 0 7.900001 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49924,7 +50411,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/00000000-0000-0000-0000-00005fd9f16c")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start 6 -5.8)
@@ -50210,7 +50697,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/066e6cab-310a-428d-9fb9-09ccd6bf8172")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -50424,7 +50911,7 @@
 	(footprint "Logotypes:RoHs"
 		(layer "F.Cu")
 		(uuid "e37b87fe-71a5-4447-a0f1-d9d338176bff")
-		(at 151.475 112.408252)
+		(at 154.108941 112.316504)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -50979,7 +51466,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/475219fa-831f-494d-9e67-5346decf72a8")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -51208,7 +51695,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "0603/150-200R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fd37a2a9-b57b-454b-9495-1a1a2b555dac")
@@ -51261,7 +51748,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/e91e981b-b7e0-4fa1-8b39-918180a7f319")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -51504,7 +51991,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e1d85ff0-8c25-4c0f-b4e8-4ec013cc3f56")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 -0.7)
@@ -51814,7 +52301,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a7fcbaec-eddb-4a41-b0a3-e9c698ff98f6")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -52131,7 +52618,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b7226e7")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -52448,7 +52935,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b722950")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -52765,7 +53252,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b722a8f")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -53082,7 +53569,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b722fe1")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -53399,7 +53886,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b723fa1")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -53716,7 +54203,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b7240ea")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -54033,7 +54520,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b72424d")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -54350,7 +54837,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b7243c0")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -54667,7 +55154,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b7254ee")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -54984,7 +55471,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b7255ff")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -55301,7 +55788,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b72571c")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -55618,7 +56105,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b725841")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -55935,7 +56422,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b725aa2")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -56252,7 +56739,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b72767a")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -56569,7 +57056,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b7277ce")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -56886,7 +57373,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b727929")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -57203,7 +57690,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b727a89")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -57520,7 +58007,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b727bfe")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -57837,7 +58324,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b7349d1")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 -0.7)
@@ -58156,7 +58643,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b734b62")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -58473,7 +58960,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b727d79")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -58790,7 +59277,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b723d94")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -59107,7 +59594,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b723e5f")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -59336,7 +59823,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "50V/100nF axial"
 			(at 0 1.6 315)
 			(layer "B.SilkS")
 			(hide yes)
@@ -59380,8 +59867,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005fc31123")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
-		(attr through_hole dnp)
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start 1.5 -1)
 			(end 1.5 1)
@@ -59563,7 +60050,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "50V/100nF axial"
 			(at 0 1.6 315)
 			(layer "B.SilkS")
 			(hide yes)
@@ -59607,8 +60094,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005fc328b0")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
-		(attr through_hole dnp)
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start 1.5 -1)
 			(end 1.5 1)
@@ -59878,7 +60365,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b734cf9")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -60195,7 +60682,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b734f9e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -60512,7 +60999,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b722847")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -60829,7 +61316,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b722bad")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -61146,7 +61633,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b72596d")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 0.7)
@@ -61463,7 +61950,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005b734844")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 -0.7)
@@ -61780,7 +62267,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005fc21ae0")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.4 -0.7)
@@ -62010,7 +62497,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "0603/150-200R"
 			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "ce53a2b0-5b67-4792-96a5-efe953bcd855")
@@ -62067,7 +62554,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/772cd563-3610-4c05-9d50-b4e0cf8be0c6")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 -0.51)
@@ -62287,7 +62774,7 @@
 		)
 		(path "/01a8344e-8bee-4953-b882-2b0589b7cb44")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.95 2.1)
@@ -62411,7 +62898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
+		(property "Value" "HRO-TYPE-C-31-M-13x"
 			(at 0 -0.948 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -62468,7 +62955,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/20f25660-93e2-45ec-aeda-7341923c1365")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(zone_connect 1)
 		(attr smd)
 		(fp_line
@@ -63026,7 +63513,7 @@
 	(footprint "Logotypes:CE"
 		(layer "B.Cu")
 		(uuid "4401ab6a-95d1-4da1-9d7c-38f83d0f04cc")
-		(at 151.483941 112.4 180)
+		(at 154.117882 112.308252 180)
 		(property "Reference" "Logo6"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -63081,7 +63568,7 @@
 		)
 		(path "/4f4e7a4b-057e-48ca-85f5-c22e00e9c064")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
@@ -63269,7 +63756,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/1808563b-f84e-439e-ba1c-f606d0fdc29e")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.8 1.56)
@@ -63501,7 +63988,7 @@
 	(footprint "Logotypes:qmk logo"
 		(layer "B.Cu")
 		(uuid "c459fedc-993d-40f5-ac2e-2c204d6bfee6")
-		(at 132.74 113.4 180)
+		(at 181.95 118.55 180)
 		(property "Reference" "Logo2"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -63948,10 +64435,500 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Logotypes:CC_BY_SA_40_line"
+		(layer "B.Cu")
+		(uuid "df7cbac7-567d-4da5-bc51-2defb6902f19")
+		(at 136.343307 113.613436 180)
+		(property "Reference" "Logo7"
+			(at -11.461736 0.068082 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e77df53-d02b-4927-a274-00001728bda6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "CC-BY-SA-4.0"
+			(at 0.968264 -0.695 0)
+			(layer "B.SilkS")
+			(uuid "9f4cc070-da7e-4f79-b3c2-bf5454ca0dd6")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.125)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at -9.810366 -0.718289 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f0deaa74-a2a3-49b1-8e14-cb4e19bd6dff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at -9.810366 -0.718289 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01d95718-cca3-4045-8ecd-a92e24e1b78c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at -9.810366 -0.718289 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "60458a0e-1907-4b46-9006-71716d3f0334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at -9.810366 -0.718289 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "31604b5a-de35-46f9-8ce2-e9efb9ab8598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/ad2ae766-7977-4307-b0e2-f5d4c5430828")
+		(sheetname "/")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(fp_poly
+			(pts
+				(xy -9.818612 1.092348) (xy -9.794603 1.089863) (xy -9.774448 1.084396) (xy -9.752827 1.07486) (xy -9.745785 1.071312)
+				(xy -9.710459 1.049111) (xy -9.685319 1.022629) (xy -9.668925 0.989291) (xy -9.659835 0.946524)
+				(xy -9.65719 0.913083) (xy -9.65681 0.875465) (xy -9.658729 0.841157) (xy -9.662634 0.815508) (xy -9.663006 0.814055)
+				(xy -9.678046 0.781387) (xy -9.703346 0.750189) (xy -9.734865 0.724383) (xy -9.76856 0.707894) (xy -9.773936 0.706371)
+				(xy -9.808162 0.700948) (xy -9.849594 0.698976) (xy -9.891633 0.700435) (xy -9.92768 0.705303) (xy -9.934459 0.70691)
+				(xy -9.958782 0.71797) (xy -9.986131 0.737774) (xy -9.997283 0.747888) (xy -10.019604 0.772787)
+				(xy -10.034679 0.79878) (xy -10.043489 0.829172) (xy -10.047019 0.867268) (xy -10.046397 0.913083)
+				(xy -10.04122 0.963221) (xy -10.029658 1.002285) (xy -10.010272 1.03285) (xy -9.981618 1.057489)
+				(xy -9.9578 1.071312) (xy -9.934817 1.082181) (xy -9.914786 1.088679) (xy -9.892393 1.09189) (xy -9.862317 1.0929)
+				(xy -9.851793 1.092935) (xy -9.818612 1.092348)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "92fdf99e-8b0d-445a-9aca-d7cb6407d58a")
+		)
+		(fp_poly
+			(pts
+				(xy -9.773199 0.639852) (xy -9.707805 0.639654) (xy -9.654301 0.639133) (xy -9.611374 0.638126)
+				(xy -9.57771 0.63648) (xy -9.551997 0.634031) (xy -9.532923 0.630625) (xy -9.519175 0.626104) (xy -9.50944 0.620307)
+				(xy -9.502407 0.613076) (xy -9.496762 0.604256) (xy -9.492688 0.596578) (xy -9.489902 0.589342)
+				(xy -9.487615 0.578545) (xy -9.48578 0.562842) (xy -9.484351 0.540891) (xy -9.483284 0.511352) (xy -9.482528 0.472881)
+				(xy -9.48204 0.424138) (xy -9.481773 0.36378) (xy -9.481681 0.290465) (xy -9.481678 0.277386) (xy -9.481679 -0.020517)
+				(xy -9.633931 -0.020517) (xy -9.63582 -0.348903) (xy -9.637708 -0.67729) (xy -9.848662 -0.679211)
+				(xy -9.902609 -0.679537) (xy -9.951797 -0.679518) (xy -9.994369 -0.679177) (xy -10.028463 -0.678546)
+				(xy -10.052226 -0.677647) (xy -10.063795 -0.676505) (xy -10.064562 -0.676186) (xy -10.065585 -0.668126)
+				(xy -10.066536 -0.647031) (xy -10.067393 -0.614384) (xy -10.068134 -0.571664) (xy -10.068739 -0.520351)
+				(xy -10.069183 -0.46193) (xy -10.069444 -0.397876) (xy -10.069507 -0.34588) (xy -10.069508 -0.020518)
+				(xy -10.221908 -0.020518) (xy -10.221908 0.277386) (xy -10.221839 0.352907) (xy -10.221604 0.415258)
+				(xy -10.221155 0.465775) (xy -10.220446 0.505808) (xy -10.219431 0.536691) (xy -10.218064 0.559771)
+				(xy -10.216296 0.576387) (xy -10.214085 0.587883) (xy -10.211382 0.5956) (xy -10.210899 0.596578)
+				(xy -10.205435 0.606683) (xy -10.199559 0.615081) (xy -10.191956 0.621927) (xy -10.181315 0.62738)
+				(xy -10.166324 0.6316) (xy -10.145669 0.634745) (xy -10.118039 0.636972) (xy -10.08212 0.63844)
+				(xy -10.0366 0.639307) (xy -9.980166 0.639729) (xy -9.911506 0.639869) (xy -9.851794 0.639882) (xy -9.773199 0.639852)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "13d4ad32-347d-4672-8212-a7b2cc376cab")
+		)
+		(fp_poly
+			(pts
+				(xy -12.326479 0.637834) (xy -12.257065 0.63104) (xy -12.19738 0.616905) (xy -12.1441 0.59443) (xy -12.107152 0.572058)
+				(xy -12.082015 0.552698) (xy -12.055671 0.528856) (xy -12.030501 0.503144) (xy -12.008881 0.478176)
+				(xy -11.993192 0.456564) (xy -11.985807 0.44092) (xy -11.985533 0.438417) (xy -11.991013 0.429958)
+				(xy -12.007775 0.417298) (xy -12.036515 0.399978) (xy -12.077929 0.377543) (xy -12.079558 0.376691)
+				(xy -12.173444 0.327585) (xy -12.203524 0.368304) (xy -12.235428 0.40339) (xy -12.270613 0.425328)
+				(xy -12.311612 0.435459) (xy -12.332155 0.436523) (xy -12.380951 0.430427) (xy -12.422151 0.412223)
+				(xy -12.454833 0.382695) (xy -12.478075 0.342624) (xy -12.489302 0.303229) (xy -12.491944 0.279338)
+				(xy -12.49351 0.245884) (xy -12.493979 0.207778) (xy -12.493334 0.169935) (xy -12.491556 0.137269)
+				(xy -12.489986 0.122541) (xy -12.479048 0.08431) (xy -12.458644 0.047266) (xy -12.431706 0.01536)
+				(xy -12.401168 -0.007454) (xy -12.389507 -0.012815) (xy -12.362805 -0.018567) (xy -12.328556 -0.020228)
+				(xy -12.293091 -0.017958) (xy -12.262741 -0.01191) (xy -12.25587 -0.0095) (xy -12.240781 -0.001591)
+				(xy -12.225871 0.01084) (xy -12.209143 0.029989) (xy -12.188608 0.058051) (xy -12.171253 0.083639)
+				(xy -12.166934 0.088598) (xy -12.160848 0.090493) (xy -12.150794 0.088619) (xy -12.134572 0.082275)
+				(xy -12.109984 0.070757) (xy -12.074828 0.053365) (xy -12.072034 0.05197) (xy -12.03918 0.035472)
+				(xy -12.011268 0.021307) (xy -11.990724 0.010719) (xy -11.979984 0.004951) (xy -11.979017 0.004332)
+				(xy -11.980183 -0.00371) (xy -11.989329 -0.019664) (xy -12.004452 -0.040914) (xy -12.023544 -0.06484)
+				(xy -12.044603 -0.08882) (xy -12.065623 -0.110238) (xy -12.069381 -0.113743) (xy -12.129183 -0.1596)
+				(xy -12.195451 -0.194365) (xy -12.249989 -0.212702) (xy -12.287451 -0.219106) (xy -12.333156 -0.222281)
+				(xy -12.381176 -0.222128) (xy -12.425584 -0.218551) (xy -12.442593 -0.21584) (xy -12.510463 -0.195934)
+				(xy -12.573569 -0.16407) (xy -12.629713 -0.121883) (xy -12.676703 -0.071006) (xy -12.710738 -0.016365)
+				(xy -12.731844 0.032052) (xy -12.74606 0.0797) (xy -12.754335 0.131116) (xy -12.757623 0.190838)
+				(xy -12.757778 0.208082) (xy -12.754745 0.282564) (xy -12.744799 0.346321) (xy -12.727029 0.401845)
+				(xy -12.700525 0.451622) (xy -12.664379 0.498146) (xy -12.64406 0.51934) (xy -12.588832 0.567126)
+				(xy -12.532152 0.601987) (xy -12.471622 0.624816) (xy -12.404844 0.636511) (xy -12.329419 0.637963)
+				(xy -12.326479 0.637834)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "066806d6-c2a6-40cb-bb93-692a6b559497")
+		)
+		(fp_poly
+			(pts
+				(xy -13.053731 0.634193) (xy -12.98043 0.617451) (xy -12.915099 0.589989) (xy -12.877147 0.566244)
+				(xy -12.851947 0.545582) (xy -12.827143 0.521156) (xy -12.804543 0.495328) (xy -12.785953 0.470457)
+				(xy -12.77318 0.448903) (xy -12.768031 0.43303) (xy -12.770108 0.426401) (xy -12.777146 0.422363)
+				(xy -12.794699 0.412838) (xy -12.82043 0.399078) (xy -12.851999 0.38234) (xy -12.866652 0.37461)
+				(xy -12.903333 0.355462) (xy -12.929341 0.342517) (xy -12.946751 0.335032) (xy -12.957629 0.332265)
+				(xy -12.964051 0.333472) (xy -12.968088 0.337912) (xy -12.968252 0.338184) (xy -12.997365 0.380599)
+				(xy -13.027417 0.41003) (xy -13.060623 0.427954) (xy -13.0992 0.435847) (xy -13.115927 0.436522)
+				(xy -13.160383 0.431539) (xy -13.19712 0.415523) (xy -13.227562 0.387489) (xy -13.253132 0.346448)
+				(xy -13.256819 0.338711) (xy -13.264028 0.321345) (xy -13.268838 0.304063) (xy -13.271716 0.283327)
+				(xy -13.273123 0.255598) (xy -13.273533 0.217338) (xy -13.273536 0.211711) (xy -13.273219 0.171894)
+				(xy -13.271956 0.143046) (xy -13.269282 0.121624) (xy -13.264732 0.104093) (xy -13.25784 0.086913)
+				(xy -13.256836 0.084711) (xy -13.234173 0.045883) (xy -13.206089 0.013825) (xy -13.175779 -0.007951)
+				(xy -13.170355 -0.010497) (xy -13.136189 -0.019114) (xy -13.096201 -0.020157) (xy -13.05677 -0.013914)
+				(xy -13.030534 -0.004189) (xy -13.006923 0.012657) (xy -12.982312 0.037658) (xy -12.961262 0.065562)
+				(xy -12.948713 0.089989) (xy -12.942266 0.091867) (xy -12.925831 0.087216) (xy -12.898539 0.075723)
+				(xy -12.866113 0.060322) (xy -12.826117 0.040716) (xy -12.797584 0.026166) (xy -12.779044 0.015148)
+				(xy -12.769026 0.006133) (xy -12.766058 -0.002406) (xy -12.768671 -0.011997) (xy -12.775392 -0.024166)
+				(xy -12.77895 -0.03018) (xy -12.799592 -0.058501) (xy -12.829238 -0.090404) (xy -12.864143 -0.122529)
+				(xy -12.900562 -0.15152) (xy -12.934752 -0.174017) (xy -12.945988 -0.179976) (xy -13.018869 -0.207476)
+				(xy -13.095975 -0.221597) (xy -13.175437 -0.222127) (xy -13.238878 -0.212749) (xy -13.299276 -0.19303)
+				(xy -13.35856 -0.161518) (xy -13.413152 -0.120722) (xy -13.459473 -0.073152) (xy -13.48188 -0.042289)
+				(xy -13.494347 -0.019152) (xy -13.508079 0.011758) (xy -13.520357 0.044258) (xy -13.521753 0.048425)
+				(xy -13.52985 0.074768) (xy -13.535329 0.098315) (xy -13.538691 0.123145) (xy -13.540446 0.153337)
+				(xy -13.541101 0.192968) (xy -13.541151 0.204454) (xy -13.538368 0.279971) (xy -13.528964 0.344497)
+				(xy -13.512082 0.400365) (xy -13.486863 0.449902) (xy -13.452451 0.49544) (xy -13.422914 0.525732)
+				(xy -13.363864 0.573533) (xy -13.301809 0.60784) (xy -13.234784 0.62943) (xy -13.160818 0.639077)
+				(xy -13.133455 0.639775) (xy -13.053731 0.634193)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "b3b0b02e-a5ce-44c4-a18f-2218615fa538")
+		)
+		(fp_poly
+			(pts
+				(xy -6.884343 0.933088) (xy -6.786346 0.920609) (xy -6.732385 0.908571) (xy -6.669504 0.887852)
+				(xy -6.604539 0.858337) (xy -6.541366 0.822302) (xy -6.483865 0.782022) (xy -6.435913 0.739772)
+				(xy -6.424996 0.7282) (xy -6.38718 0.680609) (xy -6.349658 0.623325) (xy -6.315073 0.560976) (xy -6.28607 0.498191)
+				(xy -6.271545 0.45958) (xy -6.254244 0.39404) (xy -6.242482 0.319026) (xy -6.236364 0.238521) (xy -6.235995 0.156511)
+				(xy -6.241483 0.076978) (xy -6.252928 0.00391) (xy -6.258875 -0.02138) (xy -6.291177 -0.118377)
+				(xy -6.335009 -0.207591) (xy -6.38958 -0.28822) (xy -6.454102 -0.359463) (xy -6.527788 -0.420519)
+				(xy -6.609848 -0.470587) (xy -6.699495 -0.508865) (xy -6.754695 -0.525358) (xy -6.802655 -0.535063)
+				(xy -6.858061 -0.542274) (xy -6.916257 -0.546706) (xy -6.972595 -0.548079) (xy -7.022421 -0.546111)
+				(xy -7.047679 -0.543139) (xy -7.133486 -0.522696) (xy -7.215637 -0.490217) (xy -7.292315 -0.446984)
+				(xy -7.361698 -0.394279) (xy -7.421966 -0.333385) (xy -7.471299 -0.265582) (xy -7.490376 -0.231324)
+				(xy -7.504844 -0.198776) (xy -7.519407 -0.159409) (xy -7.532915 -0.117136) (xy -7.54422 -0.075868)
+				(xy -7.552172 -0.03952) (xy -7.555621 -0.012) (xy -7.555679 -0.009031) (xy -7.553893 -0.005735)
+				(xy -7.547479 -0.003248) (xy -7.534851 -0.001494) (xy -7.514425 -0.000396) (xy -7.484613 0.000122)
+				(xy -7.443832 0.000134) (xy -7.390496 -0.000283) (xy -7.376065 -0.000433) (xy -7.196451 -0.002375)
+				(xy -7.195275 -0.025796) (xy -7.188511 -0.064219) (xy -7.173395 -0.105732) (xy -7.152452 -0.14382)
+				(xy -7.145973 -0.152874) (xy -7.111274 -0.187038) (xy -7.066702 -0.21372) (xy -7.015126 -0.232394)
+				(xy -6.959415 -0.242531) (xy -6.902436 -0.243601) (xy -6.847061 -0.235077) (xy -6.797486 -0.21709)
+				(xy -6.747555 -0.18575) (xy -6.705228 -0.144234) (xy -6.669826 -0.091604) (xy -6.64067 -0.026926)
+				(xy -6.625253 0.020253) (xy -6.619038 0.043487) (xy -6.614597 0.065466) (xy -6.611641 0.089334)
+				(xy -6.609897 0.118237) (xy -6.609085 0.155318) (xy -6.608925 0.203722) (xy -6.608926 0.204454)
+				(xy -6.609874 0.268121) (xy -6.612852 0.320435) (xy -6.618361 0.364473) (xy -6.626904 0.403314)
+				(xy -6.638985 0.440039) (xy -6.65267 0.47246) (xy -6.684661 0.526775) (xy -6.725459 0.569698) (xy -6.774567 0.600968)
+				(xy -6.831484 0.620335) (xy -6.895716 0.62754) (xy -6.949502 0.624681) (xy -6.99237 0.618532) (xy -7.025693 0.610669)
+				(xy -7.054438 0.599622) (xy -7.079953 0.586062) (xy -7.120265 0.55521) (xy -7.154285 0.515142) (xy -7.17898 0.469961)
+				(xy -7.188884 0.438497) (xy -7.193974 0.414911) (xy -7.146227 0.41491) (xy -7.120257 0.414372) (xy -7.105706 0.412204)
+				(xy -7.099501 0.407589) (xy -7.098479 0.402137) (xy -7.103469 0.393617) (xy -7.117317 0.376814)
+				(xy -7.138345 0.353415) (xy -7.164873 0.325111) (xy -7.195221 0.293591) (xy -7.227711 0.260544)
+				(xy -7.260662 0.22766) (xy -7.292395 0.196627) (xy -7.321231 0.169134) (xy -7.34549 0.146872) (xy -7.363493 0.131528)
+				(xy -7.37356 0.124793) (xy -7.374396 0.124625) (xy -7.382838 0.129646) (xy -7.39951 0.143582) (xy -7.422737 0.164743)
+				(xy -7.450839 0.191439) (xy -7.48214 0.221979) (xy -7.51496 0.254674) (xy -7.547623 0.287833) (xy -7.578451 0.319766)
+				(xy -7.605765 0.348783) (xy -7.627889 0.373193) (xy -7.643143 0.391308) (xy -7.649852 0.401435)
+				(xy -7.650021 0.402283) (xy -7.648124 0.408842) (xy -7.640486 0.412674) (xy -7.62418 0.414469) (xy -7.596418 0.41491)
+				(xy -7.542813 0.414911) (xy -7.537906 0.447633) (xy -7.529243 0.486903) (xy -7.514613 0.533435)
+				(xy -7.495768 0.5822) (xy -7.475886 0.625368) (xy -7.430567 0.699679) (xy -7.374944 0.764558) (xy -7.310081 0.819599)
+				(xy -7.23704 0.864398) (xy -7.156883 0.898552) (xy -7.070673 0.921654) (xy -6.979472 0.9333) (xy -6.884343 0.933088)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "b068660b-e8db-4825-a06e-6a4d901ba390")
+		)
+		(fp_poly
+			(pts
+				(xy -12.700321 1.56137) (xy -12.646436 1.56106) (xy -12.60298 1.560399) (xy -12.56791 1.559289)
+				(xy -12.539183 1.557629) (xy -12.514758 1.555319) (xy -12.492588 1.552262) (xy -12.470639 1.548357)
+				(xy -12.461877 1.54662) (xy -12.339628 1.514667) (xy -12.219278 1.469075) (xy -12.102176 1.410706)
+				(xy -11.989675 1.340423) (xy -11.883123 1.259094) (xy -11.783872 1.167579) (xy -11.693272 1.066744)
+				(xy -11.674118 1.042734) (xy -11.598482 0.934222) (xy -11.533369 0.816561) (xy -11.47949 0.691298)
+				(xy -11.437555 0.55998) (xy -11.421338 0.492759) (xy -11.416645 0.462033) (xy -11.412887 0.419407)
+				(xy -11.410063 0.367465) (xy -11.408169 0.308792) (xy -11.407206 0.245971) (xy -11.407168 0.181588)
+				(xy -11.408054 0.118226) (xy -11.409862 0.05847) (xy -11.412591 0.004902) (xy -11.416235 -0.03989)
+				(xy -11.420796 -0.073324) (xy -11.421851 -0.078575) (xy -11.458695 -0.215443) (xy -11.508218 -0.34526)
+				(xy -11.570383 -0.46796) (xy -11.645156 -0.583479) (xy -11.7325 -0.69175) (xy -11.787563 -0.749862)
+				(xy -11.827969 -0.788701) (xy -11.867786 -0.824276) (xy -11.904506 -0.854493) (xy -11.935628 -0.877254)
+				(xy -11.950947 -0.886667) (xy -11.963698 -0.894279) (xy -11.985203 -0.907761) (xy -12.012096 -0.924985)
+				(xy -12.032565 -0.938284) (xy -12.121029 -0.990279) (xy -12.219293 -1.037741) (xy -12.322899 -1.078862)
+				(xy -12.427389 -1.111826) (xy -12.505419 -1.130469) (xy -12.530559 -1.135198) (xy -12.554855 -1.138805)
+				(xy -12.58076 -1.141423) (xy -12.610724 -1.143184) (xy -12.6472 -1.144222) (xy -12.692638 -1.144667)
+				(xy -12.74949 -1.144653) (xy -12.766676 -1.14459) (xy -12.839296 -1.14383) (xy -12.901299 -1.142231)
+				(xy -12.951627 -1.139838) (xy -12.989216 -1.136698) (xy -13.006426 -1.134257) (xy -13.126322 -1.105653)
+				(xy -13.246505 -1.064083) (xy -13.364057 -1.010738) (xy -13.476062 -0.946806) (xy -13.493269 -0.935678)
+				(xy -13.520659 -0.917877) (xy -13.543443 -0.903491) (xy -13.559 -0.894144) (xy -13.564596 -0.891375)
+				(xy -13.572915 -0.886775) (xy -13.589587 -0.874285) (xy -13.612305 -0.85587) (xy -13.63877 -0.833495)
+				(xy -13.666673 -0.809126) (xy -13.693718 -0.784727) (xy -13.717594 -0.762265) (xy -13.728103 -0.751891)
+				(xy -13.822176 -0.647135) (xy -13.904198 -0.534945) (xy -13.974457 -0.414806) (xy -14.03324 -0.286202)
+				(xy -14.080832 -0.148619) (xy -14.098116 -0.085832) (xy -14.102864 -0.065834) (xy -14.106638 -0.045835)
+				(xy -14.109587 -0.023719) (xy -14.111861 0.00263) (xy -14.113608 0.035328) (xy -14.114976 0.076494)
+				(xy -14.116116 0.12824) (xy -14.117025 0.182682) (xy -14.117465 0.213174) (xy -13.857956 0.213174)
+				(xy -13.851672 0.091415) (xy -13.831741 -0.028492) (xy -13.79847 -0.14504) (xy -13.752163 -0.256719)
+				(xy -13.717712 -0.321689) (xy -13.662486 -0.408957) (xy -13.601648 -0.488334) (xy -13.533022 -0.562151)
+				(xy -13.454433 -0.632734) (xy -13.363707 -0.702413) (xy -13.35844 -0.706181) (xy -13.320816 -0.730335)
+				(xy -13.273519 -0.756683) (xy -13.220757 -0.783177) (xy -13.166741 -0.807773) (xy -13.11568 -0.828426)
+				(xy -13.084705 -0.839201) (xy -13.002538 -0.860196) (xy -12.91093 -0.874596) (xy -12.813491 -0.882155)
+				(xy -12.713831 -0.88263) (xy -12.615559 -0.875776) (xy -12.590192 -0.872698) (xy -12.500022 -0.857029)
+				(xy -12.41724 -0.834322) (xy -12.335696 -0.802779) (xy -12.308336 -0.790279) (xy -12.196487 -0.730092)
+				(xy -12.092625 -0.659374) (xy -11.997813 -0.579153) (xy -11.91311 -0.490459) (xy -11.839585 -0.394321)
+				(xy -11.778298 -0.291767) (xy -11.764235 -0.263632) (xy -11.744707 -0.219472) (xy -11.725554 -0.17003)
+				(xy -11.708258 -0.119667) (xy -11.694301 -0.072744) (xy -11.685163 -0.033622) (xy -11.684149 -0.027774)
+				(xy -11.680194 -0.004381) (xy -11.67662 0.014955) (xy -11.675702 0.019397) (xy -11.673002 0.039653)
+				(xy -11.670846 0.07135) (xy -11.66926 0.111424) (xy -11.668275 0.156812) (xy -11.66792 0.204448)
+				(xy -11.668224 0.25127) (xy -11.669216 0.294213) (xy -11.670926 0.330212) (xy -11.672561 0.349596)
+				(xy -11.692701 0.467537) (xy -11.726585 0.582586) (xy -11.773527 0.693462) (xy -11.832843 0.798886)
+				(xy -11.903853 0.897578) (xy -11.985872 0.988256) (xy -12.039822 1.038058) (xy -12.130443 1.110699)
+				(xy -12.219634 1.170438) (xy -12.309538 1.218067) (xy -12.402297 1.254371) (xy -12.500054 1.28014)
+				(xy -12.604953 1.296161) (xy -12.719135 1.303225) (xy -12.761908 1.303725) (xy -12.870848 1.300183)
+				(xy -12.969592 1.289172) (xy -13.060687 1.270173) (xy -13.146676 1.242668) (xy -13.222736 1.209759)
+				(xy -13.329755 1.149787) (xy -13.430112 1.077724) (xy -13.522701 0.994886) (xy -13.606415 0.902595)
+				(xy -13.680152 0.802164) (xy -13.742803 0.694913) (xy -13.793263 0.582158) (xy -13.822273 0.495372)
+				(xy -13.828243 0.47399) (xy -13.832868 0.455318) (xy -13.836734 0.436004) (xy -13.840424 0.412697)
+				(xy -13.844529 0.382047) (xy -13.849633 0.340702) (xy -13.850291 0.335273) (xy -13.857956 0.213174)
+				(xy -14.117465 0.213174) (xy -14.117903 0.243519) (xy -14.118386 0.292157) (xy -14.118356 0.330911)
+				(xy -14.117693 0.362093) (xy -14.116279 0.388016) (xy -14.113993 0.410997) (xy -14.110717 0.433346)
+				(xy -14.106334 0.457377) (xy -14.101688 0.480649) (xy -14.067459 0.613152) (xy -14.01973 0.741238)
+				(xy -13.959043 0.864144) (xy -13.88594 0.981108) (xy -13.800967 1.091368) (xy -13.704667 1.194159)
+				(xy -13.597585 1.28872) (xy -13.480265 1.374288) (xy -13.450467 1.393514) (xy -13.374067 1.436518)
+				(xy -13.288053 1.47612) (xy -13.197253 1.510396) (xy -13.106494 1.537422) (xy -13.065042 1.547111)
+				(xy -13.044184 1.551182) (xy -13.02314 1.554407) (xy -12.99992 1.556886) (xy -12.972539 1.558715)
+				(xy -12.939005 1.559986) (xy -12.897334 1.560797) (xy -12.845537 1.561241) (xy -12.781626 1.561416)
+				(xy -12.766676 1.561425) (xy -12.700321 1.56137)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "c3835f01-cef1-4f40-9a85-17a3d34a3426")
+		)
+		(fp_poly
+			(pts
+				(xy -9.784272 1.56128) (xy -9.722795 1.560607) (xy -9.671385 1.559173) (xy -9.62782 1.556747) (xy -9.589876 1.553095)
+				(xy -9.555333 1.547985) (xy -9.521968 1.541182) (xy -9.487559 1.532457) (xy -9.449882 1.521574)
+				(xy -9.435226 1.517124) (xy -9.348973 1.487364) (xy -9.266535 1.451635) (xy -9.18474 1.408292) (xy -9.100411 1.355696)
+				(xy -9.035365 1.310471) (xy -8.998677 1.281924) (xy -8.956852 1.246015) (xy -8.912858 1.205604)
+				(xy -8.869668 1.163553) (xy -8.830251 1.122724) (xy -8.797579 1.085978) (xy -8.781816 1.066241)
+				(xy -8.761655 1.039485) (xy -8.739825 1.010697) (xy -8.730355 0.99828) (xy -8.690307 0.940151) (xy -8.650345 0.87159)
+				(xy -8.612384 0.796556) (xy -8.578335 0.71902) (xy -8.550114 0.642942) (xy -8.535194 0.593939) (xy -8.523503 0.549671)
+				(xy -8.51419 0.510141) (xy -8.507031 0.472902) (xy -8.501802 0.435505) (xy -8.498279 0.395503) (xy -8.496238 0.350448)
+				(xy -8.495456 0.297893) (xy -8.495709 0.235389) (xy -8.496583 0.171797) (xy -8.49768 0.109632) (xy -8.498819 0.05978)
+				(xy -8.50017 0.020038) (xy -8.501901 -0.011795) (xy -8.504182 -0.037922) (xy -8.507183 -0.060544)
+				(xy -8.511071 -0.081862) (xy -8.516016 -0.104079) (xy -8.51861 -0.114861) (xy -8.557403 -0.24723)
+				(xy -8.607376 -0.370873) (xy -8.669221 -0.487106) (xy -8.743637 -0.597246) (xy -8.828088 -0.699061)
+				(xy -8.906732 -0.777347) (xy -8.996737 -0.852548) (xy -9.094988 -0.922644) (xy -9.198372 -0.985618)
+				(xy -9.303776 -1.039453) (xy -9.408084 -1.082132) (xy -9.431922 -1.090265) (xy -9.482445 -1.106135)
+				(xy -9.528189 -1.118709) (xy -9.571894 -1.128342) (xy -9.616306 -1.135379) (xy -9.664171 -1.140173)
+				(xy -9.718234 -1.143073) (xy -9.781241 -1.144431) (xy -9.855936 -1.144596) (xy -9.857605 -1.14459)
+				(xy -9.938406 -1.143761) (xy -10.004875 -1.141992) (xy -10.056965 -1.13928) (xy -10.094636 -1.13563)
+				(xy -10.105665 -1.133906) (xy -10.204365 -1.110651) (xy -10.306693 -1.076888) (xy -10.408531 -1.034381)
+				(xy -10.50576 -0.984894) (xy -10.594261 -0.930194) (xy -10.614766 -0.915749) (xy -10.633863 -0.902497)
+				(xy -10.648184 -0.893647) (xy -10.653436 -0.891375) (xy -10.662269 -0.886725) (xy -10.679435 -0.87405)
+				(xy -10.702692 -0.855265) (xy -10.729795 -0.832281) (xy -10.758498 -0.807012) (xy -10.786559 -0.781371)
+				(xy -10.811732 -0.75727) (xy -10.817447 -0.751575) (xy -10.913607 -0.644814) (xy -10.997597 -0.530648)
+				(xy -11.069052 -0.409734) (xy -11.127608 -0.28273) (xy -11.1729 -0.150291) (xy -11.191298 -0.078575)
+				(xy -11.195477 -0.052415) (xy -11.199164 -0.014337) (xy -11.202306 0.033071) (xy -11.204851 0.087219)
+				(xy -11.206748 0.145518) (xy -11.207943 0.205378) (xy -11.208099 0.226132) (xy -10.947994 0.226132)
+				(xy -10.946173 0.131476) (xy -10.937815 0.040475) (xy -10.922921 -0.043083) (xy -10.913907 -0.077874)
+				(xy -10.872586 -0.194753) (xy -10.818235 -0.306369) (xy -10.751693 -0.411733) (xy -10.6738 -0.509859)
+				(xy -10.585393 -0.599756) (xy -10.487317 -0.680438) (xy -10.380408 -0.750916) (xy -10.3093 -0.789432)
+				(xy -10.233391 -0.823639) (xy -10.159941 -0.848436) (xy -10.08254 -0.865779) (xy -10.036851 -0.872735)
+				(xy -9.967706 -0.880909) (xy -9.907072 -0.88569) (xy -9.850309 -0.887069) (xy -9.792779 -0.885037)
+				(xy -9.729842 -0.879584) (xy -9.666736 -0.872006) (xy -9.575352 -0.855825) (xy -9.488974 -0.831347)
+				(xy -9.405273 -0.797526) (xy -9.321918 -0.753316) (xy -9.23658 -0.697669) (xy -9.173251 -0.650443)
+				(xy -9.074902 -0.565091) (xy -8.988597 -0.472103) (xy -8.914664 -0.371857) (xy -8.873704 -0.303546)
+				(xy -8.843771 -0.242267) (xy -8.816419 -0.173418) (xy -8.793175 -0.10173) (xy -8.775566 -0.031935)
+				(xy -8.765117 0.031236) (xy -8.764833 0.033911) (xy -8.76184 0.074427) (xy -8.760067 0.123602) (xy -8.759447 0.178317)
+				(xy -8.759916 0.235447) (xy -8.761407 0.291867) (xy -8.763855 0.344456) (xy -8.767194 0.39009) (xy -8.771358 0.425644)
+				(xy -8.773309 0.436682) (xy -8.803941 0.550714) (xy -8.847818 0.661131) (xy -8.903877 0.766736)
+				(xy -8.97105 0.866326) (xy -9.048271 0.958702) (xy -9.134475 1.042662) (xy -9.228596 1.117008) (xy -9.329567 1.180539)
+				(xy -9.436324 1.232054) (xy -9.501026 1.256137) (xy -9.572984 1.275561) (xy -9.654447 1.28985) (xy -9.742326 1.298998)
+				(xy -9.833532 1.302996) (xy -9.924976 1.301838) (xy -10.013567 1.295516) (xy -10.096218 1.284022)
+				(xy -10.16984 1.267349) (xy -10.200136 1.257829) (xy -10.30566 1.213754) (xy -10.408622 1.156591)
+				(xy -10.50717 1.087752) (xy -10.59945 1.008643) (xy -10.683609 0.920678) (xy -10.744923 0.843389)
+				(xy -10.784316 0.78371) (xy -10.822827 0.715525) (xy -10.858259 0.643367) (xy -10.888412 0.571771)
+				(xy -10.911088 0.505273) (xy -10.91421 0.494179) (xy -10.932014 0.411268) (xy -10.943275 0.320657)
+				(xy -10.947994 0.226132) (xy -11.208099 0.226132) (xy -11.208384 0.264214) (xy -11.208019 0.319432)
+				(xy -11.206798 0.368445) (xy -11.204665 0.408665) (xy -11.201699 0.436682) (xy -11.191949 0.489712)
+				(xy -11.178868 0.547509) (xy -11.16384 0.604627) (xy -11.148251 0.655624) (xy -11.140287 0.678166)
+				(xy -11.121924 0.722714) (xy -11.098624 0.772786) (xy -11.071968 0.825523) (xy -11.043537 0.878064)
+				(xy -11.014909 0.927549) (xy -10.987665 0.971117) (xy -10.963383 1.005907) (xy -10.950452 1.02188)
+				(xy -10.940193 1.034114) (xy -10.923666 1.054507) (xy -10.90352 1.07977) (xy -10.890225 1.096626)
+				(xy -10.823158 1.172808) (xy -10.744182 1.246704) (xy -10.655888 1.31653) (xy -10.560876 1.380494)
+				(xy -10.46174 1.436814) (xy -10.361072 1.4837) (xy -10.289185 1.510584) (xy -10.248056 1.523921)
+				(xy -10.211352 1.534713) (xy -10.176812 1.543228) (xy -10.142187 1.549731) (xy -10.105218 1.554489)
+				(xy -10.063649 1.557767) (xy -10.015224 1.559831) (xy -9.957689 1.560947) (xy -9.888786 1.561384)
+				(xy -9.858038 1.561425) (xy -9.784272 1.56128)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "3c4198e3-fb56-4a2d-ae12-4d9c9c0d66f0")
+		)
+		(fp_poly
+			(pts
+				(xy -6.865825 1.561445) (xy -6.812521 1.561093) (xy -6.769572 1.560379) (xy -6.7349 1.559201) (xy -6.706426 1.557454)
+				(xy -6.682072 1.555035) (xy -6.659758 1.551838) (xy -6.637407 1.547766) (xy -6.631533 1.54659) (xy -6.529538 1.521267)
+				(xy -6.430515 1.486906) (xy -6.332439 1.442549) (xy -6.233281 1.387238) (xy -6.131012 1.320012)
+				(xy -6.089778 1.290305) (xy -6.045931 1.254667) (xy -5.997161 1.209381) (xy -5.945998 1.157254)
+				(xy -5.894965 1.101093) (xy -5.846594 1.043705) (xy -5.803412 0.987897) (xy -5.767949 0.936476)
+				(xy -5.760896 0.925147) (xy -5.736522 0.882046) (xy -5.710083 0.830325) (xy -5.683764 0.774676)
+				(xy -5.659745 0.719799) (xy -5.640211 0.670386) (xy -5.633326 0.650767) (xy -5.619752 0.608448)
+				(xy -5.60875 0.570015) (xy -5.600064 0.533212) (xy -5.593423 0.495778) (xy -5.588569 0.455459) (xy -5.585236 0.409994)
+				(xy -5.583162 0.357127) (xy -5.582086 0.294599) (xy -5.581741 0.220153) (xy -5.581736 0.208082)
+				(xy -5.581832 0.141627) (xy -5.582187 0.087653) (xy -5.582895 0.044129) (xy -5.584056 0.009024)
+				(xy -5.585769 -0.019694) (xy -5.588132 -0.044056) (xy -5.591241 -0.066094) (xy -5.595196 -0.08784)
+				(xy -5.596261 -0.093142) (xy -5.629191 -0.219603) (xy -5.675663 -0.341925) (xy -5.735856 -0.460457)
+				(xy -5.809949 -0.575551) (xy -5.897236 -0.686531) (xy -5.944601 -0.739313) (xy -5.990463 -0.78506)
+				(xy -6.038529 -0.827013) (xy -6.092508 -0.868412) (xy -6.155051 -0.911791) (xy -6.273258 -0.983727)
+				(xy -6.395224 -1.044358) (xy -6.518752 -1.092705) (xy -6.641278 -1.127708) (xy -6.667227 -1.131851)
+				(xy -6.705166 -1.135421) (xy -6.752584 -1.138384) (xy -6.806964 -1.140708) (xy -6.865795 -1.14236)
+				(xy -6.926565 -1.143308) (xy -6.986759 -1.143519) (xy -7.043866 -1.142961) (xy -7.095368 -1.1416)
+				(xy -7.138756 -1.139406) (xy -7.171514 -1.136344) (xy -7.181936 -1.13471) (xy -7.285565 -1.110297)
+				(xy -7.389468 -1.076891) (xy -7.489999 -1.035969) (xy -7.583515 -0.98901) (xy -7.663538 -0.939461)
+				(xy -7.688956 -0.921946) (xy -7.710814 -0.907031) (xy -7.725637 -0.897081) (xy -7.728847 -0.895003)
+				(xy -7.764588 -0.869691) (xy -7.806505 -0.835266) (xy -7.852012 -0.794187) (xy -7.898519 -0.748911)
+				(xy -7.943439 -0.701898) (xy -7.984187 -0.655604) (xy -7.996196 -0.641003) (xy -8.080691 -0.525353)
+				(xy -8.151695 -0.404688) (xy -8.209091 -0.279251) (xy -8.252764 -0.149281) (xy -8.271889 -0.071318)
+				(xy -8.276662 -0.039858) (xy -8.280486 0.00346) (xy -8.283356 0.056011) (xy -8.285275 0.115171)
+				(xy -8.286244 0.178316) (xy -8.286252 0.211711) (xy -8.030451 0.211711) (xy -8.026143 0.094802)
+				(xy -8.012722 -0.012336) (xy -7.989838 -0.111504) (xy -7.957146 -0.204501) (xy -7.944331 -0.233737)
+				(xy -7.924087 -0.273069) (xy -7.897327 -0.318187) (xy -7.865811 -0.366703) (xy -7.8313 -0.416223)
+				(xy -7.795552 -0.464358) (xy -7.760328 -0.508717) (xy -7.72739 -0.546909) (xy -7.698492 -0.576544)
+				(xy -7.681138 -0.591272) (xy -7.660367 -0.607476) (xy -7.635264 -0.628181) (xy -7.617365 -0.643575)
+				(xy -7.540279 -0.70407) (xy -7.45518 -0.757734) (xy -7.365219 -0.803037) (xy -7.273541 -0.838453)
+				(xy -7.183301 -0.862449) (xy -7.156537 -0.867263) (xy -7.058755 -0.880081) (xy -6.967863 -0.885929)
+				(xy -6.878065 -0.88488) (xy -6.783557 -0.877007) (xy -6.746507 -0.872415) (xy -6.640137 -0.852025)
+				(xy -6.538804 -0.819511) (xy -6.440073 -0.773985) (xy -6.378764 -0.73863) (xy -6.339602 -0.712754)
+				(xy -6.294132 -0.680188) (xy -6.246626 -0.644179) (xy -6.201356 -0.607972) (xy -6.162596 -0.574813)
+				(xy -6.159599 -0.572115) (xy -6.130176 -0.542342) (xy -6.09585 -0.502428) (xy -6.05861 -0.454997)
+				(xy -6.020449 -0.402679) (xy -5.983352 -0.348103) (xy -5.950752 -0.296288) (xy -5.939658 -0.274871)
+				(xy -5.925795 -0.243807) (xy -5.910833 -0.207269) (xy -5.896441 -0.169429) (xy -5.884289 -0.134459)
+				(xy -5.878626 -0.116095) (xy -5.862217 -0.045216) (xy -5.85013 0.035736) (xy -5.842551 0.12292)
+				(xy -5.839664 0.212495) (xy -5.841657 0.300625) (xy -5.848717 0.383466) (xy -5.852963 0.414029)
+				(xy -5.877958 0.526976) (xy -5.916833 0.636557) (xy -5.969213 0.74214) (xy -6.034721 0.843083) (xy -6.112983 0.93875)
+				(xy -6.20362 1.028505) (xy -6.227622 1.049479) (xy -6.327507 1.126492) (xy -6.430629 1.190044) (xy -6.536321 1.239745)
+				(xy -6.590479 1.259465) (xy -6.663454 1.278704) (xy -6.746354 1.292395) (xy -6.835985 1.30057) (xy -6.929147 1.303261)
+				(xy -7.022647 1.3005) (xy -7.113286 1.292319) (xy -7.197871 1.278751) (xy -7.273203 1.259826) (xy -7.295554 1.252388)
+				(xy -7.343892 1.233011) (xy -7.39711 1.208199) (xy -7.450449 1.180424) (xy -7.499156 1.152151) (xy -7.536523 1.127284)
+				(xy -7.573176 1.099202) (xy -7.613064 1.066473) (xy -7.653611 1.031415) (xy -7.692246 0.996353)
+				(xy -7.726391 0.963609) (xy -7.753475 0.935505) (xy -7.767766 0.918658) (xy -7.83328 0.8297) (xy -7.887819 0.747058)
+				(xy -7.932191 0.668564) (xy -7.967199 0.592054) (xy -7.993649 0.51536) (xy -8.012345 0.436315) (xy -8.024091 0.352755)
+				(xy -8.029698 0.262512) (xy -8.030451 0.211711) (xy -8.286252 0.211711) (xy -8.286261 0.242819)
+				(xy -8.285326 0.306056) (xy -8.283441 0.365403) (xy -8.280603 0.418235) (xy -8.276814 0.461926)
+				(xy -8.272074 0.493853) (xy -8.271888 0.494739) (xy -8.238576 0.617901) (xy -8.191882 0.739677)
+				(xy -8.132935 0.858302) (xy -8.062864 0.972019) (xy -7.982799 1.079062) (xy -7.893864 1.17767) (xy -7.797189 1.266081)
+				(xy -7.758142 1.297031) (xy -7.678783 1.35457) (xy -7.604202 1.402415) (xy -7.530648 1.442618) (xy -7.454375 1.477232)
+				(xy -7.373119 1.507796) (xy -7.330601 1.521965) (xy -7.292071 1.53344) (xy -7.255257 1.542496) (xy -7.217886 1.549412)
+				(xy -7.177688 1.55446) (xy -7.132393 1.557921) (xy -7.079724 1.560069) (xy -7.017416 1.561182) (xy -6.943193 1.561535)
+				(xy -6.931565 1.561539) (xy -6.865825 1.561445)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "72769f1c-4ffc-410b-9522-75aae57020be")
+		)
+		(fp_text user "https://creativecommons.org"
+			(at 5.639694 0.695 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "a26e49a0-1f40-4bb3-bca6-e53ca845b2db")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.125)
+				)
+				(justify mirror)
+			)
+		)
+		(group ""
+			(uuid "affc28e3-7320-4e71-a0ec-bef8a4ad3cc8")
+			(members "51be7888-82a2-457c-8c5f-f64dc313ed7e" "a26e49a0-1f40-4bb3-bca6-e53ca845b2db")
+		)
+		(group ""
+			(uuid "13a445e9-44e1-4761-ac47-bf108e1fc4e6")
+			(members "066806d6-c2a6-40cb-bb93-692a6b559497" "13d4ad32-347d-4672-8212-a7b2cc376cab"
+				"2f305c55-089b-42e0-a273-db7b86c23051" "31604b5a-de35-46f9-8ce2-e9efb9ab8598"
+				"3c4198e3-fb56-4a2d-ae12-4d9c9c0d66f0" "4d4da757-efa8-4fab-a361-a31fb0daada0"
+				"60458a0e-1907-4b46-9006-71716d3f0334" "72769f1c-4ffc-410b-9522-75aae57020be"
+				"92fdf99e-8b0d-445a-9aca-d7cb6407d58a" "b068660b-e8db-4825-a06e-6a4d901ba390"
+				"b3b0b02e-a5ce-44c4-a18f-2218615fa538" "c3835f01-cef1-4f40-9a85-17a3d34a3426"
+				"eae5fc9f-e2cb-44b4-94b7-028d9b3f749b"
+			)
+		)
+		(group ""
+			(uuid "d6655b0e-d605-4b47-a636-6b8bda526624")
+			(members "13a445e9-44e1-4761-ac47-bf108e1fc4e6" "affc28e3-7320-4e71-a0ec-bef8a4ad3cc8")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Logotypes:RoHs"
 		(layer "B.Cu")
 		(uuid "dfeb82b3-0fe6-4975-a2a0-30d4302b9d7e")
-		(at 159.525 112.4 180)
+		(at 160.658941 112.308252 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -64437,7 +65414,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Ferrite Bead"
+		(property "Value" "0603/150-200R"
 			(at 0 -1.43 270)
 			(layer "B.Fab")
 			(uuid "7ab4691c-95b0-4a69-a636-d25847555bc3")
@@ -64494,7 +65471,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/93e0a295-a582-453d-b2c0-4ce2de819604")
 		(sheetname "/")
-		(sheetfile "Lotus58_Glow_150.kicad_sch")
+		(sheetfile "Lotus58_Glow_151.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 -0.51)
@@ -65351,7 +66328,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "USB-C link v1.5.0"
+	(gr_text "USB-C link v1.5.1"
 		(at 89.35 112.79 0)
 		(layer "F.SilkS")
 		(uuid "64f095d8-26c2-41b3-ae62-d619304579de")
@@ -65551,7 +66528,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "USB-C link v1.5.0"
+	(gr_text "USB-C link v1.5.1"
 		(at 89.35 112.79 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000061a6da37")
@@ -65563,7 +66540,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Markus Knutsson 2024\nhttps://github.com/TweetyDaBird\nLicensed under CERN-OHL-S v2+"
+	(gr_text "Markus Knutsson 2025\nhttps://github.com/TweetyDaBird\n"
 		(at 103.47 69.12 90)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000061a6ed86")
